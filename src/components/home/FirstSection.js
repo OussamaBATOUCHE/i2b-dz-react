@@ -2,7 +2,7 @@ import React from 'react'
 
 const FirstSection = () => {
   return (
-    <div>
+    <>
         <section className="top-v5">
             <div className="container">
                 <div className="row">
@@ -35,7 +35,7 @@ const FirstSection = () => {
                 </div>
             </div>
         </section>
-    </div>
+    </>
   )
 }
 

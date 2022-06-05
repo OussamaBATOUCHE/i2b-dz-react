@@ -28,6 +28,7 @@
     Search on Header
     ========================================== */
     $('.toggle_search').on("click", function(){
+        console.log('hi');
         $(this).toggleClass( "active" );
         $('.h-search-form-field').toggleClass('show');
         if ($(this).find('i').hasClass( "flaticon-search" )) {
