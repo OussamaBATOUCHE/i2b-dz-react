@@ -43,7 +43,7 @@ function Header() {
                                 <div className="octf-btn-cta hstyle-2">
 
                                     <div className="octf-header-module">
-                                        <div className="toggle-search octf-cta-icons">
+                                        <div className="toggle_search octf-cta-icons">
                                             <i className="flaticon-search"></i>
                                         </div>
                                         {/* <!--  Form Search on Header --> */}
@@ -64,6 +64,9 @@ function Header() {
                                         <ul className="social-list">
                                             |
                                         </ul>
+                                    </div>
+                                    <div>
+                                        <button className={"this-class"} >HEllo</button>
                                     </div>
 
                                     <div className="octf-header-module">

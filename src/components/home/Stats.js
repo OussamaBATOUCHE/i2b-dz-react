@@ -12,7 +12,7 @@ const Stats = () => {
                     <div className="col-xl-3 col-lg-6 no-padding align-self-center">
                         <div className="ot-counter2">
                             <div className="s-num">
-                                <span className="num" data-to="80" data-time="2000">0</span><span>+</span>
+                                <span className="num" data-to="80" data-time="4000">0</span><span>+</span>
                             </div>
                             <h6>Collaborateurs</h6>
                             <p>Notre succès repose sur les efforts et l'engagement de nos collaborateurs qui partagent
@@ -27,7 +27,7 @@ const Stats = () => {
                     <div className="col-xl-3 col-lg-6 no-padding order-xl-last align-self-center">
                         <div className="ot-counter2">
                             <div className="s-num">
-                                <span className="num" data-to="5000" data-time="2000">0</span><span>+</span>
+                                <span className="num" data-to="5000" data-time="4000">0</span><span>+</span>
                             </div>
                             <h6>Clients</h6>
                             <p>Pour satisfaire nos clients, chaque solution proposée est parfaitement conçue pour s'adapter aux différents besoins exprimés...</p>

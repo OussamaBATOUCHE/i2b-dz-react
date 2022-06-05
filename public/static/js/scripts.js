@@ -9,6 +9,7 @@
             $('.woocommerce-form-coupon').stop(true, true).slideUp();
         }
     });
+
     /* ========================================== 
 	Sticky Header 1
 	========================================== */
@@ -27,17 +28,21 @@
     /* ========================================== 
     Search on Header
     ========================================== */
-    $('.toggle_search').on("click", function(){
-        console.log('hi');
-        $(this).toggleClass( "active" );
-        $('.h-search-form-field').toggleClass('show');
-        if ($(this).find('i').hasClass( "flaticon-search" )) {
-            $('.toggle_search > i').removeClass( "flaticon-search" ).addClass("flaticon-close");
-        }else{
-            $('.toggle_search > i').removeClass( "flaticon-close" ).addClass("flaticon-search");
-        }
-        $('.h-search-form-inner > form > input.search-field').focus();
+    $(window).on("load", function(){
+        $('.toggle_search').on("click", function(){
+            $(this).toggleClass( "active" );
+            $('.h-search-form-field').toggleClass('show');
+            if ($(this).find('i').hasClass( "flaticon-search" )) {
+                $('.toggle_search > i').removeClass( "flaticon-search" ).addClass("flaticon-close");
+            }else{
+                $('.toggle_search > i').removeClass( "flaticon-close" ).addClass("flaticon-search");
+            }
+            $('.h-search-form-inner > form > input.search-field').focus();
+        });
+
     });
+
+    
 
     /* ========================================== 
     Back To Top
@@ -181,6 +186,7 @@
         $(this).find('.tab-content').first().addClass('current');
     });
 
+
     $('.tabs-heading li').on( 'click', function(){
         var tab_id = $(this).attr('data-tab');
         $(this).siblings().removeClass('current');
@@ -189,9 +195,11 @@
         $("#"+tab_id).addClass('current');
     });
 
+
     $('.message-box > i').on( 'click', function() {
         $(this).parent().fadeOut();
     });
+
 
     $('.ot-countdown').each( function() {
         var date   = $(this).data('date'),
@@ -239,7 +247,6 @@
     }
 
     
-    
     $(".link-image-action").magnificPopup({
         type: "image"
     });
@@ -277,59 +284,60 @@
     });
 
 
-    
-        // Initialize popup as usual
-        $('.image-link').magnificPopup({ 
-            type: 'image',
-            mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    // Initialize popup as usual
+    $('.image-link').magnificPopup({ 
+        type: 'image',
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
-            zoom: {
-                enabled: true, // By default it's false, so don't forget to enable it
-                duration: 300, // duration of the effect, in milliseconds
-                easing: 'ease-in-out', // CSS transition easing function 
+        zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
+            duration: 300, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function 
 
-                // The "opener" function should return the element from which popup will be zoomed in
-                // and to which popup will be scaled down
-                // By defailt it looks for an image tag:
-                opener: function(openerElement) {
-                  // openerElement is the element on which popup was initialized, in this case its <a> tag
-                  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-                  return openerElement.is('img') ? openerElement : openerElement.find('img');
-                }        
-            },
-            image: {
-                // options for image content type
-                titleSrc: 'title'
-            },
-            gallery: {
-                // options for gallery
-                enabled: true
-            },
-        });// JavaScript Document
+            // The "opener" function should return the element from which popup will be zoomed in
+            // and to which popup will be scaled down
+            // By defailt it looks for an image tag:
+            opener: function(openerElement) {
+                // openerElement is the element on which popup was initialized, in this case its <a> tag
+                // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }        
+        },
+        image: {
+            // options for image content type
+            titleSrc: 'title'
+        },
+        gallery: {
+            // options for gallery
+            enabled: true
+        },
+    });// JavaScript Document
 
     /* --------------------------------------------------
     * Client logo
     * --------------------------------------------------*/
-    $('.home-client-carousel').owlCarousel({
-        loop:true,
-        margin:80,
-        nav:false,
-        dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive:{
-            0:{
-                items:2
-            },
-            480:{
-                items:3
-            },          
-            767:{
-                items:4
-            },
-            1000:{
-                items:6
+    $(window).on("load", function () {
+        $('.home-client-carousel').owlCarousel({
+            loop:true,
+            margin:80,
+            nav:false,
+            dots: false,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            responsive:{
+                0:{
+                    items:2
+                },
+                480:{
+                    items:3
+                },          
+                767:{
+                    items:4
+                },
+                1000:{
+                    items:6
+                }
             }
-        }
+        });
     });
     
     /* --------------------------------------------------
@@ -410,7 +418,8 @@
     /* --------------------------------------------------
     * Testimonial carousel
     * --------------------------------------------------*/
-     $(".ot-testimonials-slider").owlCarousel({
+    $(window).on("load", function () {
+        $(".ot-testimonials-slider").owlCarousel({
         nav:true,
         dots: false,
         loop:true,
@@ -430,11 +439,12 @@
                 items:1
             }
         }
-     });
+        });
+    });
+
     /* --------------------------------------------------
     * industis carousel
     * --------------------------------------------------*/
-
      $(".ot-industries-slider").owlCarousel({
         stagePadding: 365,
         items:2,
@@ -463,35 +473,34 @@
      });
      
     $(window).on("load", function(){
-    $('.projects-grid').each( function(){
-        var $container = $(this); 
-        $container.isotope({ 
-            itemSelector : '.project-item', 
-            animationEngine : 'css',
-        });
+        $('.projects-grid').each( function(){
+            var $container = $(this); 
+            $container.isotope({ 
+                itemSelector : '.project-item', 
+                animationEngine : 'css',
+            });
 
-        var $optionSets = $('.project_filters'),
-            $optionLinks = $optionSets.find('a');
+            var $optionSets = $('.project_filters'),
+                $optionLinks = $optionSets.find('a');
 
-        $optionLinks.on('click', function(){
-            var $this = $(this);
+            $optionLinks.on('click', function(){
+                var $this = $(this);
 
-            if ( $this.hasClass('selected') ) {
+                if ( $this.hasClass('selected') ) {
+                    return false;
+                }
+                var $optionSet = $this.parents('.project_filters');
+                    $optionSets.find('.selected').removeClass('selected');
+                    $this.addClass('selected');
+
+                var selector = $(this).attr('data-filter');
+                    $container.isotope({ 
+                        filter: selector 
+                    });
                 return false;
-            }
-            var $optionSet = $this.parents('.project_filters');
-                $optionSets.find('.selected').removeClass('selected');
-                $this.addClass('selected');
-
-            var selector = $(this).attr('data-filter');
-                $container.isotope({ 
-                    filter: selector 
-                });
-            return false;
+            });
         });
-    });
     });
 
 
 })( jQuery );
-
