@@ -65,9 +65,6 @@ function Header() {
                                             |
                                         </ul>
                                     </div>
-                                    <div>
-                                        <button className={"this-class"} >HEllo</button>
-                                    </div>
 
                                     <div className="octf-header-module">
                                         <div className="btn-cta-group btn-cta-header">
