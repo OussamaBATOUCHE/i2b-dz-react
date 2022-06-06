@@ -20,7 +20,7 @@ const RetoursClients = () => {
                                 <div className="layer1"></div>
                                 <div className="layer2">
                                     <div className="t-head flex-middle">
-                                        <img src={`${process.env.PUBLIC_URL}static/images/companieslogo/topnet.png`} alt="Emilia Clarke" className="lazyloaded" data-ll-status="loaded" />
+                                        <img src={`/${process.env.PUBLIC_URL}static/images/companieslogo/topnet.png`} alt="Emilia Clarke" className="lazyloaded" data-ll-status="loaded" />
                                         <div className="tinfo">
                                             <h6>TopNet,</h6>
                                             <span>Directeur commercial </span>
@@ -54,7 +54,7 @@ const RetoursClients = () => {
                                 <div className="layer1"></div>
                                 <div className="layer2">
                                     <div className="t-head flex-middle">
-                                        <img src={`${process.env.PUBLIC_URL}static/images/companieslogo/ambassadedespagne.jpg`} alt="Emilia Clarke" className="lazyloaded" data-ll-status="loaded" />
+                                        <img src={`/${process.env.PUBLIC_URL}static/images/companieslogo/ambassadedespagne.jpg`} alt="Emilia Clarke" className="lazyloaded" data-ll-status="loaded" />
                                         <div className="tinfo">
                                             <h6>Ambassade d'Espagne,</h6>
                                             <span>Oficina Economica y Commercial </span>

@@ -12,14 +12,14 @@ const Clients = () => {
                             <div className="partners-slide">
                                 <a href="/" className="client-logo">
                                     <figure className="partners-slide-inner">
-                                        <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}static/images/partners/sarens.png`} alt="sarens" />
+                                        <img className="partners-slide-image" src={`/${process.env.PUBLIC_URL}static/images/partners/sarens.png`} alt="sarens" />
                                     </figure>
                                 </a>
                             </div>
                             <div className="partners-slide">
                                 <a href="/" className="client-logo">
                                     <figure className="partners-slide-inner">
-                                        <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}static/images/partners/zoomlion.png`} alt="zoomlion" />
+                                        <img className="partners-slide-image" src={`/${process.env.PUBLIC_URL}static/images/partners/zoomlion.png`} alt="zoomlion" />
                                     </figure>
                                 </a>
                             </div>

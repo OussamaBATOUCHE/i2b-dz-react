@@ -12,7 +12,7 @@ function Header() {
                             <div className="octf-col logo-col">
                                 <div id="site-logo" className="site-logo">
                                     <a href="/">
-                                        <img src={`${process.env.PUBLIC_URL}/static/images/i2bw.png`} alt="i2b" className="" />
+                                        <img src={`/${process.env.PUBLIC_URL}/static/images/i2bw.png`} alt="i2b" className="" />
                                     </a>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ function Header() {
                 <div className="mlogo_wrapper clearfix">
                     <div className="mobile_logo">
                         <a href="/">
-                            <img src={`${process.env.PUBLIC_URL}/static/images/i2b-trans.png`} alt="i2bSPA" />
+                            <img src={`/${process.env.PUBLIC_URL}/static/images/i2b-trans.png`} alt="i2bSPA" />
                         </a>
                     </div>
                     <div id="mmenu_toggle">

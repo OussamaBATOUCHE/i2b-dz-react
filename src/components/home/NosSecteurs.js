@@ -14,7 +14,7 @@ const NosSecteurs = () => {
                         </div>
                         --> */}
                             <div className="content-box">
-                                <img src={`${process.env.PUBLIC_URL}static/images/i2bproducts/white/at-white.png`} alt="at" />
+                                <img src={`/${process.env.PUBLIC_URL}static/images/i2bproducts/white/at-white.png`} alt="at" />
                             </div>
                         </div>
                         <div className='products-box border-sa'>
@@ -27,7 +27,7 @@ const NosSecteurs = () => {
                         <div className="serv-box s1 v5 bg-s2">
                             <a href={"https://www.geoflotte.com/"} className="overlay">-</a>
                             <div className="icon-main">
-                                <img className="gf" src={`${process.env.PUBLIC_URL}static/images/i2bproducts/white/gf-white.png`} alt="gf"/>
+                                <img className="gf" src={`/${process.env.PUBLIC_URL}static/images/i2bproducts/white/gf-white.png`} alt="gf"/>
                             </div>
                             <div className="content-box">
                                 <h5>Geoflotte</h5>
@@ -43,7 +43,7 @@ const NosSecteurs = () => {
                         <div className="serv-box s1 v5 bg-s3">
                             <a href={"https://algeriainvest.com/"} className="overlay" target={'blank'}>-</a>
                             <div className="icon-main">
-                                <img src={`${process.env.PUBLIC_URL}static/images/i2bproducts/white/ai-white.png`} alt="ai"/>
+                                <img src={`/${process.env.PUBLIC_URL}static/images/i2bproducts/white/ai-white.png`} alt="ai"/>
                             </div>
                             <div className="content-box">
                                 <h5>Algeria Invest</h5>

@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
           <div className="row mt-35">
               <div className="col-md-4 mb-4 mb-md-0">
-                  <img src={`${process.env.PUBLIC_URL}static/images/i2bw.png`} alt="i2bspa" className="lazyloaded" data-ll-status="loaded" style={{width: '15%'}} />
+                  <img src={`/${process.env.PUBLIC_URL}static/images/i2bw.png`} alt="i2bspa" className="lazyloaded" data-ll-status="loaded" style={{width: '15%'}} />
               </div>
               <div className="col-md-8 text-left text-md-right align-self-center">
                   <p className="copyright-text">Copyright © 2022 i2b SPA. Tous les droits sont réservés.</p>

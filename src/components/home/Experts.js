@@ -22,7 +22,7 @@ const Experts = () => {
                     <div className="col-lg-3 col-md-6 no-padding">
                         <div className="team-wrap v3">
                             <div className="team-thumb">
-                                <img src={`${process.env.PUBLIC_URL}static/images/team/user1.jpg`} alt="u1" />
+                                <img src={`/${process.env.PUBLIC_URL}static/images/team/user1.jpg`} alt="u1" />
                                 <div className="team-social flex-middle">
                                     <div>
                                         <a rel="nofollow" href="twitter.com" className="twitter"><i className="fab fa-twitter"></i></a>
@@ -44,7 +44,7 @@ const Experts = () => {
                     <div className="col-lg-3 col-md-6 no-padding">
                         <div className="team-wrap v3">
                             <div className="team-thumb">
-                                <img src={`${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
+                                <img src={`/${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
                                 <div className="team-social flex-middle">
                                     <div>
                                         <a rel="nofollow" href="twitter.com" className="twitter"><i className="fab fa-twitter"></i></a>
@@ -66,7 +66,7 @@ const Experts = () => {
                     <div className="col-lg-3 col-md-6 no-padding">
                         <div className="team-wrap v3">
                             <div className="team-thumb">
-                                <img src={`${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
+                                <img src={`/${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
                                 <div className="team-social flex-middle">
                                     <div>
                                         <a rel="nofollow" href="twitter.com" className="twitter"><i className="fab fa-twitter"></i></a>
@@ -88,7 +88,7 @@ const Experts = () => {
                     <div className="col-lg-3 col-md-6 no-padding">
                         <div className="team-wrap v3">
                             <div className="team-thumb">
-                                <img src={`${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
+                                <img src={`/${process.env.PUBLIC_URL}static/images/team/user.jpg`} alt="u" />
                                 <div className="team-social flex-middle">
                                     <div>
                                         <a rel="nofollow" href="twitter.com" className="twitter"><i className="fab fa-twitter"></i></a>
