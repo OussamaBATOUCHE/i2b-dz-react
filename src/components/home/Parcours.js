@@ -40,7 +40,7 @@ export const Parcours = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="right-v5">
-                            <img src={`/${process.env.PUBLIC_URL}static/images/image1-home5.png`} alt="home5" />
+                            <img src={`${process.env.PUBLIC_URL}/static/images/image1-home5.png`} alt="home5" />
                         </div>
                     </div>
                 </div>

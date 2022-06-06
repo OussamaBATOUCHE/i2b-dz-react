@@ -54,7 +54,7 @@ const Valeurs = () => {
                                 <div className="overlay">
                                     <h4>Notre mission</h4>
                                 </div>
-                                <img src={`/${process.env.PUBLIC_URL}static/images/img/mission.jpg`} alt="Notre mission" />
+                                <img src={`${process.env.PUBLIC_URL}/static/images/img/mission.jpg`} alt="Notre mission" />
                             </a>
                         </div>
                         <div className="col-md-6">
@@ -62,7 +62,7 @@ const Valeurs = () => {
                                 <div className="overlay">
                                     <h4>Notre vision</h4>
                                 </div>
-                                <img src={`/${process.env.PUBLIC_URL}static/images/img/vision.jpg`} alt="Notre vision" />
+                                <img src={`${process.env.PUBLIC_URL}/static/images/img/vision.jpg`} alt="Notre vision" />
                             </a>
                         </div>
                         <div className="col-md-6">
@@ -70,7 +70,7 @@ const Valeurs = () => {
                                 <div className="overlay">
                                     <h4>Notre Philosophie</h4>
                                 </div>
-                                <img src={`/${process.env.PUBLIC_URL}static/images/img/philo.jpg`} alt="Notre Philosophie" />
+                                <img src={`${process.env.PUBLIC_URL}/static/images/img/philo.jpg`} alt="Notre Philosophie" />
                             </a>
                         </div>
                         <div className="col-md-6">
@@ -78,7 +78,7 @@ const Valeurs = () => {
                                 <div className="overlay">
                                     <h4>Notre stratégie</h4>
                                 </div>
-                                <img src={`/${process.env.PUBLIC_URL}static/images/img/stratégie.jpg`} alt="Notre stratégie" />
+                                <img src={`${process.env.PUBLIC_URL}/static/images/img/stratégie.jpg`} alt="Notre stratégie" />
                             </a>
                         </div>
                     </div>

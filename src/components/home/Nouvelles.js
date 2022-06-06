@@ -32,7 +32,7 @@ const Nouvelles = () => {
 
                                         </span>
                                     </div>
-                                    <a href="/"><img src={`/${process.env.PUBLIC_URL}static/images/news_mob_geo.jpg`} alt=""/></a>
+                                    <a href="/"><img src={`${process.env.PUBLIC_URL}/static/images/news_mob_geo.jpg`} alt=""/></a>
                                 </div>
                                 <div className="inner-post">
                                     <div className="entry-header">
@@ -62,7 +62,7 @@ const Nouvelles = () => {
                                         </span>
                                     </div>
                                     <a href="/">
-                                        <img src={`/${process.env.PUBLIC_URL}static/images/Vol_voitures_Geo.jpg`} alt="" />
+                                        <img src={`${process.env.PUBLIC_URL}/static/images/Vol_voitures_Geo.jpg`} alt="" />
                                     </a>
                                 </div>
                                 <div className="inner-post">
@@ -88,7 +88,7 @@ const Nouvelles = () => {
                                 <div className="entry-media">
                                     <div className="post-cat"><span className="posted-in"><a href="/" rel="category tag">Secteur : Algeria INVEST</a></span></div>
                                     <a href="/">
-                                        <img src={`/${process.env.PUBLIC_URL}static/images/News_AI.jpg`} alt="" />
+                                        <img src={`${process.env.PUBLIC_URL}/static/images/News_AI.jpg`} alt="" />
                                     </a>
                                 </div>
                                 <div className="inner-post">
