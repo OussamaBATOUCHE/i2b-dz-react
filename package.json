@@ -1,7 +1,6 @@
 {
   "name": "i2breact",
   "version": "0.1.0",
-  "homepage": "https://OussamaBATOUCHE.github.io/i2b-dz-react",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",

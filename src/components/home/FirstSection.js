@@ -28,8 +28,8 @@ const FirstSection = () => {
                     </div>
                     <div className="col-xl-6 col-lg-12">
                         <div className="top-right-v5">
-                            <img src={`${process.env.PUBLIC_URL}//static/images/img/image-banner-home5.png`} alt='bkg-img' style={{mixBlendMode: 'screen'}} />
-                            <video className="vid-in-laptop" src={`${process.env.PUBLIC_URL}//static/videos/vitrinei2b.mp4`} autoPlay={true} muted loop controls></video>
+                            <img src={`${process.env.PUBLIC_URL}/static/images/img/image-banner-home5.png`} alt='bkg-img' style={{mixBlendMode: 'screen'}} />
+                            <video className="vid-in-laptop" src={`${process.env.PUBLIC_URL}/static/videos/vitrinei2b.mp4`} autoPlay={true} muted loop controls></video>
                         </div>
                     </div>
                 </div>
