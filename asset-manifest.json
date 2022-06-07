@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/i2b-dz-react/static/js/main.c0129b10.js",
-    "index.html": "/i2b-dz-react/index.html",
-    "main.c0129b10.js.map": "/i2b-dz-react/static/js/main.c0129b10.js.map"
+    "main.js": "/static/js/main.4fee5ba2.js",
+    "index.html": "/index.html",
+    "main.4fee5ba2.js.map": "/static/js/main.4fee5ba2.js.map"
   },
   "entrypoints": [
-    "static/js/main.c0129b10.js"
+    "static/js/main.4fee5ba2.js"
   ]
 }
