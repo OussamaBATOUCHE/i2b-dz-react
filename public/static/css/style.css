@@ -5711,6 +5711,48 @@ object {
     display: none;
   }
 }
+.ot-experts .expert-item {
+  padding: 5px;
+}
+.ot-experts .expert-item .item-inner {
+  box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  padding: 45px 70px 45px 110px;
+  position: relative;
+}
+.ot-experts .expert-item .item-inner .overlay {
+  opacity: 1;
+  overflow: hidden;
+  background: transparent;
+}
+.ot-experts .expert-item .item-inner .overlay:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  right: -15px;
+  z-index: 1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #43baff;
+}
+
+@media only screen and (max-width: 479px) {
+  .ot-experts .expert-item {
+    padding: 15px 30px 50px;
+  }
+  .ot-experts .expert-item .item-inner {
+    padding: 30px;
+  }
+}
 
 .wpcf7 .main-form {
   padding: 60px 48px;
@@ -6124,6 +6166,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     margin-top: -17px;
     background: none;
     color: #1b1d21;
+    font-size: 60px;
     border: none;
     outline: none;
     transition: all 0.3s linear;
