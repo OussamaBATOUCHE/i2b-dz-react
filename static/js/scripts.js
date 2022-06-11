@@ -446,7 +446,8 @@
     /* --------------------------------------------------
     * industis carousel
     * --------------------------------------------------*/
-     $(".ot-industries-slider").owlCarousel({
+    $(window).on("load", function () {
+        $(".ot-industries-slider").owlCarousel({
         stagePadding: 365,
         items:2,
         nav:false,
@@ -454,24 +455,25 @@
         loop:true,
         navText: ['<i class="flaticon-back"></i>', '<i class="flaticon-right-arrow-1"></i>'],
         responsive:{
-            1600:{
-                stagePadding: 365,
-                items:2
-            },
-            1200:{
-                stagePadding: 200,
-                items:2
-            },
-            992:{
-                stagePadding: false,
-                items:2
-            },
-            0:{
-                stagePadding: false,
-                items:1
-            }
+        1600:{
+            stagePadding: 365,
+            items:2
+        },
+        1200:{
+            stagePadding: 200,
+            items:2
+        },
+        992:{
+            stagePadding: false,
+            items:2
+        },
+        0:{
+            stagePadding: false,
+            items:1
         }
-     });
+        }
+        });
+    });
      
     $(window).on("load", function(){
         $('.projects-grid').each( function(){
@@ -503,5 +505,15 @@
         });
     });
 
+    /* --------------------------------------------------
+    * Experts carousel
+    * --------------------------------------------------*/
+    $(window).on("load", function () {
+        $(".owl-carousel").owlCarousel({
+            nav:true,
+            items: 4,
+        });
+    });
 
 })( jQuery );
+
