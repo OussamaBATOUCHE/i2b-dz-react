@@ -513,34 +513,6 @@
             nav:true,
             items: 4,
         });
-
-        $(".ot-experts-slider").owlCarousel({
-        // stagePadding: 65,
-        // items: 5,
-        // nav: true,
-        // dots: true,
-        // loop: false,
-        // rewind: true,
-        // autoWidth: true,
-        // loop:true,
-        margin:10,
-        nav:true,
-        navText: ['<i class="flaticon-back"></i>', '<i class="flaticon-right-arrow-1"></i>'],
-        responsive:{
-        1000:{
-            stagePadding: 65,
-            items:1
-        },
-        600:{
-            stagePadding: false,
-            items:1
-        },
-        0:{
-            stagePadding: false,
-            items:1
-        }
-        }
-        });
     });
 
 })( jQuery );

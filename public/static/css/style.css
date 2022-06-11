@@ -7561,6 +7561,10 @@ svg:not(:root) {
 .ft-list-icon .instagram {
     color: #FF9000;
 }
+.ft-list-icon .youtube {
+  color: #FF0000;
+}
+
 .bg-map-dots {
     background-image:url(https://via.placeholder.com/1920x761.png);
 }
