@@ -5712,7 +5712,7 @@ object {
   }
 }
 .ot-experts .expert-item {
-  padding: 15px 50px 50px;
+  padding: 5px;
 }
 .ot-experts .expert-item .item-inner {
   box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
@@ -5720,18 +5720,6 @@ object {
   -moz-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
   padding: 45px 70px 45px 110px;
   position: relative;
-}
-.ot-experts .expert-item .item-inner .i-image {
-  position: absolute;
-  left: -70px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.ot-experts .expert-item .item-inner h6 {
-  font-weight: 800;
-  margin-bottom: 15px;
 }
 .ot-experts .expert-item .item-inner .overlay {
   opacity: 1;
@@ -5757,20 +5745,12 @@ object {
   background: #43baff;
 }
 
-@media only screen and (max-width: 1400px) {
-  .ot-experts .expert-item .item-inner .i-image {
-    left: -50px;
-  }
-}
 @media only screen and (max-width: 479px) {
   .ot-experts .expert-item {
     padding: 15px 30px 50px;
   }
   .ot-experts .expert-item .item-inner {
     padding: 30px;
-  }
-  .ot-experts .expert-item .item-inner .i-image {
-    display: none;
   }
 }
 
@@ -6186,6 +6166,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     margin-top: -17px;
     background: none;
     color: #1b1d21;
+    font-size: 60px;
     border: none;
     outline: none;
     transition: all 0.3s linear;
@@ -7580,6 +7561,10 @@ svg:not(:root) {
 .ft-list-icon .instagram {
     color: #FF9000;
 }
+.ft-list-icon .youtube {
+  color: #FF0000;
+}
+
 .bg-map-dots {
     background-image:url(https://via.placeholder.com/1920x761.png);
 }
