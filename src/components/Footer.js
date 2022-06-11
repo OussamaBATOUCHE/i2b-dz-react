@@ -32,7 +32,7 @@ const Footer = () => {
                         <h5 className="text-white">Compagnie</h5>
                         <ul className="list-items">
                             <li className="list-item"><a href="/">À propos de la société</a></li>
-                            <li className="list-item"><a href="/">Certifications & QHSE</a></li>
+                            <li className="list-item"><a href="/">Certifications et QHSE</a></li>
                             <li className="list-item"><a href="/">Contactez nous</a></li>
                         </ul>
                     </div>
