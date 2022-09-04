@@ -53,10 +53,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className="ft-list-icon">
-                    <a className="twitter" href="twitter.com"><i className="fab fa-twitter"></i></a>
-                    <a className="facebook" href="https://www.facebook.com/i2b.SPA"><i className="fab fa-facebook-f"></i></a>
-                    <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/"><i className="fab fa-linkedin-in"></i></a>
-                    <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured"><i className="fab fa-youtube"></i></a>
+                    <a className="twitter" href="twitter.com" target={'blank'}><i className="fab fa-twitter"></i></a>
+                    <a className="facebook" href="https://www.facebook.com/i2b.SPA" target={'blank'}><i className="fab fa-facebook-f"></i></a>
+                    <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/" target={'blank'}><i className="fab fa-linkedin-in"></i></a>
+                    <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured" target={'blank'}><i className="fab fa-youtube"></i></a>
             </div>
             <div className="row mt-35">
                 <div className="col-md-4 mb-4 mb-md-0">
