@@ -3903,10 +3903,18 @@ object {
   width: 70px;
   left: 21px;
 }
-.serv-box .icon-main img.gf{
-  width: 50px;
-  left: 34px;
-  height: 24%;
+.serv-box .content-box img.gf{
+  width: 110px;
+  margin-top: 3%;
+  margin-left: 30%;
+}
+.serv-box .content-box img.at{
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.serv-box .content-box img.ai{
+  margin-top: 10%;
+  margin-left: 25%;
 }
 
 .serv-box .content-box h5 {
@@ -6739,9 +6747,9 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     height: 200px;
 }
 .serv-box.bg-s3 {
-    background-image: linear-gradient(110deg,#235295 30%,#4e7cbe 70%),url(../images/i2bproducts/ai.png);
-    background-size: cover;
-    height: 200px;
+  background-image: linear-gradient(110deg,#235295e8 30%,#4e7cbee3 70%),url(../images/i2bproducts/ai.png);
+  background-size: cover;
+  height: 200px;
 }
 .mt--70 {
     margin-top: -70px;
