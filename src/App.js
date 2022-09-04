@@ -1,14 +1,19 @@
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Body from './components/Body';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import ServicesBody from './components/services/ServicesBody'
+import Error from './components/error/Error'
 
 const App = () =>{
   return(
     <>
-      <Header />
-      <Body />
-      <Footer />
+    <Router>
+      <Routes>
+        <Route path='/' element={<Body />}/>
+        <Route path='/services' element={<Body content={<ServicesBody/>}/>}/>
+        <Route path='*' element={<Error />} />
+      </Routes>
+    </Router>
     </>
   )
 }
