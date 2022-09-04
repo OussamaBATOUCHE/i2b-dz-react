@@ -1,10 +1,11 @@
 {
-  "files": {
-    "main.js": "/i2b-dz-react/static/js/main.e0501743.js",
-    "index.html": "/i2b-dz-react/index.html",
-    "main.e0501743.js.map": "/i2b-dz-react/static/js/main.e0501743.js.map"
-  },
-  "entrypoints": [
-    "static/js/main.e0501743.js"
-  ]
+  "main.js": "/i2b-dz-react/static/js/main.bebf93ff.chunk.js",
+  "main.js.map": "/i2b-dz-react/static/js/main.bebf93ff.chunk.js.map",
+  "static/js/1.8af58df3.chunk.js": "/i2b-dz-react/static/js/1.8af58df3.chunk.js",
+  "static/js/1.8af58df3.chunk.js.map": "/i2b-dz-react/static/js/1.8af58df3.chunk.js.map",
+  "runtime~main.js": "/i2b-dz-react/static/js/runtime~main.0dfe028c.js",
+  "runtime~main.js.map": "/i2b-dz-react/static/js/runtime~main.0dfe028c.js.map",
+  "index.html": "/i2b-dz-react/index.html",
+  "precache-manifest.bf9e8934a9466383c91b2923f62c3769.js": "/i2b-dz-react/precache-manifest.bf9e8934a9466383c91b2923f62c3769.js",
+  "service-worker.js": "/i2b-dz-react/service-worker.js"
 }
