@@ -59,6 +59,7 @@ const Footer = () => {
                     <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured" target={'blank'}><i className="fab fa-youtube"></i></a>
             </div>
             <div className="row mt-35">
+                
                 <div className="col-md-4 mb-4 mb-md-0">
                     <img src={`${process.env.PUBLIC_URL}/static/images/i2bw.png`} alt="i2bspa" className="lazyloaded" data-ll-status="loaded" style={{width: '20%'}} />
                 </div>

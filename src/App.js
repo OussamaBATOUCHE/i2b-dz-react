@@ -11,6 +11,8 @@ const App = () =>{
       <Routes>
         <Route path='/' element={<Body />}/>
         <Route path='/services' element={<Body content={<ServicesBody/>}/>}/>
+        {/* The following is for the github page only */}
+        <Route path='/i2b-dz-react/' element={<Body />}/> 
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

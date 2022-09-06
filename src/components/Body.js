@@ -15,7 +15,7 @@ function Body({content}) {
 }
 
 Body.defaultProps = {
-  content: <HomeBody/>
+  content: <HomeBody />
 }
 
 export default Body
