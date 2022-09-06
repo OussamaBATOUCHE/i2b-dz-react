@@ -6200,7 +6200,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 /* Home 2 */
 .home2-top {
-    background-image: url(https://via.placeholder.com/1920x567.png);
+    background-image: url('../images/img/bg-banner-home2.png');;
     background-position: 0px 60px;
     background-repeat: no-repeat;
     padding: 85px 0px 88px 0px;
@@ -6214,20 +6214,21 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     font-weight: 400;
     line-height: 1.4em;
     margin-bottom: 13px;
-    color: #1b1d21;
+    color: white;
 }
 .home2-top-right h2{
     font-size: 72px;
     font-weight: 900;
     line-height: 80px;
     margin-bottom: 18px;
-    color: #1b1d21;
+    color: white;
     font-family: "Montserrat", sans-serif;
     overflow-wrap: normal;
 }
 .home2-top-right .sub-text {
     margin-bottom: 24px;
     line-height: 1.86;
+    color: white;
 }
 .video-popup.style-2 a {
     background-color: #7141B1;
@@ -6373,7 +6374,8 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     padding-bottom: 25px;
 }
 .section-consultation {
-    background-image: url(https://via.placeholder.com/1920x480.png);
+    /* background-image: url(https://via.placeholder.com/1920x480.png); */
+    background-image: url('../images/bg-consultation.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8231,4 +8233,11 @@ section {
     width: 255px;
     height: 171px;
   }
+}
+
+.img-box-blur{
+  width:715px;
+  height:300px;  
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
 }
