@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Body from './components/Body';
 import ServicesBody from './components/services/ServicesBody'
+import QhseBody from './components/qhse/QhseBody'
+import CarrieresBody from './components/carrieres/CarrieresBody'
 import Error from './components/error/Error'
 
 const App = () =>{
@@ -10,9 +12,13 @@ const App = () =>{
     <Router>
       <Routes>
         <Route path='/' element={<Body />}/>
-        <Route path='/services' element={<Body content={<ServicesBody/>}/>}/>
-        {/* The following is for the github page only */}
+        <Route path='/services/' element={<Body content={<ServicesBody/>}/>}/>
+        <Route path='/qhse/' element={<Body content={<QhseBody/>}/>}/>
+        <Route path='/carrieres/' element={<Body content={<CarrieresBody/>}/>}/>
+
+        {/* The following routes are for the github page only */}
         <Route path='/i2b-dz-react/' element={<Body />}/> 
+        <Route path='/i2b-dz-react/services/' element={<Body content={<ServicesBody/>}/>}/> 
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

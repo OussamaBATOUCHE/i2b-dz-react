@@ -30,10 +30,10 @@ function Header() {
                                                     <a href="/services">Services</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">QHSE</a>
+                                                    <a href="/qhse">QHSE</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">Carrières</a>
+                                                    <a href="/carrieres">Carrières</a>
                                                 </li>
                                                 <li><a href="/">News</a></li>
                                             </ul>

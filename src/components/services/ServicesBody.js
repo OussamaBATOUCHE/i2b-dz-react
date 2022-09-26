@@ -38,68 +38,46 @@ function ServicesBody() {
                             </p>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section className="section-clent-h2">
-                <div className="container">
-                    <div className="row mt--290 justify-content-center">
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                            <div className="support-box">
-                                <div className="inner-box">
-                                    <div className="overlay flex-middle">
-                                        <span className="number-box">01</span>
-                                        <div className="inner">
-                                            <p>Algeria Tenders : numéro 1 des appels d'offres en Algérie, Algeria Tenders propose une solution simple, exhaustive, et facile à utiliser et dont l'information est quotidienne, fiable et pertinente.</p>
-                                            <a href="/" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
-                                        </div>
-                                    </div>
+                    <div className="space-50"></div>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                <div className="service-box s-box">
+                                    <span className="big-number">01</span>
+                                    <div className="icon-main color-s1"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
-                                        <span className="number-box">01</span>
-                                        <h3>Algeria Tenders</h3>
-                                        <img className="img-box-blur" src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.png`} alt="algeria tenders i2b" />
+                                        <h5>ALGERIA TENDERS</h5>
+                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                            <div className="support-box">
-                                <div className="inner-box">
-                                    <div className="overlay flex-middle">
-                                        <span className="number-box">02</span>
-                                        <div className="inner">
-                                            <p>Solution de géolocalisation et de gestion de flotte de tous types de véhicules, engins et équipements mobiles en temps réel, qui permet aux entreprises de suivre, de gérer et de sécuriser leur flotte pour augmenter leur productivité.</p>
-                                            <a href="/" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
-                                        </div>
-                                    </div>
+                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                <div className="service-box s-box">
+                                    <span className="big-number">02</span>
+                                    <div className="icon-main color-s2"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
-                                        <span className="number-box">02</span>
-                                        <h3>GeoFlotte</h3>
-                                        <img className="img-box-blur" src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.png`} alt="geoflotte i2b" />
+                                        <h5>ALGERIA INVEST</h5>
+                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                            <div className="support-box">
-                                <div className="inner-box">
-                                    <div className="overlay flex-middle">
-                                        <span className="number-box">03</span>
-                                        <div className="inner">
-                                            <p>Première plateforme digitale dédiée à l'investissement en Algérie. Un portail d'information et d'accompagnement pour les acteurs économiques nationaux et internationaux qui souhaitent investir en Algérie.</p>
-                                            <a href="/" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
-                                        </div>
-                                    </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="service-box s-box">
+                                    <span className="big-number">03</span>
+                                    <div className="icon-main color-s3"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
-                                        <span className="number-box">03</span>
-                                        <h3>Algeria Invest</h3>
-                                        <img className="img-box-blur" src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.png`} alt="algeria inverst i2b" />
+                                        <h5>GEOFLOTTE</h5>
+                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="space-90"></div>
+                </div>
+            </section>
+
+            <section className="section-clent-h2">
+                <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <div className="partners">
@@ -174,6 +152,31 @@ function ServicesBody() {
                         </div>
                     </div>
 
+                    <div className="section-inner-about">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                    <div className="left-img">
+                                        <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.png`} alt="" />
+                                    </div>
+                            </div>
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                <div className="right-content">
+                                    <div className="ot-heading">
+                                        <span>À propos des services</span>
+                                        <h2 className="main-heading">Numéro 1 des <br />marchés publics!</h2>
+                                    </div>
+                                    <p>numéro 1 des appels d'offres en Algérie, Algeria Tenders propose une solution simple, exhaustive, et facile à utiliser et dont l'information est quotidienne, fiable et pertinente.</p>
+                                    <p>Débutant avec un seul client en 2002, Algeria Tenders compte aujourd'hui plus de 5 000 clients et 15 000 utilisateurs.</p>
+                                    <p><em className="text-dark"><strong>Grâce à ses 18 ans de capitalisation, d'expérience et de savoir-faire, Algeria Tenders a publié plus d'un (01) million d'appels d'offres à partir de plus de 500 sources d'information.</strong></em></p>
+                                    <div className="space-20"></div>
+                                    <div className="ot-button">
+                                        <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -188,10 +191,10 @@ function ServicesBody() {
                                 </div>
                                 <p>Nos équipes peuvent vous aider à transformer votre entreprise grâce aux dernières capacités technologiques pour garder une longueur d'avance.</p>
                                 <ul className="style-none text-white">
-                                    <li><i className="fas fa-check"></i> Application Development</li>
-                                    <li><i className="fas fa-check"></i> BI Consulting and Implementation</li>
-                                    <li><i className="fas fa-check"></i> Machine and Deep Learning</li>
-                                    <li><i className="fas fa-check"></i> Data Quality Management</li>
+                                    <li><i className="fas fa-check"></i> Investissement en Algerie</li>
+                                    <li><i className="fas fa-check"></i> Appels d'offre </li>
+                                    <li><i className="fas fa-check"></i> Geolocalisation GPS</li>
+                                    <li><i className="fas fa-check"></i> Service client 7/24</li>
                                 </ul>
                             </div>
                         </div>
@@ -224,13 +227,13 @@ function ServicesBody() {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <a className="tech-box text-center mb-0" href="it-services.html">
                                         <div className="icon-main"><span className="flaticon-time-and-date"></span></div>
-                                        <h5>Wearalables</h5>
+                                        <h5>GPS</h5>
                                     </a>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <a className="tech-box text-center mb-0" href="mobile-development.html">
                                         <div className="icon-main"><span className="flaticon-tv"></span></div>
-                                        <h5>TV</h5>
+                                        <h5>Dashboards</h5>
                                     </a>
                                 </div>
                             </div>
