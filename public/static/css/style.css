@@ -8248,3 +8248,7 @@ section {
   /* filter: blur(1px);
   -webkit-filter: blur(1px); */
 }
+
+.map > .col{
+  padding: 0px;
+}

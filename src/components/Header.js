@@ -69,7 +69,7 @@ function Header() {
 
                                         <div className="octf-header-module">
                                             <div className="btn-cta-group btn-cta-header">
-                                                <a className="octf-btn octf-btn-third" href="/">Nous contacter</a>
+                                                <a className="octf-btn octf-btn-third" href="/contact">Nous contacter</a>
                                             </div>
                                         </div>
 
