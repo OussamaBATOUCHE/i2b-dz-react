@@ -19,8 +19,9 @@ const App = () =>{
         <Route path='/contact/' element={<Body content={<ContactBody/>}/>}/>
 
         {/* The following routes are for the github page only */}
-        {/* <Route path='/i2b-dz-react/' element={<Body />}/> 
-        <Route path='/i2b-dz-react/services/' element={<Body content={<ServicesBody/>}/>}/>  */}
+        <Route path='/i2b-dz-react/' element={<Body />}/> 
+        <Route path='/i2b-dz-react/services/' element={<Body content={<ServicesBody/>}/>}/> 
+        <Route path='/i2b-dz-react/contact/' element={<Body content={<ContactBody/>}/>}/> 
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

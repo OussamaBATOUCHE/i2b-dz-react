@@ -10,7 +10,7 @@ function ContactBody() {
                     <div className="row">
                         <div className="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
                             {/* style={{width:524, height:577}}  */}
-                            <img src="/static/images/img/img-contact.jpg" alt="i2b-dz" />
+                            <img src={`${process.env.PUBLIC_URL}/static/images/img/img-contact.jpg`} alt="i2b-dz" />
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
