@@ -1,5 +1,6 @@
 import React from 'react'
 // import {useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom'
 
 function Header() {
   return (
@@ -21,21 +22,23 @@ function Header() {
                                         <nav id="site-navigation" className="main-navigation">
                                             <ul className="menu nav-style-2">
                                                 <li className='current-menu-item current-menu-ancestor'>
-                                                    <a href="/">Accueil</a>
+                                                    <Link to="/">Accueil</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/">A propos</a>
+                                                    <Link to="/">A propos</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/services">Services</a>
+                                                    <Link to="/services">Services</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/qhse">QHSE</a>
+                                                    <Link to="/qhse">QHSE</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/carrieres">Carrières</a>
+                                                    <Link to="/carrieres">Carrières</Link>
                                                 </li>
-                                                <li><a href="/">News</a></li>
+                                                <li>
+                                                    <Link to="/">News</Link>
+                                                </li>
                                             </ul>
                                         </nav>
                                 </div>
