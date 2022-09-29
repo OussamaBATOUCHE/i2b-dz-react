@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "005db461c1def736517d",
-    "url": "/i2b-dz-react/static/js/main.005db461.chunk.js"
+    "revision": "bcb193556ae295f57190",
+    "url": "/i2b-dz-react/static/js/main.bcb19355.chunk.js"
   },
   {
     "revision": "e610255ea34c9d30410b",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/i2b-dz-react/static/js/runtime~main.0dfe028c.js"
   },
   {
-    "revision": "c44bb713ad10001d18c48c646754e12c",
+    "revision": "fd0cca9ab8647e7d67b80cb21bdc3ba5",
     "url": "/i2b-dz-react/index.html"
   }
 ];
