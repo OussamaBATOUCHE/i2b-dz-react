@@ -6700,7 +6700,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .top-left-v5 .ot-heading h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 53px;
     font-weight: 900;
     line-height: 80px;
     overflow-wrap: normal;
@@ -8251,4 +8251,8 @@ section {
 
 .map > .col{
   padding: 0px;
+}
+
+.margin-left-m145{
+  margin-left: -145px;
 }
