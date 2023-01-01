@@ -8,7 +8,7 @@ const Nouvelles = () => {
             <div className="row">
                 <div className="col-md-6">
                     <div className="ot-heading mb-0">
-                        <span>{"// news et nouveautés"}</span>
+                        <span>{"news et nouveautés"}</span>
                         <h2 className="main-heading">Lisez nos dernières nouvelles</h2>
                     </div>
                 </div>

@@ -8,8 +8,8 @@ const RetoursClients = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="ot-heading">
-                        <span className="text-primary-light">{"// Nos retours clients"}</span>
-                        <h2 className="main-heading text-white">Ils nous ont fait confiance</h2>
+                        <span className="text-primary-light">{"Nos retours clients"}</span>
+                        <h2 className="main-heading text-white">Ils nous font confiance</h2>
                     </div>
                     <div className="space-35"></div>
                 </div>

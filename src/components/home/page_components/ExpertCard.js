@@ -3,7 +3,7 @@ import React from 'react'
 const ExpertCard = ({name, surname, position, image}) => {
   return (
     <>
-    <div className="owl-item">
+    <div className="team-item col">
         <div className="">
             <div className="team-wrap v3">
                 <div className="team-thumb">

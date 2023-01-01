@@ -52,7 +52,7 @@ const NosSecteurs = () => {
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <div className="ot-heading">
-                                <span>{'// NOS SECTEURS'}</span>
+                                <span>{'NOS SECTEURS'}</span>
                                 <h2 className="main-heading">Nos différents <br />secteurs d'activité </h2>
                             </div>
                         </div>

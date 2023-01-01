@@ -10,7 +10,7 @@ export const Parcours = () => {
                     <div className="col-lg-6">
                         <div className="left-v5">
                             <div className="ot-heading">
-                                <span>{"// Plus de 20 années d'expérience"}</span>
+                                <span>{"Plus de 20 années d'expérience"}</span>
                                 <h2 className="main-heading">Notre parcours</h2>
                             </div>
                             <div className="tech-wrap">

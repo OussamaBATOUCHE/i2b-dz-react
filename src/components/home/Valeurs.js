@@ -9,7 +9,7 @@ const Valeurs = () => {
                 <div className="col-lg-6 align-self-center">
                     <div className="technology-v3-left">
                         <div className="ot-heading">
-                            <span>{'// Innovation, Performance et Fiabilité'}</span>
+                            <span>{'Innovation, Performance et Fiabilité'}</span>
                             <h2 className="main-heading">Les valeurs fondatrices de notre entreprise</h2>
                         </div>
                         <div className="space-5"></div>
