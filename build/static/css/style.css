@@ -3904,9 +3904,9 @@ object {
   left: 21px;
 }
 .serv-box .content-box img.gf{
-  width: 110px;
-  margin-top: 3%;
-  margin-left: 30%;
+  /* width: 110px; */
+  margin-top: 7%;
+  margin-left: 2%;
 }
 .serv-box .content-box img.at{
   margin-top: 5%;
@@ -6700,7 +6700,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .top-left-v5 .ot-heading h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 53px;
     font-weight: 900;
     line-height: 80px;
     overflow-wrap: normal;
@@ -8207,10 +8207,10 @@ section {
 .vid-in-laptop{
   position: absolute;
   left: 21%;
-  top: 5%;
+  /* top: 5%; */
   object-fit: cover;
   width: 653px;
-  height: 440px;
+  /* height: 440px; */
   border-radius: 4px;
 }
 @media (max-width: 490px) {
@@ -8251,4 +8251,8 @@ section {
 
 .map > .col{
   padding: 0px;
+}
+
+.margin-left-m145{
+  margin-left: -145px;
 }
