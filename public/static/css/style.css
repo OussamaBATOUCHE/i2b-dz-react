@@ -3909,12 +3909,14 @@ object {
   margin-left: 2%;
 }
 .serv-box .content-box img.at{
-  margin-top: 5%;
-  margin-left: 2%;
+  margin-top: 4%;
+  margin-left: 0%;
+  width: 100%;
 }
 .serv-box .content-box img.ai{
-  margin-top: 10%;
-  margin-left: 25%;
+  margin-top: 6%;
+  margin-left: 1%;
+  width: 100%;
 }
 
 .serv-box .content-box h5 {
@@ -6726,8 +6728,8 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     padding: 30px 40px 30px 40px;
     border-style: solid;
     border-width: 0 0 0 0;
-    background-color: transparent;
-    background-image: linear-gradient(110deg,#2B236E 0%,#7141b180 100%),url(../images/i2bproducts/at.png);
+    background-color: white;
+    /* background-image: linear-gradient(110deg,#2B236E 0%,#7141b180 100%),url(../images/i2bproducts/at.png); */
     box-shadow: 15px 15px 38px 0 rgba(0,0,0,.2);
     background-size: cover;
 
@@ -6740,7 +6742,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     transform: translateY(-8px);
 }
 .serv-box.bg-s1 {
-    background-image: linear-gradient(110deg,#75227fe6 30%,#ae549ac7 70%),url(../images/i2bproducts/at.png);
+    /* background-image: linear-gradient(110deg,#75227fe6 30%,#ae549ac7 70%),url(../images/i2bproducts/at.png); */
     background-size: cover;
     height: 200px;
 }
@@ -6748,12 +6750,12 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     background: rgba(255,255,255,.2);
 }
 .serv-box.bg-s2 {
-    background-image: linear-gradient(110deg,#033878e6 30%,#1e8c92c7 70%),url(../images/i2bproducts/gf.png);
+    /* background-image: linear-gradient(110deg,#033878e6 30%,#1e8c92c7 70%),url(../images/i2bproducts/gf.png); */
     background-size: cover;
     height: 200px;
 }
 .serv-box.bg-s3 {
-  background-image: linear-gradient(110deg,#235295e8 30%,#4e7cbee3 70%),url(../images/i2bproducts/ai.png);
+  /* background-image: linear-gradient(110deg,#235295e8 30%,#4e7cbee3 70%),url(../images/i2bproducts/ai.png); */
   background-size: cover;
   height: 200px;
 }

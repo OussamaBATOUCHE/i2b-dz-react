@@ -1,11 +1,11 @@
 {
-  "main.js": "/i2b-dz-react/static/js/main.779d5fe6.chunk.js",
-  "main.js.map": "/i2b-dz-react/static/js/main.779d5fe6.chunk.js.map",
-  "static/js/1.f998f872.chunk.js": "/i2b-dz-react/static/js/1.f998f872.chunk.js",
-  "static/js/1.f998f872.chunk.js.map": "/i2b-dz-react/static/js/1.f998f872.chunk.js.map",
-  "runtime~main.js": "/i2b-dz-react/static/js/runtime~main.0dfe028c.js",
-  "runtime~main.js.map": "/i2b-dz-react/static/js/runtime~main.0dfe028c.js.map",
-  "index.html": "/i2b-dz-react/index.html",
-  "precache-manifest.98427c5d62ecfa348518705586f90c95.js": "/i2b-dz-react/precache-manifest.98427c5d62ecfa348518705586f90c95.js",
-  "service-worker.js": "/i2b-dz-react/service-worker.js"
+  "main.js": "/static/js/main.1eae7ffe.chunk.js",
+  "main.js.map": "/static/js/main.1eae7ffe.chunk.js.map",
+  "static/js/1.f998f872.chunk.js": "/static/js/1.f998f872.chunk.js",
+  "static/js/1.f998f872.chunk.js.map": "/static/js/1.f998f872.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.4d8204f404ad83951fe7782588cbe7f7.js": "/precache-manifest.4d8204f404ad83951fe7782588cbe7f7.js",
+  "service-worker.js": "/service-worker.js"
 }

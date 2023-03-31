@@ -10,13 +10,13 @@ const Footer = () => {
                     <div className="widget-footer">
                         <h5 className="text-white">Prestations de service</h5>
                         <ul className="list-items">
-                            <li className="list-item"><a href="/">Plateforme des marchés publics</a></li>
-                            <li className="list-item"><a href="/">Solution de géolocalisation</a></li>
-                            <li className="list-item"><a href="/">Plateforme de l'investissement</a></li>
+                            <li className="list-item"><a href="https://www.algeriatenders.com/" target={'blank'} rel="noopener noreferrer">AlgeriaTenders.com</a></li>
+                            <li className="list-item"><a href="https://geoflotte.com/" target={'blank'} rel="noopener noreferrer">Geoflotte.com</a></li>
+                            <li className="list-item"><a href="https://algeriainvest.com/" target={'blank'} rel="noopener noreferrer">AlgeriaInvest.com</a></li>
                         </ul>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
                         <h5 className="text-white">Apprendre</h5>
                         <ul className="list-items">
@@ -37,7 +37,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
                         <h5 className="text-white">S'abonner</h5>
                         <p>Restez à jour ... Suivez notre newsletter</p>
@@ -61,16 +61,16 @@ const Footer = () => {
             <div className="row mt-35">
                 
                 <div className="col-md-4 mb-4 mb-md-0">
-                    <img src={`${process.env.PUBLIC_URL}/static/images/iso.png`} 
+                    <img src={`${process.env.PUBLIC_URL}/static/images/iso-fr.png`} 
                          alt="i2bspa" 
                          className="lazyloaded" 
                          data-ll-status="loaded" 
-                         style={{width: '25%', marginRight: '4px'}} />
+                         style={{width: '55%', marginRight: '4px'}} />
                     <img src={`${process.env.PUBLIC_URL}/static/images/i2bw.png`} 
                          alt="i2bspa" 
                          className="lazyloaded" 
                          data-ll-status="loaded" 
-                         style={{width: '20%'}} />
+                         style={{width: '29%'}} />
                     
                     
                 </div>

@@ -12,7 +12,7 @@ const NosSecteurs = () => {
                             <div className="serv-box s1 v5 bg-s1">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <img className='at' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/white/at-white.png`} alt="algerie tenders" />
+                                    <img className='at' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-at-color.png`} alt="algerie tenders" />
                                 </div>
                             </div>
                             <div className='products-box border-sa'>
@@ -25,7 +25,7 @@ const NosSecteurs = () => {
                             <div className="serv-box s1 v5 bg-s2">
                                 <a href={"https://www.geoflotte.com/"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <img className="gf" src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/white/gf-white.png`} alt="geoflotte" />
+                                    <img className="gf" src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-gf-color.png`} alt="geoflotte" />
                                 </div>
                             </div>
                             <div className='products-box border-s1'>
@@ -38,7 +38,7 @@ const NosSecteurs = () => {
                             <div className="serv-box s1 v5 bg-s3">
                                 <a href={"https://algeriainvest.com/"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <img className='ai' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/white/ai-white.png`} alt="algeria invest" />
+                                    <img className='ai' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-ai-color.png`} alt="algeria invest" />
                                 </div>
                             </div>
                             <div className='products-box border-s1'>

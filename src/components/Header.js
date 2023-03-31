@@ -37,7 +37,7 @@ function Header() {
                                                     <Link to="/carrieres">Carrières</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/">News</Link>
+                                                    <Link to="/">Actualité</Link>
                                                 </li>
                                             </ul>
                                         </nav>
