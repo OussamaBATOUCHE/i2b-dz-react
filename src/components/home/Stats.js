@@ -12,13 +12,13 @@ const Stats = () => {
                     <div className="col-xl-3 col-lg-6 no-padding align-self-center">
                         <div className="ot-counter2">
                             <div className="s-num">
-                                <span className="num" data-to="80" data-time="14000">0</span><span>+</span>
+                                <span className="num" data-to="90" data-time="10000">0</span><span>+</span>
                             </div>
                             <h6>Collaborateurs</h6>
                             <p>Notre succès repose sur les efforts et l'engagement de nos collaborateurs qui partagent
                             la même identité et le même état d'esprit...</p>
                             <a href="about-us.html" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
-                            <div className="b-num">80+</div>
+                            <div className="b-num">90+</div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-6 order-lg-last no-padding">
@@ -27,7 +27,7 @@ const Stats = () => {
                     <div className="col-xl-3 col-lg-6 no-padding order-xl-last align-self-center">
                         <div className="ot-counter2">
                             <div className="s-num">
-                                <span className="num" data-to="5000" data-time="14000">0</span><span>+</span>
+                                <span className="num" data-to="5000" data-time="10000">0</span><span>+</span>
                             </div>
                             <h6>Clients</h6>
                             <p>Pour satisfaire nos clients, chaque solution proposée est parfaitement conçue pour s'adapter aux différents besoins exprimés...</p>

@@ -27,12 +27,15 @@ export const Parcours = () => {
                                     <div className="icon-main"><span className="flaticon-shield"></span></div>
                                 </a>
                             </div>
-                            <p>Notre histoire a commencé en 2002, l'année de création de la première plateforme dédiée aux avis d'appels
-                                d'offres en Algérie, dans le but de digitaliser les différentes annonces des marchés publics publiées
-                                dans les journaux et de donner par la suite la possibilité de les suivre en ligne.
-                                Cette idée s'est rapidement développée avec succès, ce qui nous a incités à élargir notre champ d'expertise
-                                en investissant dans d'autres créneaux à fortes potentialités technologiques, en offrant de nouvelles solutions
-                                innovantes dans différents domaines d'activité</p>
+                            <p>i2b SPA est une entreprise avec un potentiel de croissance élevé. 
+                                La société a une politique de recrutement stable et sélective pour s'assurer d'embaucher les meilleurs talents. 
+                                i2b SPA investit régulièrement dans la formation continue de ses collaborateurs pour qu'ils disposent des 
+                                compétences nécessaires pour répondre aux besoins de l'entreprise. Avec un portefeuille client diversifié, 
+                                i2b SPA est en mesure de générer des revenus stables et de faire face aux fluctuations économiques. 
+                                La croissance continue de l'entreprise est soutenue par le développement de nouvelles applications pour répondre 
+                                aux demandes de ses clients. En outre, i2b SPA s'engage à établir des partenariats durables et réels avec ses 
+                                clients et toutes les institutions du pays, renforçant ainsi sa présence sur le marché. Cette approche garantit 
+                                la réussite de l'entreprise à long terme.</p>
                             <div className="ot-button">
                                 <a href="/" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
                             </div>

@@ -14,12 +14,12 @@ function HomeBody() {
     <>
     <FirstSection />
     <NosSecteurs />
+    <Valeurs />
     <Parcours />
     <Experts />
     <Stats />
     <RetoursClients />
     <Clients />
-    <Valeurs />
     <Nouvelles />
     </>
   )

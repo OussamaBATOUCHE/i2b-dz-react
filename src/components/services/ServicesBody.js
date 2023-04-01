@@ -114,10 +114,20 @@ function ServicesBody() {
                                         <span>À propos des services</span>
                                         <h2 className="main-heading">Votre partenaire pour <br />la Gestion de flotte!</h2>
                                     </div>
-                                    <p>Solution de géolocalisation et de gestion de flotte de tous types de véhicules, engins et équipements mobiles en temps réel, qui permet aux entreprises de suivre,
-                                         de maîtriser, de gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges logistiques. <br />
-                                        Plus de 12 000 boitiers pour tout type de véhicules ont été installés à ce jour et plus de 2000 clients utilisent notre solution.</p>
-                                    <p><em className="text-dark"><strong>Nous pouvons vous aider à maintenir et à moderniser votre infrastructure informatique et à résoudre divers problèmes spécifiques à l'infrastructure auxquels une entreprise peut être confrontée.</strong></em></p>
+                                    <p>
+                                    Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
+                                    d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de 
+                                    gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges 
+                                    logistiques.
+                                    
+                                    En 2008, i2b a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT 
+                                    (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b a acquis, depuis quelques années, une 
+                                    position de leader sur le marché national.
+                                    
+                                    Dans un premier temps, i2b a importé cette solution, puis après avoir capitalisé de l'expérience et acquis 
+                                    les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements 
+                                    consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).
+                                    </p>
                                     <div className="space-20"></div>
                                     <div className="ot-button">
                                         <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
@@ -135,9 +145,21 @@ function ServicesBody() {
                                         <span>À propos des services</span>
                                         <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie!</h2>
                                     </div>
-                                    <p>première plateforme digitale dédiée à l'investissement en Algérie. Un portail d'information et d'accompagnement pour les acteurs économiques nationaux et internationaux qui souhaitent investir en Algérie.<br />
-                                        Algeria INVEST leur propose un accès privilégié à toutes les données nécessaires pour la réussite de leur projet.</p>
-                                    <p><em className="text-dark"><strong>Nous pouvons vous aider à maintenir et à moderniser votre infrastructure informatique et à résoudre divers problèmes spécifiques à l'infrastructure auxquels une entreprise peut être confrontée.</strong></em></p>
+                                    <p>
+                                    Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
+                                    plateforme digitale dédiée à l'investissement en Algérie. 
+                                    </p>
+                                    <p>
+                                    Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs 
+                                    nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de 
+                                    leurs projets.
+                                    </p>
+                                    <p>
+                                    Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits
+                                    et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création 
+                                    d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marchés, l'assistance 
+                                    juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.
+                                    </p>
                                     <div className="space-20"></div>
                                     <div className="ot-button">
                                         <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
@@ -165,9 +187,20 @@ function ServicesBody() {
                                         <span>À propos des services</span>
                                         <h2 className="main-heading">Numéro 1 des <br />marchés publics!</h2>
                                     </div>
-                                    <p>numéro 1 des appels d'offres en Algérie, Algeria Tenders propose une solution simple, exhaustive, et facile à utiliser et dont l'information est quotidienne, fiable et pertinente.</p>
-                                    <p>Débutant avec un seul client en 2002, Algeria Tenders compte aujourd'hui plus de 5 000 clients et 15 000 utilisateurs.</p>
-                                    <p><em className="text-dark"><strong>Grâce à ses 18 ans de capitalisation, d'expérience et de savoir-faire, Algeria Tenders a publié plus d'un (01) million d'appels d'offres à partir de plus de 500 sources d'information.</strong></em></p>
+                                    <p>
+                                        Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des 
+                                        avis d'appels d'offres, nationaux et internationaux, ainsi qu'à la mise à la disposition des entreprises 
+                                        des précisions et des indications ayant trait aux annonces publiées sur le territoire national 
+                                        (avis d'attribution, d'infructuosité, de consultation, de prorogation, de vente aux enchères, et 
+                                        d'autres) permettant ainsi à ses clients l'accès à toutes les opportunités du marché algérien.
+                                    </p>
+                                    <p><em className="text-dark">
+                                        <strong>
+                                            Aujourd'hui, avec une couverture de +500 sources d'information spécialisées avec le support d'une équipe qualifiée, 
+                                            i2b est devenue une véritable référence du marché algérien pour +5000 entreprises nationales et internationales 
+                                            (y compris non-résidentes) et dont le nombre ne cesse de croître.
+                                        </strong></em>
+                                    </p>
                                     <div className="space-20"></div>
                                     <div className="ot-button">
                                         <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
