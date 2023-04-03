@@ -2,7 +2,7 @@
   "name": "i2breact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.itservices-dz.com/",
+  "homepage": "http://www.itservices-dz.com/new-i2b-dz",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
