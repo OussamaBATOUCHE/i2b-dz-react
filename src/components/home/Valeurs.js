@@ -50,36 +50,36 @@ const Valeurs = () => {
                 <div className="col-lg-6 md-mt-30">
                     <div className="row">
                         <div className="col-md-6">
-                            <a className="ot-image-box v3 st1" href="it-services.html">
+                            <div className="ot-image-box v3 st1" >
                                 <div className="overlay">
                                     <h4>Notre mission</h4>
                                 </div>
                                 <img src={`${process.env.PUBLIC_URL}/static/images/img/mission.jpg`} alt="Notre mission" />
-                            </a>
+                            </div>
                         </div>
                         <div className="col-md-6">
-                            <a className="ot-image-box v3 st2" href="it-services.html">
+                            <div className="ot-image-box v3 st2" >
                                 <div className="overlay">
                                     <h4>Notre vision</h4>
                                 </div>
                                 <img src={`${process.env.PUBLIC_URL}/static/images/img/vision.jpg`} alt="Notre vision" />
-                            </a>
+                            </div>
                         </div>
                         <div className="col-md-6">
-                            <a className="ot-image-box v3 st3" href="it-services.html">
+                            <div className="ot-image-box v3 st3" >
                                 <div className="overlay">
                                     <h4>Notre Philosophie</h4>
                                 </div>
                                 <img src={`${process.env.PUBLIC_URL}/static/images/img/philo.jpg`} alt="Notre Philosophie" />
-                            </a>
+                            </div>
                         </div>
                         <div className="col-md-6">
-                            <a className="ot-image-box v3 st4 mb-0" href="it-services.html">
+                            <div className="ot-image-box v3 st4 mb-0" >
                                 <div className="overlay">
                                     <h4>Notre stratégie</h4>
                                 </div>
                                 <img src={`${process.env.PUBLIC_URL}/static/images/img/stratégie.jpg`} alt="Notre stratégie" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>

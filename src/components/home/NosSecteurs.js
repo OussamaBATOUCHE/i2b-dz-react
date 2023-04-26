@@ -2,7 +2,15 @@ import React from 'react';
 import Secteur from './page_components/Secteur';
 
 const NosSecteurs = () => {
-    const nb_secteurs = [1, 2, 3, 4, 5, 6];
+    const nb_secteurs = [0, 1, 2];
+    const title_secteurs = ['Veille des marchés publics et privés',
+                            'Géolocalisation & Gestion de flottes',
+                            'Accompagnement des investisseurs']
+    const li_items = [
+                      ['Markets & finance', 'Business advice', 'Assistance for foreign companies', 'Operational assistance'],
+                      ['BTPH & Chantiers', 'Santé & Pharmaceutique', 'Location de véhicules', 'Transport public'],
+                      ["Appels d'offres, adjudications et ventes aux enchères", 'Cycle de vie du marché', 'Moteur de recherche performant']
+                     ]
     return (
         <>
             <section className="service-v5">
@@ -60,7 +68,7 @@ const NosSecteurs = () => {
                     <div className="space-30"></div>
                     <div className="row">
                         {nb_secteurs.map(i => (
-                            <Secteur title={'Secteur '.concat(i)} />
+                            <Secteur title={title_secteurs[i]}  context={li_items[i]}/>
                         ))}
                     </div>
                 </div>

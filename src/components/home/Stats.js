@@ -17,7 +17,6 @@ const Stats = () => {
                             <h6>Collaborateurs</h6>
                             <p>Notre succès repose sur les efforts et l'engagement de nos collaborateurs qui partagent
                             la même identité et le même état d'esprit...</p>
-                            <a href="about-us.html" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
                             <div className="b-num">90+</div>
                         </div>
                     </div>
@@ -31,7 +30,6 @@ const Stats = () => {
                             </div>
                             <h6>Clients</h6>
                             <p>Pour satisfaire nos clients, chaque solution proposée est parfaitement conçue pour s'adapter aux différents besoins exprimés...</p>
-                            <a href="about-us.html" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
                             <div className="b-num">5k</div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Secteur = ({title, text, icon}) => {
+const Secteur = ({title, context, icon}) => {
   return (
     <>
     <div className="col-lg-4 col-md-6 mb-30">
@@ -8,9 +8,11 @@ const Secteur = ({title, text, icon}) => {
             <div className="icon-main"><span className={icon}></span></div>
             <div className="content-box">
                 <h5><a href="/">{title}</a></h5>
-                <p>
-                   {text}                            
-                </p>
+                <ul>
+                {context.map(item => (
+                            <li>{item}</li>
+                        ))}
+                </ul>
             </div>
         </div>
     </div>

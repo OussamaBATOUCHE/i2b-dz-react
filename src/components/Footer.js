@@ -8,11 +8,11 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
-                        <h5 className="text-white">Prestations de service</h5>
+                        <h5 className="text-white">Nos solutions</h5>
                         <ul className="list-items">
-                            <li className="list-item"><a href="https://www.algeriatenders.com/" target={'blank'} rel="noopener noreferrer">AlgeriaTenders.com</a></li>
-                            <li className="list-item"><a href="https://geoflotte.com/" target={'blank'} rel="noopener noreferrer">Geoflotte.com</a></li>
-                            <li className="list-item"><a href="https://algeriainvest.com/" target={'blank'} rel="noopener noreferrer">AlgeriaInvest.com</a></li>
+                            <li className="list-item"><a href="https://www.algeriatenders.com/" target={'blank'} rel="noopener noreferrer">www.AlgeriaTenders.com</a></li>
+                            <li className="list-item"><a href="https://geoflotte.com/" target={'blank'} rel="noopener noreferrer">www.Geoflotte.com</a></li>
+                            <li className="list-item"><a href="https://algeriainvest.com/" target={'blank'} rel="noopener noreferrer">www.AlgeriaInvest.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -31,7 +31,6 @@ const Footer = () => {
                     <div className="widget-footer">
                         <h5 className="text-white">Compagnie</h5>
                         <ul className="list-items">
-                            <li className="list-item"><a href="/">À propos de la société</a></li>
                             <li className="list-item"><a href="/">Certifications et QHSE</a></li>
                             <li className="list-item"><a href="/">Contactez nous</a></li>
                         </ul>

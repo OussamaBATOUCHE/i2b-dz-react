@@ -36,9 +36,6 @@ export const Parcours = () => {
                                 aux demandes de ses clients. En outre, i2b SPA s'engage à établir des partenariats durables et réels avec ses 
                                 clients et toutes les institutions du pays, renforçant ainsi sa présence sur le marché. Cette approche garantit 
                                 la réussite de l'entreprise à long terme.</p>
-                            <div className="ot-button">
-                                <a href="/" className="btn-details"><i className="flaticon-right-arrow-1"></i> LIRE LA SUITE</a>
-                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6">

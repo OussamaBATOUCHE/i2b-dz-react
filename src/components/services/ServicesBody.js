@@ -15,9 +15,6 @@ function ServicesBody() {
                             <div className="home2-top-right">
                                 <p className="small-text">Fonctionnel, convivialité et performances</p>
                                 <h2>NOS SERVICES</h2>
-                                <p className="sub-text">
-                                i2b a plus d'une corde dans son arc, elle s'est toujours attelée à chercher des solutions innovantes de pointe.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -32,18 +29,12 @@ function ServicesBody() {
                                 <h2 className="main-heading">Solutions innovantes  <br />à forte valeur ajoutée</h2>
                             </div>
                         </div>
-                        <div className="col-lg-7 align-self-end">
-                            <p className="mb-0">
-                              i2b a plus d'une corde dans son arc, elle s'est toujours attelée à chercher des solutions innovantes de pointe. Parmi ses fleurons, on cite :
-                            </p>
-                        </div>
                     </div>
                     <div className="space-50"></div>
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                                 <div className="service-box s-box">
-                                    <span className="big-number">01</span>
                                     <div className="icon-main color-s1"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
                                         <h5>ALGERIA TENDERS</h5>
@@ -53,7 +44,6 @@ function ServicesBody() {
                             </div>
                             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                                 <div className="service-box s-box">
-                                    <span className="big-number">02</span>
                                     <div className="icon-main color-s2"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
                                         <h5>ALGERIA INVEST</h5>
@@ -63,7 +53,6 @@ function ServicesBody() {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box s-box">
-                                    <span className="big-number">03</span>
                                     <div className="icon-main color-s3"><span className="flaticon-correct"></span></div>
                                     <div className="content-box">
                                         <h5>GEOFLOTTE</h5>
@@ -111,7 +100,6 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <span>À propos des services</span>
                                         <h2 className="main-heading">Votre partenaire pour <br />la Gestion de flotte!</h2>
                                     </div>
                                     <p>
@@ -129,9 +117,6 @@ function ServicesBody() {
                                     consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).
                                     </p>
                                     <div className="space-20"></div>
-                                    <div className="ot-button">
-                                        <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +127,6 @@ function ServicesBody() {
                         <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-content">
                                     <div className="ot-heading">
-                                        <span>À propos des services</span>
                                         <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie!</h2>
                                     </div>
                                     <p>
@@ -161,9 +145,6 @@ function ServicesBody() {
                                     juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.
                                     </p>
                                     <div className="space-20"></div>
-                                    <div className="ot-button">
-                                        <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
-                                    </div>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
@@ -184,7 +165,6 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <span>À propos des services</span>
                                         <h2 className="main-heading">Numéro 1 des <br />marchés publics!</h2>
                                     </div>
                                     <p>
@@ -202,9 +182,6 @@ function ServicesBody() {
                                         </strong></em>
                                     </p>
                                     <div className="space-20"></div>
-                                    <div className="ot-button">
-                                        <a href="/" className="octf-btn octf-btn-primary">LIRE LA SUITE</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -270,144 +247,6 @@ function ServicesBody() {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="section-industris">
-                <div className="container">
-                    <div className="col-md-12 text-center">
-                        <div className="ot-heading">
-                            <span>LAST NEWS</span>
-                            <h2 className="main-heading">Consultez nos <br />dernières nouvelles</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className="container-fluid">
-                    <div className="ot-industries">
-                        <div className="owl-carousel owl-theme industries-inner ot-industries-slider">
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Business & Finance</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Gaming & Enterteinment</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Information Technology</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Retail & Distribution</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Business & Finance</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Gaming & Enterteinment</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Information Technology</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="indus-item">
-                                <div className="item-inner">
-                                    <div className="overlay"></div>
-                                    <div className="i-image">
-                                        <img src="https://via.placeholder.com/139x141.png" alt="" />
-                                    </div>
-                                    <div className="iinfo">
-                                        <h6>Retail & Distribution</h6>
-                                        <div className="itext">
-                                            The global economy is moving towards a new identity. In order to remain competitive and profitable, the banking and finance.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>

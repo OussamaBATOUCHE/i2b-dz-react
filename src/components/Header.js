@@ -25,9 +25,6 @@ function Header() {
                                                     <Link to="/">Accueil</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/">A propos</Link>
-                                                </li>
-                                                <li>
                                                     <Link to="/services">Services</Link>
                                                 </li>
                                                 <li>
@@ -35,9 +32,6 @@ function Header() {
                                                 </li>
                                                 <li>
                                                     <Link to="/carrieres">Carrières</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/">Actualité</Link>
                                                 </li>
                                             </ul>
                                         </nav>
