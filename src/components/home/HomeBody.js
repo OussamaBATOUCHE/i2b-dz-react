@@ -12,9 +12,9 @@ function HomeBody() {
   return (
     <>
     <FirstSection />
+    <Parcours />
     <NosSecteurs />
     <Valeurs />
-    <Parcours />
     <Experts />
     <Stats />
     <RetoursClients />

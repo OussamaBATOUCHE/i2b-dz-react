@@ -13,8 +13,12 @@ function ServicesBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <p className="small-text">Fonctionnel, convivialité et performances</p>
+                                <p className="small-text">Vision et performance</p>
                                 <h2>NOS SERVICES</h2>
+                                <p className="sub-text">
+                                Solutions innovantes à forte Valeurs
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
@@ -42,15 +46,7 @@ function ServicesBody() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                <div className="service-box s-box">
-                                    <div className="icon-main color-s2"><span className="flaticon-correct"></span></div>
-                                    <div className="content-box">
-                                        <h5>ALGERIA INVEST</h5>
-                                        <p>Lorem Lorem Lorem</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box s-box">
                                     <div className="icon-main color-s3"><span className="flaticon-correct"></span></div>
@@ -60,6 +56,17 @@ function ServicesBody() {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                <div className="service-box s-box">
+                                    <div className="icon-main color-s2"><span className="flaticon-correct"></span></div>
+                                    <div className="content-box">
+                                        <h5>ALGERIA INVEST</h5>
+                                        <p>Lorem Lorem Lorem</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
