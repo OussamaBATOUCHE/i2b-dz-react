@@ -43,7 +43,7 @@ const FirstSection = () => {
                         <div className="serv-box s1 v5 bg-s1">
                             <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                             <div className="content-box">
-                                <img className='at' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-at-color.png`} alt="algerie tenders" />
+                                <img className='at' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-at-color.svg`} alt="algerie tenders" />
                             </div>
                         </div>
                         <div className='products-box border-sa'>
@@ -69,7 +69,7 @@ const FirstSection = () => {
                         <div className="serv-box s1 v5 bg-s3">
                             <a href={"https://algeriainvest.com/"} className="overlay" target={'blank'}>-</a>
                             <div className="content-box">
-                                <img className='ai' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-ai-color.png`} alt="algeria invest" />
+                                <img className='ai' src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/logo-ai-color.svg`} alt="algeria invest" />
                             </div>
                         </div>
                         <div className='products-box border-s1'>
