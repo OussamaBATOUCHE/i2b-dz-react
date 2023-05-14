@@ -6762,12 +6762,12 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 .mt--70 {
     margin-top: -70px;
 }
-.icon-box-s2.bg:hover {
+/* .icon-box-s2.bg:hover {
     color: #fff;
 }
 .icon-box-s2.bg:hover .content-box h5 a {
     color: #fff;
-}
+} */
 .icon-box-s2.s2.bg * {
     transition: none;
     -webkit-transition: none;
@@ -6783,19 +6783,22 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     -ms-transition: all 0.2s linear;
 }
 .icon-box-s2.bg1:before {
-    background-image: url(https://via.placeholder.com/720x524.png);
+    background-image: url('../images/secteurs_icons/sec1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    opacity: 10% !important;
 }
 .icon-box-s2.bg2:before {
-    background-image: url(https://via.placeholder.com/720x524.png);
+    background-image: url('../images/secteurs_icons/sec2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    opacity: 10% !important;
 }
 .icon-box-s2.bg3:before {
-    background-image: url(https://via.placeholder.com/720x524.png);
+    background-image: url('../images/secteurs_icons/sec3.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    opacity: 10% !important;
 }
 .icon-box-s2.bg4:before {
     background-image: url(https://via.placeholder.com/720x524.png);
@@ -8257,4 +8260,8 @@ section {
 
 .margin-left-m145{
   margin-left: -145px;
+}
+
+.ul-no-style {
+  list-style-type: none;
 }

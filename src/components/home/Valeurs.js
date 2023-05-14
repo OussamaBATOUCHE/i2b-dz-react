@@ -19,38 +19,22 @@ const Valeurs = () => {
                         <div className="et-progress">
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Qualité, Notre engagement envers la qualité est démontré par nos certifications ISO, assurant à nos clients des services de qualité supérieure et un taux de réabonnement de 95%.</span>
-                                    <span className="ppercent f-right">95%</span>
-                                </div>
-                                <div className="iprogress">
-                                    <div className="progress-bar" data-percent="70%"></div>
+                                    <span className="pname f-left">Qualité: <br /> Notre engagement envers la qualité est démontré par nos certifications ISO, assurant à nos clients des services de qualité supérieure et un taux de réabonnement de 95%.</span>
                                 </div>
                             </div>
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Innovation: Une approche basé sur la volonté  de progresser  et de nous adapter aux TIC les plus récents, pour obtenir un taux de nouveaux abonnements de +70%.</span>
-                                    <span className="ppercent f-right">70%</span>
-                                </div>
-                                <div className="iprogress">
-                                    <div className="progress-bar" data-percent="95%"></div>
+                                    <span className="pname f-left">Innovation: <br /> Une approche basé sur la volonté  de progresser  et de nous adapter aux TIC les plus récents, pour obtenir un taux de nouveaux abonnements de +70%.</span>
                                 </div>
                             </div>
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Performance: La satisfaction de nos clients envers nos services et la permanente collaboration  engendrent un taux des extensions de services de 65%</span>
-                                    <span className="ppercent f-right">65%</span>
-                                </div>
-                                <div className="iprogress">
-                                    <div className="progress-bar" data-percent="65%"></div>
+                                    <span className="pname f-left">Performance: <br /> La satisfaction de nos clients envers nos services et la permanente collaboration  engendrent un taux des extensions de services de 65%</span>
                                 </div>
                             </div>
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left"> Leadership: esprit d'équipe solide, où chacun s'engagent à offrir des services de qualité, innovants et performants</span>
-                                    <span className="ppercent f-right">100%</span>
-                                </div>
-                                <div className="iprogress">
-                                    <div className="progress-bar" data-percent="65%"></div>
+                                    <span className="pname f-left"> Leadership: <br />  esprit d'équipe solide, où chacun s'engagent à offrir des services de qualité, innovants et performants</span>
                                 </div>
                             </div>
                            
