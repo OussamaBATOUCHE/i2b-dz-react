@@ -3804,13 +3804,13 @@ object {
 }
 .service-box .icon-main {
   float: left;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   line-height: 40px;
-  margin-top: 5px;
+  margin-top: 0px;
   text-align: center;
   color: #fff;
-  background: #43baff;
+  /* background: #43baff; */
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -3819,10 +3819,11 @@ object {
   font-size: 17px;
 }
 .service-box .icon-main img {
-  width: 17px;
+  width: 50px;
 }
 .service-box .content-box {
   padding-left: 73px;
+  padding-top: 4%;
   position: relative;
 }
 .service-box .content-box h5 {
@@ -5201,7 +5202,7 @@ object {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  color: #1b1d21;
+  color: #ffffff;
 }
 .ot-progress .pname {
   margin-bottom: 10px;
@@ -6160,6 +6161,9 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     line-height: 1;
     margin-bottom: 8px;
 }
+.technology-v3-left > .ot-heading > .main-heading {
+  color: white;
+}
 .technology-v1 {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -6783,19 +6787,19 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     -ms-transition: all 0.2s linear;
 }
 .icon-box-s2.bg1:before {
-    background-image: url('../images/secteurs_icons/sec1.png');
+    /* background-image: url('../images/secteurs_icons/sec1.png'); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     opacity: 10% !important;
 }
 .icon-box-s2.bg2:before {
-    background-image: url('../images/secteurs_icons/sec2.png');
+    /* background-image: url('../images/secteurs_icons/sec2.png'); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     opacity: 10% !important;
 }
 .icon-box-s2.bg3:before {
-    background-image: url('../images/secteurs_icons/sec3.png');
+    /* background-image: url('../images/secteurs_icons/sec3.png'); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     opacity: 10% !important;
