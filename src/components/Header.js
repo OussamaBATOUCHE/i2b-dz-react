@@ -33,6 +33,9 @@ function Header() {
                                                 <li>
                                                     <Link to="/carrieres">Carrières</Link>
                                                 </li>
+                                                <li>
+                                                    <Link to="/contact">Nous contacter</Link>
+                                                </li>
                                             </ul>
                                         </nav>
                                 </div>
@@ -60,13 +63,16 @@ function Header() {
 
                                         <div className="octf-header-module">
                                             <ul className="social-list">
-                                                |
+                                                
                                             </ul>
                                         </div>
 
                                         <div className="octf-header-module">
-                                            <div className="btn-cta-group btn-cta-header">
-                                                <Link className="octf-btn octf-btn-third" to="/contact">Nous contacter</Link>
+                                            <div className="ft-list-icon">
+                                                <a className="twitter" href="twitter.com" target={'blank'}><i className="fab fa-twitter"></i></a>
+                                                <a className="facebook" href="https://www.facebook.com/i2b.SPA" target={'blank'}><i className="fab fa-facebook-f"></i></a>
+                                                <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/" target={'blank'}><i className="fab fa-linkedin-in"></i></a>
+                                                <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured" target={'blank'}><i className="fab fa-youtube"></i></a>
                                             </div>
                                         </div>
 
@@ -95,23 +101,18 @@ function Header() {
                             <li className="menu-item-has-children current-menu-item current-menu-ancestor">
                                 <a href="/">Accueil</a>
                             </li>
-                            <li className="menu-item-has-children">
-                                <a href="/">Qui sommes-nous?</a>
+                            <li>
+                                <a href="/services">Services</a>
                             </li>
-                            <li className="menu-item-has-children"><a href="/">Services</a>
-                                <ul className="sub-menu">
-                                    <li><a href="https://www.algeriatenders.com/">Algeria Tenders</a></li>
-                                    <li><a href="https://www.geoflotte.com/">Geoflotte</a></li>
-                                    <li><a href="https://www.algeriainvest.com/">Algeria Inverst</a></li>
-                                </ul>
+                            <li>
+                                <a href="/qhse">QHSE</a>
                             </li>
-                            <li className="menu-item-has-children">
-                                <a href="/">QHSE</a>
+                            <li>
+                                <a href="/carriere">Carrières</a>
                             </li>
-                            <li className="menu-item-has-children">
-                                <a href="/">Carrières</a>
+                            <li>
+                                <a href="/contact">Contact</a>
                             </li>
-                            <li><a href="/">Contact</a></li>
                         </ul>
                     </div>
                 </div>

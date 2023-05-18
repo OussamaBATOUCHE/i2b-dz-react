@@ -27,6 +27,7 @@ Secteur.defaultProps = {
     title: 'Secteur N',
     text: 'lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem ',
     icon: 'sec1.png',
+    bckgrnd_img_cls: ''
 }
   
 

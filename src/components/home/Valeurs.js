@@ -3,7 +3,7 @@ import React from 'react'
 const Valeurs = () => {
   return (
     <>
-    <section className="technology-v5">
+    <section className="technology-v5 about-v5">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 align-self-center">
@@ -12,24 +12,21 @@ const Valeurs = () => {
                             <span>{'Innovation, Performance et Fiabilité'}</span>
                             <h2 className="main-heading">Les valeurs fondatrices de notre entreprise</h2>
                         </div>
-                        <div className="space-5"></div>
-                        <p>Une culture d'entreprise basée sur un esprit d'équipe solide. Nous mettons l'accent sur
-                             la nécessité de repousser continuellement les frontières de notre expertise et notre maitrise des solutions proposées.</p>
                         <div className="space-20"></div>
                         <div className="et-progress">
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Qualité: <br /> Notre engagement envers la qualité est démontré par nos certifications ISO, assurant à nos clients des services de qualité supérieure et un taux de réabonnement de 95%.</span>
+                                    <span className="pname f-left">Qualité: <br /> Notre engagement envers la qualité est démontré par nos certifications ISO, assurant à nos clients des services de qualité supérieure.</span>
                                 </div>
                             </div>
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Innovation: <br /> Une approche basé sur la volonté  de progresser  et de nous adapter aux TIC les plus récents, pour obtenir un taux de nouveaux abonnements de +70%.</span>
+                                    <span className="pname f-left">Innovation: <br /> Une approche basé sur la volonté  de progresser  et de nous adapter aux TIC les plus récents.</span>
                                 </div>
                             </div>
                             <div className="ot-progress">
                                 <div className="overflow">
-                                    <span className="pname f-left">Performance: <br /> La satisfaction de nos clients envers nos services et la permanente collaboration  engendrent un taux des extensions de services de 65%</span>
+                                    <span className="pname f-left">Performance: <br /> La satisfaction de nos clients envers nos services et la permanente collaboration.</span>
                                 </div>
                             </div>
                             <div className="ot-progress">

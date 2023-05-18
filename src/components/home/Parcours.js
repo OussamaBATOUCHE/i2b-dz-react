@@ -14,18 +14,18 @@ export const Parcours = () => {
                                 <h2 className="main-heading">Notre parcours</h2>
                             </div>
                             <div className="tech-wrap">
-                                <a className="tech-box" href="/">
+                                <span className="tech-box">
                                     <div className="icon-main"><span className="flaticon-report-1"></span></div>
-                                </a>
-                                <a className="tech-box" href="/">
+                                </span>
+                                <span className="tech-box">
                                     <div className="icon-main"><span className="flaticon-placeholder-filled-point"></span></div>
-                                </a>
-                                <a className="tech-box" href="/">
+                                </span>
+                                <span className="tech-box">
                                     <div className="icon-main"><span className="flaticon-data"></span></div>
-                                </a>
-                                <a className="tech-box" href="/">
+                                </span>
+                                <span className="tech-box">
                                     <div className="icon-main"><span className="flaticon-shield"></span></div>
-                                </a>
+                                </span>
                             </div>
                             <p>i2b SPA est une entreprise avec un potentiel de croissance élevé. 
                                 La société a une politique de recrutement stable et sélective pour s'assurer d'embaucher les meilleurs talents. 

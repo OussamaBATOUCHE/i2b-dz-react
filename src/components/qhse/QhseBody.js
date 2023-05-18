@@ -142,7 +142,7 @@ function QhseBody() {
                             <p>Écrivez-nous! Nous sommes là pour répondre à vos questions 24h/24 et 7j/7</p>
                             <h2>BESOIN D'UNE CONSULTATION ?</h2>
                             <div className="ot-button">
-                                <a href="/" className="octf-btn octf-btn-primary">Nous contacter</a>
+                                <a href="/contact" className="octf-btn octf-btn-primary">Nous contacter</a>
                             </div>
                         </div>
                     </div>

@@ -39,30 +39,27 @@ function ServicesBody() {
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                                 <div className="service-box s-box">
-                                    <div className="icon-main color-s1"><span className="flaticon-correct"></span></div>
+                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-at.png`}  alt='algeria-tenders'/></div>
                                     <div className="content-box">
                                         <h5>ALGERIA TENDERS</h5>
-                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
                             
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box s-box">
-                                    <div className="icon-main color-s3"><span className="flaticon-correct"></span></div>
+                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-geo.png`}  alt='geoflotte gps algerie'/></div>
                                     <div className="content-box">
                                         <h5>GEOFLOTTE</h5>
-                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                                 <div className="service-box s-box">
-                                    <div className="icon-main color-s2"><span className="flaticon-correct"></span></div>
+                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-ai.png`}  alt='algeria invest'/></div>
                                     <div className="content-box">
                                         <h5>ALGERIA INVEST</h5>
-                                        <p>Lorem Lorem Lorem</p>
                                     </div>
                                 </div>
                             </div>
@@ -218,40 +215,40 @@ function ServicesBody() {
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center" href="web-development.html" target="_blank">
+                                    <div className="tech-box text-center"  target="_blank">
                                         <div className="icon-main"><span className="flaticon-code-1"></span></div>
                                         <h5>WEB</h5>
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center" href="mobile-development.html">
+                                    <div className="tech-box text-center" >
                                         <div className="icon-main"><span className="flaticon-android"></span></div>
                                         <h5>Android</h5>
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center" href="mobile-development.html">
+                                    <div className="tech-box text-center" >
                                         <div className="icon-main"><span className="flaticon-apple"></span></div>
                                         <h5>IOS</h5>
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center mb-0" href="it-services.html">
+                                    <div className="tech-box text-center mb-0" >
                                         <div className="icon-main"><span className="flaticon-iot"></span></div>
                                         <h5>IOT</h5>
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center mb-0" href="it-services.html">
+                                    <div className="tech-box text-center mb-0" >
                                         <div className="icon-main"><span className="flaticon-time-and-date"></span></div>
                                         <h5>GPS</h5>
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <a className="tech-box text-center mb-0" href="mobile-development.html">
+                                    <div className="tech-box text-center mb-0" >
                                         <div className="icon-main"><span className="flaticon-tv"></span></div>
                                         <h5>Dashboards</h5>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +263,7 @@ function ServicesBody() {
                             <p>Écrivez-nous! Nous sommes là pour répondre à vos questions 24h/24 et 7j/7</p>
                             <h2>BESOIN D'UNE CONSULTATION ?</h2>
                             <div className="ot-button">
-                                <a href="/" className="octf-btn octf-btn-primary">Nous contacter</a>
+                                <a href="contact" className="octf-btn octf-btn-primary">Nous contacter</a>
                             </div>
                         </div>
                     </div>
