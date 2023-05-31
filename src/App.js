@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Body from './components/Body';
 import ServicesBody from './components/services/ServicesBody'
 import QhseBody from './components/qhse/QhseBody'
@@ -10,7 +10,7 @@ import Error from './components/error/Error'
 const App = () =>{
   return(
     <>
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Body />}/>
         <Route path='/services/' element={<Body content={<ServicesBody/>}/>}/>
@@ -20,7 +20,7 @@ const App = () =>{
         
         <Route path='*' element={<Error />} />
       </Routes>
-    </Router>
+    </HashRouter>
     </>
   )
 }

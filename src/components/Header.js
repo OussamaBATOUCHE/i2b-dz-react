@@ -1,6 +1,8 @@
 import React from 'react'
 // import {useNavigate} from 'react-router-dom';
-import {Link, Navigate} from 'react-router-dom'
+import {Link} from 'react-router-dom'
+import { NavHashLink } from 'react-router-hash-link';
+
 
 function Header() {
   return (
@@ -25,25 +27,27 @@ function Header() {
                                                     <Link to="/" reloadDocument>Accueil</Link>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <Link to="/#quisommenous" reloadDocument>Qui somme-nous?</Link>
+                                                            <NavHashLink to="/#quisommenous" reloadDocument>Qui somme-nous?</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/#nosvaleurs" reloadDocument>Nos valeurs</Link>
+                                                            <NavHashLink to="/#nosvaleurs" reloadDocument>Nos valeurs</NavHashLink>
                                                         </li>
-                                                        <li><a href="#notrevision">Notre vision</a></li>
+                                                        <li>
+                                                            <NavHashLink to="/#" reloadDocument>Notre vision</NavHashLink>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li className='menu-item-has-children'>
                                                     <Link to="/services" reloadDocument>Services</Link>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <Link to="/services#servicesat" reloadDocument>Algeria Tenders</Link>
+                                                            <NavHashLink to="/services#servicesat" reloadDocument>Algeria Tenders</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/services#servicesgeo" reloadDocument>Geoflotte</Link>
+                                                            <NavHashLink to="/services#servicesgeo" reloadDocument>Geoflotte</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/services#servicesai" reloadDocument>Algeria Invest</Link>
+                                                            <NavHashLink to="/services#servicesai" reloadDocument>Algeria Invest</NavHashLink>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -51,19 +55,19 @@ function Header() {
                                                     <Link to="/qhse" reloadDocument>QHSE</Link>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <Link to="/qhse#qhseintro" reloadDocument>Introduction</Link>
+                                                            <NavHashLink to="/qhse#qhseintro" reloadDocument>Introduction</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/qhse#qhseengagobjctf" reloadDocument>Nos engagements</Link>
+                                                            <NavHashLink to="/qhse#qhseengagobjctf" reloadDocument>Nos engagements</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/qhse#qhseengagobjctf" reloadDocument>Nos Objectifs</Link>
+                                                            <NavHashLink to="/qhse#qhseengagobjctf" reloadDocument>Nos Objectifs</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/qhse#qhsehistorique" reloadDocument>Historique</Link>
+                                                            <NavHashLink to="/qhse#qhsehistorique" reloadDocument>Historique</NavHashLink>
                                                         </li>
                                                         <li>
-                                                            <Link to="/qhse#qhsecertifications" reloadDocument>Certifications</Link>
+                                                            <NavHashLink to="/qhse#qhsecertifications" reloadDocument>Certifications</NavHashLink>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -106,7 +110,7 @@ function Header() {
 
                                         <div className="octf-header-module">
                                             <div className="ft-list-icon ">
-                                                <a className="globe" href="#" >
+                                                <a className="globe" href="/" >
                                                     <i class="flaticon-world-globe"></i>
                                                 </a>
                                             </div>

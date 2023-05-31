@@ -10,7 +10,7 @@ const FirstSection = () => {
                         <div className="top-left-v5">
                             <div className="ot-heading">
                                 <span>Vision et performance</span>
-                                <h2 className="main-heading justify-text">Intégrateur de Solutions Informatiques & Télécommunications</h2>
+                                <h2 className="main-heading">Intégrateur de Solutions Informatiques & Télécommunications</h2>
                             </div>
                             <div className="ot-button">
                                 <a href="#site-footer" className="octf-btn octf-btn-primary">Nous Découvrir</a>
