@@ -47,9 +47,9 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-sa'>
-                            La plateforme des marchés publics en Algérie.
-                            Consultez toutes les annonces des marchés publics.
-                            Saisissez et développez toutes les opportunités de croissance en Algérie.
+                            Plateforme digitale dédiée exclusivement à la centralisation des avis d'appels d'offres,
+                            nationaux et internationaux ainsi que la mise à disposition des entreprises des indications
+                            liées aux annonces publiées sur tout le territoire national.
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -60,9 +60,8 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-s1'>
-                            Solution de géolocalisation et de gestion de flotte de tous types de véhicules,
-                            d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser,
-                            de gérer et de sécuriser leur flotte.
+                            Solution de géolocalisation et de gestion de flotte de tous types de véhicules, d'engins et d'équipements mobiles
+                            en temps réel, qui permet aux entreprises de suivre, de maîtriser, de gérer et de sécuriser l'intégralité de leur flotte.
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -73,9 +72,8 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-s1'>
-                            Première plateforme pour l'investissement en Algérie qui regroupe
-                            des opportunités d'affaires Nationales et Internationales et assure aux investisseurs un accompagnement adapté
-                            dans des domaines d'activités variés.
+                            Première plateforme digitale pour l'investissement en Algérie qui regroupe des opportunités d'affaires nationales et
+                            internationales et assure aux investisseurs un accompagnement adapté dans des divers domaines d'activités. 
                         </div>
                     </div>
                 </div>

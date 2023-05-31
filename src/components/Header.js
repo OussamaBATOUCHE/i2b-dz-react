@@ -1,6 +1,6 @@
 import React from 'react'
 // import {useNavigate} from 'react-router-dom';
-import {Link} from 'react-router-dom'
+import {Link, Navigate} from 'react-router-dom'
 
 function Header() {
   return (
@@ -21,20 +21,57 @@ function Header() {
                                 <div className="octf-col menu-col">
                                         <nav id="site-navigation" className="main-navigation">
                                             <ul className="menu nav-style-2">
-                                                <li className='current-menu-item current-menu-ancestor'>
-                                                    <Link to="/">Accueil</Link>
+                                                <li className='menu-item-has-children current-menu-item current-menu-ancestor'>
+                                                    <Link to="/" reloadDocument>Accueil</Link>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <Link to="/#quisommenous" reloadDocument>Qui somme-nous?</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/#nosvaleurs" reloadDocument>Nos valeurs</Link>
+                                                        </li>
+                                                        <li><a href="#notrevision">Notre vision</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li className='menu-item-has-children'>
+                                                    <Link to="/services" reloadDocument>Services</Link>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <Link to="/services#servicesat" reloadDocument>Algeria Tenders</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/services#servicesgeo" reloadDocument>Geoflotte</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/services#servicesai" reloadDocument>Algeria Invest</Link>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li className='menu-item-has-children'>
+                                                    <Link to="/qhse" reloadDocument>QHSE</Link>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <Link to="/qhse#qhseintro" reloadDocument>Introduction</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/qhse#qhseengagobjctf" reloadDocument>Nos engagements</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/qhse#qhseengagobjctf" reloadDocument>Nos Objectifs</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/qhse#qhsehistorique" reloadDocument>Historique</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/qhse#qhsecertifications" reloadDocument>Certifications</Link>
+                                                        </li>
+                                                    </ul>
                                                 </li>
                                                 <li>
-                                                    <Link to="/services">Services</Link>
+                                                    <Link to="/carrieres" reloadDocument>Talents</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/qhse">QHSE</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/carrieres">Carrières</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/contact">Nous contacter</Link>
+                                                    <Link to="/contact" reloadDocument>Contact</Link>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -68,11 +105,10 @@ function Header() {
                                         </div>
 
                                         <div className="octf-header-module">
-                                            <div className="ft-list-icon">
-                                                <a className="twitter" href="twitter.com" target={'blank'}><i className="fab fa-twitter"></i></a>
-                                                <a className="facebook" href="https://www.facebook.com/i2b.SPA" target={'blank'}><i className="fab fa-facebook-f"></i></a>
-                                                <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/" target={'blank'}><i className="fab fa-linkedin-in"></i></a>
-                                                <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured" target={'blank'}><i className="fab fa-youtube"></i></a>
+                                            <div className="ft-list-icon ">
+                                                <a className="globe" href="#" >
+                                                    <i class="flaticon-world-globe"></i>
+                                                </a>
                                             </div>
                                         </div>
 

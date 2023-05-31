@@ -9,7 +9,7 @@ function ServicesBody() {
                     <div className="row">
                         <div className="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
                             {/* style={{width:524, height:577}}  */}
-                            <img src={`${process.env.PUBLIC_URL}/static/images/img/bg_3.jpg`} alt="i2b-dz" />
+                            <img src={`${process.env.PUBLIC_URL}/static/images/img/services.jpg`} alt="i2b-dz" />
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
@@ -24,77 +24,11 @@ function ServicesBody() {
                     </div>
                 </div>
             </section>
-            <section className="section-business">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="ot-heading mb-0">
-                                <span>Nous transformons les entreprises</span>
-                                <h2 className="main-heading">Solutions innovantes  <br />à forte valeur ajoutée</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="space-50"></div>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                <div className="service-box s-box">
-                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-at.png`}  alt='algeria-tenders'/></div>
-                                    <div className="content-box">
-                                        <h5>ALGERIA TENDERS</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div className="col-lg-4 col-md-6">
-                                <div className="service-box s-box">
-                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-geo.png`}  alt='geoflotte gps algerie'/></div>
-                                    <div className="content-box">
-                                        <h5>GEOFLOTTE</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                <div className="service-box s-box">
-                                    <div className="icon-main "><img src={`${process.env.PUBLIC_URL}/static/images/icons-product-i2bdz/ico-ai.png`}  alt='algeria invest'/></div>
-                                    <div className="content-box">
-                                        <h5>ALGERIA INVEST</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section className="section-clent-h2">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="partners">
-                                <div className="owl-carousel owl-theme home-client-carousel">
-                                    <div className="partners-slide">
-                                        <a href="/" className="client-logo">
-                                            <figure className="partners-slide-inner">
-                                                <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}/static/images/partners/sarens.png`} alt="" />
-                                            </figure>                             
-                                        </a>
-                                    </div>
-                                    <div className="partners-slide">
-                                        <a href="/" className="client-logo">
-                                            <figure className="partners-slide-inner">
-                                                <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}/static/images/partners/zoomlion.png`} alt="" />
-                                            </figure>                             
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="section-inner-about">
+                    <div id='servicesgeo' className="section-inner-about">
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-img">
@@ -106,7 +40,7 @@ function ServicesBody() {
                                     <div className="ot-heading">
                                         <h2 className="main-heading">Votre partenaire pour <br />la Gestion de flotte!</h2>
                                     </div>
-                                    <p>
+                                    <p className='justify-text'>
                                     Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
                                     d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de 
                                     gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges 
@@ -126,23 +60,23 @@ function ServicesBody() {
                         </div>
                     </div>
 
-                    <div className="section-inner-about">
+                    <div id='servicesai' className="section-inner-about">
                         <div className="row">
                         <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-content">
                                     <div className="ot-heading">
                                         <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie!</h2>
                                     </div>
-                                    <p>
+                                    <p className='jsutify-text'>
                                     Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
                                     plateforme digitale dédiée à l'investissement en Algérie. 
                                     </p>
-                                    <p>
+                                    <p className='jsutify-text'>
                                     Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs 
                                     nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de 
                                     leurs projets.
                                     </p>
-                                    <p>
+                                    <p className='jsutify-text'>
                                     Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits
                                     et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création 
                                     d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marchés, l'assistance 
@@ -159,7 +93,7 @@ function ServicesBody() {
                         </div>
                     </div>
 
-                    <div className="section-inner-about">
+                    <div id='servicesat' className="section-inner-about">
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                     <div className="left-img">
@@ -171,14 +105,14 @@ function ServicesBody() {
                                     <div className="ot-heading">
                                         <h2 className="main-heading">Numéro 1 des <br />marchés publics!</h2>
                                     </div>
-                                    <p>
+                                    <p className='justify-text'>
                                         Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des 
                                         avis d'appels d'offres, nationaux et internationaux, ainsi qu'à la mise à la disposition des entreprises 
                                         des précisions et des indications ayant trait aux annonces publiées sur le territoire national 
                                         (avis d'attribution, d'infructuosité, de consultation, de prorogation, de vente aux enchères, et 
                                         d'autres) permettant ainsi à ses clients l'accès à toutes les opportunités du marché algérien.
                                     </p>
-                                    <p><em className="text-dark">
+                                    <p className='justify-text'><em className="text-dark">
                                         <strong>
                                             Aujourd'hui, avec une couverture de +500 sources d'information spécialisées avec le support d'une équipe qualifiée, 
                                             i2b est devenue une véritable référence du marché algérien pour +5000 entreprises nationales et internationales 
@@ -260,8 +194,7 @@ function ServicesBody() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <p>Écrivez-nous! Nous sommes là pour répondre à vos questions 24h/24 et 7j/7</p>
-                            <h2>BESOIN D'UNE CONSULTATION ?</h2>
+                            <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
                             <div className="ot-button">
                                 <a href="contact" className="octf-btn octf-btn-primary">Nous contacter</a>
                             </div>

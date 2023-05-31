@@ -14,9 +14,10 @@ function CarrieresBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <h2>Carrieres</h2>
+                                <h2>Votre carrière chez i2b</h2>
                                 <p className="sub-text">
-                                    Si vous recherchez une atmosphère unique, une chance d'être la meilleure version de vous-même et de faire la différence, vous serez surpris par ce que i2b a à vous offrir.
+                                    Les profils diversifiés de i2b forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions
+                                    innovantes en se basant sur des standards de qualité très élevés. 
                                 </p>
                             </div>
                         </div>
@@ -36,9 +37,11 @@ function CarrieresBody() {
                                     <h2 className="main-heading">Rejoignez nous</h2>
                                 </div>
                                 <div className="space-5"></div>
-                                <p>Depuis 2003, la fierté et l'enthousiasme que nous partageons tous chez i2b n'ont cessé de croître de façon spectaculaire, passant de 03 à plus de 80 collaborateurs.</p>
-                                <p>Nous visons à atteindre l'exceptionnel, et pour ce faire, nos collaborateurs sont formés en continu pour trouver des solutions innovantes et révolutionnaires à tout un ensemble de défis lancés par nos clients.</p>
-                                <p>Si vous recherchez une atmosphère unique, une chance d'être la meilleure version de vous-même et de faire la différence, vous serez surpris par ce que i2b a à vous offrir.</p>
+                                <p className='justify-text'>
+                                   i2b SPA est une entreprise avec un potentiel de croissance élevé. La société a une politique de recrutement stable et
+                                   sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue 
+                                   de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.      
+                                </p>
                                 <p><em className="text-dark"><strong>Vous souhaitez nous rejoindre ? envoyez-nous votre CV et lettre de motivation à l'adresse : recrutement@i2b-dz.com</strong></em></p>
                             </div>
                         </div>
@@ -53,10 +56,9 @@ function CarrieresBody() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <p>Écrivez-nous! Nous sommes là pour répondre à vos questions 24h/24 et 7j/7</p>
-                            <h2>BESOIN D'UNE CONSULTATION ?</h2>
+                            <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
                             <div className="ot-button">
-                                <a href="/" className="octf-btn octf-btn-primary">Nous contacter</a>
+                                <a href="contact" className="octf-btn octf-btn-primary">Nous contacter</a>
                             </div>
                         </div>
                     </div>

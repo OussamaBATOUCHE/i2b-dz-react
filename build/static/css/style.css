@@ -6255,7 +6255,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
   background-color: white;
 }
 .section-clent-h2 {
-    padding: 60px 0px 110px 0px;
+    padding: 60px 0px 60px 0px;
 }
 .section-inner-about {
     padding-top: 70px;
@@ -6271,7 +6271,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     background-image: url(../images/img/bg-art-5.png);
     background-position: 0px 70px;
     background-repeat: no-repeat;
-    padding: 120px 0px 200px 0px;
+    padding: 120px 0px 120px 0px;
 }
 .technology-left .ot-heading {
     margin-bottom: 18px;
@@ -7488,7 +7488,7 @@ svg:not(:root) {
 /* Footer */
 .footer-v1 {
     background-color: #201D3C;
-    padding: 115px 0 50px 0;
+    padding: 30px 0 30px 0;
     color: #AEAACB;
 }
 .widget-footer {
@@ -7575,6 +7575,15 @@ svg:not(:root) {
     position: relative;
     display: block;
 }
+
+.ft-list-icon .globe{
+  font-size: 18px;
+}
+.ft-list-icon .globe:hover {
+  transform: translateY(-3px);
+}
+
+
 .ft-list-icon .twitter {
     color: #4CCEF9;
 }
@@ -7588,7 +7597,10 @@ svg:not(:root) {
     color: #FF9000;
 }
 .ft-list-icon .youtube {
-  color: #FF0000;
+    color: #FF0000;
+}
+.ft-list-icon .globe {
+    color: #0e0a31;
 }
 
 .bg-map-dots {
@@ -8268,4 +8280,19 @@ section {
 
 .ul-no-style {
   list-style-type: none;
+}
+.mx-w-50 {
+  max-width: 50%;
+}
+.height-350{
+  height: 350px;
+}
+
+.menu-col{
+  padding-left: 21% !important;
+}
+
+.justify-text{
+  text-align: justify;
+  text-justify: inter-word;
 }
