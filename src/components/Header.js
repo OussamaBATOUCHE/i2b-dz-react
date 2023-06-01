@@ -1,7 +1,7 @@
 import React from 'react'
 // import {useNavigate} from 'react-router-dom';
 import {Link} from 'react-router-dom'
-import { NavHashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Header() {
@@ -24,58 +24,58 @@ function Header() {
                                         <nav id="site-navigation" className="main-navigation">
                                             <ul className="menu nav-style-2">
                                                 <li className='menu-item-has-children current-menu-item current-menu-ancestor'>
-                                                    <Link to="/" reloadDocument>Accueil</Link>
+                                                    <HashLink to="/#top" reloadDocument>Accueil</HashLink>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <NavHashLink to="/#quisommenous" reloadDocument>Qui somme-nous?</NavHashLink>
+                                                            <HashLink to="/#quisommenous" smooth={true} reloadDocument>Qui somme-nous?</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/#nosvaleurs" reloadDocument>Nos valeurs</NavHashLink>
+                                                            <HashLink to="/#nosvaleurs" smooth={true} reloadDocument>Nos valeurs</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/#" reloadDocument>Notre vision</NavHashLink>
+                                                            <HashLink to="/#" smooth={true} reloadDocument>Notre vision</HashLink>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li className='menu-item-has-children'>
-                                                    <Link to="/services" reloadDocument>Services</Link>
+                                                    <HashLink to="/services#top" reloadDocument>Services</HashLink>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <NavHashLink to="/services#servicesat" reloadDocument>Algeria Tenders</NavHashLink>
+                                                            <HashLink to="/services#servicesat" smooth={true} reloadDocument>Algeria Tenders</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/services#servicesgeo" reloadDocument>Geoflotte</NavHashLink>
+                                                            <HashLink to="/services#servicesgeo" smooth={true} reloadDocument={true}>Geoflotte</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/services#servicesai" reloadDocument>Algeria Invest</NavHashLink>
+                                                            <HashLink to="/services#servicesai" smooth={true} reloadDocument>Algeria Invest</HashLink>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li className='menu-item-has-children'>
-                                                    <Link to="/qhse" reloadDocument>QHSE</Link>
+                                                    <HashLink to="/qhse#top" reloadDocument>QHSE</HashLink>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <NavHashLink to="/qhse#qhseintro" reloadDocument>Introduction</NavHashLink>
+                                                            <HashLink to="/qhse#qhseintro" smooth={true} reloadDocument>Introduction</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/qhse#qhseengagobjctf" reloadDocument>Nos engagements</NavHashLink>
+                                                            <HashLink to="/qhse#qhseengagobjctf" smooth={true} reloadDocument>Nos engagements</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/qhse#qhseengagobjctf" reloadDocument>Nos Objectifs</NavHashLink>
+                                                            <HashLink to="/qhse#qhseengagobjctf" smooth={true} reloadDocument>Nos Objectifs</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/qhse#qhsehistorique" reloadDocument>Historique</NavHashLink>
+                                                            <HashLink to="/qhse#qhsehistorique" smooth={true} reloadDocument={true}>Historique</HashLink>
                                                         </li>
                                                         <li>
-                                                            <NavHashLink to="/qhse#qhsecertifications" reloadDocument>Certifications</NavHashLink>
+                                                            <HashLink to="/qhse#qhsecertifications" smooth={true} reloadDocument>Certifications</HashLink>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link to="/carrieres" reloadDocument>Talents</Link>
+                                                    <HashLink to="/carrieres#top" reloadDocument>Talents</HashLink>
                                                 </li>
                                                 <li>
-                                                    <Link to="/contact" reloadDocument>Contact</Link>
+                                                    <HashLink to="/contact#top" reloadDocument>Contact</HashLink>
                                                 </li>
                                             </ul>
                                         </nav>

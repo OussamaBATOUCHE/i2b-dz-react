@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 import Clients from '../home/Clients'
 import CertificationsIso from './CertificationsIso'
 
@@ -155,7 +156,7 @@ function QhseBody() {
                         <div className="col-md-12 text-center">
                             <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
                             <div className="ot-button">
-                                <a href="contact" className="octf-btn octf-btn-primary">Nous contacter</a>
+                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >Nous contacter</HashLink>
                             </div>
                         </div>
                     </div>

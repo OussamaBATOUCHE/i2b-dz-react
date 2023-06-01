@@ -7,9 +7,9 @@ const NosSecteurs = () => {
                             'Géolocalisation & Gestion de flottes',
                             'Accompagnement des investisseurs']
     const li_items = [
-                      ['Markets & finance', 'Business advice', 'Assistance for foreign companies', 'Operational assistance'],
-                      ['BTPH & Chantiers', 'Santé & Pharmaceutique', 'Location de véhicules', 'Transport public'],
-                      ['Etude de Marchés', 'Conseils/Assistance aux Entreprises', 'Implémentation et Logistiques', 'Moteurs de Recherche Performants']
+                      ['Business intelligence', "Accès aux appels d'offres", 'Dépôt de soumission', 'Assistance aux entreprise', 'Accès aux archives'],
+                      ['Géolocalisation de flotte', 'Suivi des trajets', 'Gestion des parc', 'Gestion des alertes', 'Gestion des interventions'],
+                      ['Etude de Marchés', 'Etudes technico-économiques', 'Conseils/Assistance aux Entreprises', 'Implémentation et Logistiques', 'Moteurs de Recherche juridique']
                      ]
     const sec_icons = ['sec1.png', 'sec2.png', 'sec3.png']
     const sec_bckgrnd = ['icon-box-s2 bg1', 'icon-box-s2 bg2', 'icon-box-s2 bg3']
@@ -22,6 +22,9 @@ const NosSecteurs = () => {
                             <div className="ot-heading">
                                 <span>{'NOS SECTEURS'}</span>
                                 <h2 className="main-heading">Nos différents <br />secteurs d'activité </h2>
+                                <p>Découvrez comment nos produits innovants répondent aux besoins de divers secteurs d'activité, 
+                                    en apportant des solutions adoptées à une multitude d'industies.
+                                </p>
                             </div>
                         </div>
                     </div>
