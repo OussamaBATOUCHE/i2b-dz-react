@@ -72,8 +72,8 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-s1'>
-                            Première plateforme digitale pour l'investissement en Algérie qui regroupe des opportunités d'affaires nationales et
-                            internationales et assure aux investisseurs un accompagnement adapté dans des divers domaines d'activités. 
+                            Service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs nationaux et internationaux
+                            souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de leurs projets.
                         </div>
                     </div>
                 </div>

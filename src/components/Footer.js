@@ -10,7 +10,6 @@ const Footer = () => {
                     <div className="widget-footer">
                         <p>Suivez nos réseaux sociaux</p>
                         <div className="ft-list-icon">
-                                <a className="twitter" href="twitter.com" target={'blank'}><i className="fab fa-twitter"></i></a>
                                 <a className="facebook" href="https://www.facebook.com/i2b.SPA" target={'blank'}><i className="fab fa-facebook-f"></i></a>
                                 <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/" target={'blank'}><i className="fab fa-linkedin-in"></i></a>
                                 <a className="youtube" href="https://www.youtube.com/channel/UCVOxHp2xk3mXIiWrzMufxvA/featured" target={'blank'}><i className="fab fa-youtube"></i></a>

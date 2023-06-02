@@ -7,6 +7,7 @@ import QuiSommesNous from './QuiSommesNous'
 import RetoursClients from './RetoursClients'
 import Stats from './Stats'
 import Valeurs from './Valeurs'
+import Vision from './Vision'
 
 function HomeBody() {
   return (
@@ -15,6 +16,7 @@ function HomeBody() {
     <QuiSommesNous />
     <NosSecteurs />
     <Valeurs />
+    <Vision />
     <Experts />
     <Stats />
     <RetoursClients />

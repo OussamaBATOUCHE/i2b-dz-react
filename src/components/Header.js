@@ -33,7 +33,7 @@ function Header() {
                                                             <HashLink to="/#nosvaleurs" smooth={true} reloadDocument>Nos valeurs</HashLink>
                                                         </li>
                                                         <li>
-                                                            <HashLink to="/#" smooth={true} reloadDocument>Notre vision</HashLink>
+                                                            <HashLink to="/#notrevision" smooth={true} reloadDocument>Notre vision</HashLink>
                                                         </li>
                                                     </ul>
                                                 </li>

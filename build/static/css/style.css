@@ -6405,6 +6405,33 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     line-height: 80px;
     margin-bottom: 38px;
 }
+
+.section-vision {
+  /* background-image: url(https://via.placeholder.com/1920x480.png); */
+  background-image: linear-gradient(
+                      rgba(0, 0, 0, 0.5),
+                      rgba(0, 0, 0, 0.5)
+                    ),url('../images/mission_vision.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-vision p {
+  color: #FFF;
+  font-family: "Nunito Sans",Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+.section-vision h2 {
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 80px;
+  margin-bottom: 38px;
+}
+
 /* Home 3 */
 .top-v3 {
     background-image: url(https://via.placeholder.com/1920x850.png);
@@ -6861,6 +6888,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .right-v5 {
     margin: 0 -50px 0 -23px;
+    padding-top: 30px;
 }
 .tech-wrap {
     display: flex;
@@ -8295,4 +8323,12 @@ section {
 .justify-text{
   text-align: justify;
   text-justify: inter-word;
+}
+
+.talents-s2{
+  padding-bottom: 0px;
+}
+
+.misc-box-bg-tr{
+background: transparent !important;
 }

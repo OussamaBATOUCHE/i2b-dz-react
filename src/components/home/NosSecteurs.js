@@ -9,7 +9,7 @@ const NosSecteurs = () => {
     const li_items = [
                       ['Business intelligence', "Accès aux appels d'offres", 'Dépôt de soumission', 'Assistance aux entreprise', 'Accès aux archives'],
                       ['Géolocalisation de flotte', 'Suivi des trajets', 'Gestion des parc', 'Gestion des alertes', 'Gestion des interventions'],
-                      ['Etude de Marchés', 'Etudes technico-économiques', 'Conseils/Assistance aux Entreprises', 'Implémentation et Logistiques', 'Moteurs de Recherche juridique']
+                      ['Etude de Marchés', 'Etudes technico-économiques', 'Assistance aux Entreprises', 'Implémentation et Logistiques', 'Moteurs de Recherche juridique']
                      ]
     const sec_icons = ['sec1.png', 'sec2.png', 'sec3.png']
     const sec_bckgrnd = ['icon-box-s2 bg1', 'icon-box-s2 bg2', 'icon-box-s2 bg3']

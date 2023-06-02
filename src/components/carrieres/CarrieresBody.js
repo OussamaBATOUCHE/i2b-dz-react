@@ -25,6 +25,40 @@ function CarrieresBody() {
                     </div>
                 </div>
             </section>
+
+
+            <section className="service-v5 talents-s2" >
+                <div className="container">
+                    <div className="row mt--70 justify-content-center">
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className="serv-box bg-s2">
+                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
+                                <div className="content-box">
+                                    <h2 className='text-center'> 03 <br />Business Units</h2>    
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="serv-box bg-s2">
+                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
+                                <div className="content-box">
+                                    <h2 className='text-center'>+96 <br />Collaborateurs</h2>    
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="serv-box bg-s2">
+                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
+                                <div className="content-box">
+                                    <h2 className='text-center'>+50 <br />Formations continues</h2>    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
             
             <section className="app-offer">
                 {/* <div className="overlay overlay-image"></div> */}
