@@ -4,6 +4,11 @@ import Clients from '../home/Clients'
 import CertificationsIso from './CertificationsIso'
 
 function QhseBody() {
+
+    let iso_pdfs = [{title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'},
+                    {title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'},
+                    {title:'Politique QHSE', img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
+
   return (
     <>
        <div id="content" className="site-content">
@@ -127,28 +132,31 @@ function QhseBody() {
 
             <CertificationsIso />
 
-            {/* <section className="">
+            <section className="section-business-2">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="ot-heading mb-0">
-                                <img src={`${process.env.PUBLIC_URL}/static/images/img/img-health.jpg`} alt="" /> 
+                    <div className="row no-margin">
+                    {iso_pdfs.map(pdf => (
+                        <div className="col-lg-4 col-md-6">
+                            <div className="team-wrap v3">
+                                <div className="team-thumb img-hgt-300">
+                                    <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} />                                 
+                                    <div className="team-social flex-middle">
+                                        <div>
+                                            <a rel="nofollow" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title='Télécharger'><i class="fa fa-download"></i> </a>
+                                            <a rel="nofollow" href="#"  title='Partager'><i className="fa fa-share"></i></a>
+                                        </div>
+                                    </div>  
+                                </div>#
+                                <div className="team-info">
+                                    <h4>{pdf.title}</h4>
+                                    <a href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>Afficher</a>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-7 align-self-center">
-                            <div className="ot-heading">
-                                <h2 className="main-heading">Santé et securité<br /></h2>
-                            </div>
-                            <p className="mb-0">
-                                La sécurité c'est l'affaire de tous, i2b SPA a rassemblé tous les risques et a fédéré l'ensemble des acteurs au tour d'un objectif commun, celui de travailler dans un milieu sain La santé au travail est un droit fondamental. Tout travailleur a le droit d'évaluer dans un environnement professionnel sain
-                            </p>
-                        </div>
+                    ))}
                     </div>
-                    <div className="space-50"></div>
                 </div>
-            </section> */}
-
-            <Clients />
+            </section>
 
             <section className="section-consultation">
                 <div className="container">

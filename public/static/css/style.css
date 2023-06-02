@@ -8332,3 +8332,7 @@ section {
 .misc-box-bg-tr{
 background: transparent !important;
 }
+
+.img-hgt-300 > img{
+  height: 300px;
+}

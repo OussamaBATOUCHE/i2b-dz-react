@@ -5,12 +5,12 @@ const Vision = () => {
     <>
     <section id='notrevision' className="section-vision">
         <div className="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
-                    <div class="misc-box text-white misc-box-bg-tr">
-                        <div class="ot-counter">
+            <div className="row">
+                <div className="col-md-6 col-sm-12 mb-4 mb-md-0">
+                    <div className="misc-box text-white misc-box-bg-tr">
+                        <div className="ot-counter">
                             <div>
-                                <span class="num">Mission</span>
+                                <span className="num">Mission</span>
                             </div>                    
                         </div>
                         <h5></h5>
@@ -18,11 +18,11 @@ const Vision = () => {
                            et conformes aux exigences de nos clients.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="misc-box misc-box-bg-tr">
-                        <div class="ot-counter">
+                <div className="col-md-6 col-sm-12">
+                    <div className="misc-box misc-box-bg-tr">
+                        <div className="ot-counter">
                             <div>
-                                <span class="num">Vision</span>
+                                <span className="num">Vision</span>
                             </div>                    
                         </div>
                         <h5></h5>
