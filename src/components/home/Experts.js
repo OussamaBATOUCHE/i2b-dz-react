@@ -10,7 +10,7 @@ const Experts = () => {
                    ]
 
     let experts2 = [{name:'Hanane', surname: 'Toutaoui', position:'XXX'},
-                   {name:'Hakima', surname: 'Belouadah', position:'XXX'},
+                   {name:'Yasmine', surname: 'Mezghich', position:'XXX'},
                    {name:'Yanis', surname: 'Si Saleh', position:'XXX'},
                    {name:'Oussama', surname: 'Bounouh', position:'XXX'},
                    {name:'Sihem', surname: 'Chouial', position:'XXX'}]
@@ -29,7 +29,7 @@ const Experts = () => {
                     <div className="space-20"></div>
                 </div>
             </div>
-            
+
             <div className="row ">
                 {experts1.map(expert => (
                     <ExpertCard name={expert.name} surname={expert.surname} position={expert.position}/>
