@@ -35,7 +35,7 @@ function CarrieresBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'> 03 <br />Business Units</h2>    
+                                    <h2 className='text-center'> 03 <br />business units</h2>    
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ function CarrieresBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'>+96 <br />Collaborateurs</h2>    
+                                    <h2 className='text-center'>+96 <br />collaborateurs</h2>    
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function CarrieresBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'>+50 <br />Formations continues</h2>    
+                                    <h2 className='text-center'>+50 <br />formations continues</h2>    
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function CarrieresBody() {
                             <div className="right-about-v4">
                                 <div className="ot-heading">
                                     <span>Lancez votre carrière</span>
-                                    <h2 className="main-heading">Rejoignez nous</h2>
+                                    <h2 className="main-heading">Rejoignez-nous</h2>
                                 </div>
                                 <div className="space-5"></div>
                                 <p className='justify-text'>
@@ -77,7 +77,7 @@ function CarrieresBody() {
                                    sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue 
                                    de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.      
                                 </p>
-                                <p><em className="text-dark"><strong>Vous souhaitez nous rejoindre ? envoyez-nous votre CV et lettre de motivation à l'adresse : recrutement@i2b-dz.com</strong></em></p>
+                                <p><em className="text-dark"><strong>Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : recrutement@i2b-dz.com</strong></em></p>
                             </div>
                         </div>
                         <div className="col-lg-6 mb-4 mb-lg-0 align-self-center">

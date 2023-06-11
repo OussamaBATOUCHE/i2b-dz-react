@@ -28,14 +28,13 @@ function ContactBody() {
                             <div className="contact-left">
                                 <div className="ot-heading">
                                     <span>Détails du contact</span>
-                                    <h2 className="main-heading">Nous Contactez</h2>
+                                    <h2 className="main-heading">Nous-Contacter</h2>
                                 </div>
                                 <div className="space-5"></div>
-                                <p>Appelez-nous ou passez nous voir à tout moment, nous nous efforçons de répondre à toutes les demandes dans les 24 heures les jours ouvrables. Nous serons heureux de répondre à vos questions.</p>
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-world-globe"></i>                    
                                     <div className="info-text">
-                                        <h6>Nos adresses:</h6>
+                                        <h6>Sites</h6>
                                         <p> <strong>Alger :</strong> 6, rue Ahmed Chérifi, Kouba, Alger</p>
                                         <p> <strong>Oran :</strong> Cité point du jour lot n°57, Oran</p> 
                                     </div>
@@ -43,14 +42,14 @@ function ContactBody() {
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-envelope"></i>
                                     <div className="info-text">
-                                        <h6>Notre boîte aux lettres:</h6>
+                                        <h6>Email</h6>
                                         <p>contact@i2b-dz.com</p>
                                     </div>
                                 </div>
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-phone-1"></i>
                                     <div className="info-text">
-                                        <h6>Nos téléphones:</h6>
+                                        <h6>Téléphones</h6>
                                         <p> <strong>Alger :</strong>+213 (0) 23 78 63 47</p>
                                         <p> <strong>Oran  :</strong>+213 (0) 782 48 56 92</p>
                                     </div>

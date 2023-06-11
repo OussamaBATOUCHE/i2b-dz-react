@@ -29,71 +29,7 @@ function ServicesBody() {
             <section className="section-clent-h2">
                 <div className="container">
 
-                    <div id='servicesgeo' className="section-inner-about">
-                        <div className="row">
-                            <div className="col-xl-6 col-lg-12 col-md-12">
-                                <div className="left-img">
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.png`} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-6 col-lg-12 col-md-12">
-                                <div className="right-content">
-                                    <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire pour <br />la Gestion de flotte!</h2>
-                                    </div>
-                                    <p className='justify-text'>
-                                    Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
-                                    d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de 
-                                    gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges 
-                                    logistiques.
-                                    
-                                    En 2008, i2b a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT 
-                                    (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b a acquis, depuis quelques années, une 
-                                    position de leader sur le marché national.
-                                    
-                                    Dans un premier temps, i2b a importé cette solution, puis après avoir capitalisé de l'expérience et acquis 
-                                    les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements 
-                                    consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).
-                                    </p>
-                                    <div className="space-20"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id='servicesai' className="section-inner-about">
-                        <div className="row">
-                        <div className="col-xl-6 col-lg-12 col-md-12">
-                                <div className="left-content">
-                                    <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie!</h2>
-                                    </div>
-                                    <p className='jsutify-text'>
-                                    Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
-                                    plateforme digitale dédiée à l'investissement en Algérie. 
-                                    </p>
-                                    <p className='jsutify-text'>
-                                    Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs 
-                                    nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de 
-                                    leurs projets.
-                                    </p>
-                                    <p className='jsutify-text'>
-                                    Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits
-                                    et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création 
-                                    d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marchés, l'assistance 
-                                    juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.
-                                    </p>
-                                    <div className="space-20"></div>
-                                </div>
-                            </div>
-                            <div className="col-xl-6 col-lg-12 col-md-12">
-                                <div className="right-img">
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.png`} alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    {/* AT */}
                     <div id='servicesat' className="section-inner-about">
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
@@ -104,7 +40,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Numéro 1 des <br />marchés publics!</h2>
+                                        <h2 className="main-heading">Numéro 1 des <br />marchés publics</h2>
                                     </div>
                                     <p className='justify-text'>
                                         Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des 
@@ -125,6 +61,75 @@ function ServicesBody() {
                             </div>
                         </div>
                     </div>
+
+                    {/* GEO */}
+                    <div id='servicesgeo' className="section-inner-about">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                <div className="right-content">
+                                    <div className="ot-heading">
+                                        <h2 className="main-heading">Votre partenaire de <br />géolocalisation et de gestion de flotte.</h2>
+                                    </div>
+                                    <p className='justify-text'>
+                                    Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
+                                    d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de 
+                                    gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges 
+                                    logistiques.
+                                    
+                                    En 2008, i2b a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT 
+                                    (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b a acquis, depuis quelques années, une 
+                                    position de leader sur le marché national.
+                                    
+                                    Dans un premier temps, i2b a importé cette solution, puis après avoir capitalisé de l'expérience et acquis 
+                                    les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements 
+                                    consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).
+                                    </p>
+                                    <div className="space-20"></div>
+                                </div>
+                            </div>
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                <div className="right-img">
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.png`} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* AI */}
+                    <div id='servicesai' className="section-inner-about">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                <div className="left-img">
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.png`} alt="" />
+                                </div>
+                            </div>
+                            <div className="col-xl-6 col-lg-12 col-md-12">
+                                <div className="right-content">
+                                    <div className="ot-heading">
+                                        <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie</h2>
+                                    </div>
+                                    <p className='justify-text'>
+                                    Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
+                                    plateforme digitale dédiée à l'investissement en Algérie. 
+                                    </p>
+                                    <p className='justify-text'>
+                                    Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs 
+                                    nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de 
+                                    leurs projets.
+                                    </p>
+                                    <p className='justify-text'>
+                                    Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits
+                                    et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création 
+                                    d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marchés, l'assistance 
+                                    juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.
+                                    </p>
+                                    <div className="space-20"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    
+            
 
                 </div>
             </section>
