@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Clients = () => {
-    let clients_logo = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png', 'sarens.png', 'satim.png', 'zoomlion.png']
+const LargeClients = () => {
+    let clients_4_logo = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png' ]
+    let clients_3_logo = ['sarens.png', 'satim.png', 'zoomlion.png']
+    let all_clogos = [clients_4_logo, clients_3_logo]
+
   return (
     <>
-    <div className="padding-half bg-light-1">
+    <div className="padding-half">
         <div className="container">
             <div className='row'>
                 <div className="col-lg-12 text-center">
@@ -12,14 +15,16 @@ const Clients = () => {
                         <h2 className="main-heading">Nos partenaires</h2>              
                     </div>
                 </div>
+                <div className="space-20"></div>
             </div>
             <div className="row">
                 <div className="col-md-12">
                     <div className="partners">
-                        <div className="owl-carousel owl-theme home-client-carousel">
 
-                            {clients_logo.map(c_logo => (
-                                <div className="partners-slide">
+                        {all_clogos.map(cslogo => (
+                            <div className="row">
+                            {cslogo.map(c_logo => (
+                                <div className={'col-md-'+(12/cslogo.length)}>
                                     <a href="/" className="client-logo">
                                         <figure className="partners-slide-inner">
                                             <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}/static/images/partners/${c_logo}`} alt="i2b dz" />
@@ -27,8 +32,9 @@ const Clients = () => {
                                     </a>
                                 </div>
                             ))}
-
                         </div>
+                        ))}
+
                     </div>
                 </div>
             </div>
@@ -38,4 +44,4 @@ const Clients = () => {
   )
 }
 
-export default Clients
+export default LargeClients

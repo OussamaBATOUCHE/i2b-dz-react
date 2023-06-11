@@ -146,7 +146,7 @@ function QhseBody() {
                                             <a rel="nofollow" href="#"  title='Partager'><i className="fa fa-share"></i></a>
                                         </div>
                                     </div>  
-                                </div>#
+                                </div>
                                 <div className="team-info">
                                     <h4>{pdf.title}</h4>
                                     <a href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>Afficher</a>

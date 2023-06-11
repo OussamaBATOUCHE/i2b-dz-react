@@ -13,7 +13,7 @@ const Secteur = ({title, context, icon, bckgrnd_img_cls}) => {
                 <h5><a href="/">{title}</a></h5>
                 <ul className='ul-no-style text-left'>
                 {context.map(item => (
-                            <li><i class="fa fa-arrow-right"></i> {item}</li>
+                            <li> {item}</li>
                         ))}
                 </ul>
             </div>

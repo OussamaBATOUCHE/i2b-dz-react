@@ -2,6 +2,7 @@ import React from 'react'
 import Clients from './Clients'
 import Experts from './Experts'
 import FirstSection from './FirstSection'
+import LargeClients from './LargeClients'
 import NosSecteurs from './NosSecteurs'
 import QuiSommesNous from './QuiSommesNous'
 import RetoursClients from './RetoursClients'
@@ -19,8 +20,8 @@ function HomeBody() {
     <Vision />
     <Experts />
     <Stats />
-    <RetoursClients />
-    <Clients />
+    {/* <RetoursClients /> */}
+    <LargeClients />
     </>
   )
 }
