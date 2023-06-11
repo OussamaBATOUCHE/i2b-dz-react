@@ -34,7 +34,9 @@ function ServicesBody() {
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                     <div className="left-img">
-                                        <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.jpg`} alt="" />
+                                        <a href={"https://www.algeriatenders.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
+                                            <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.jpg`} alt="" />
+                                        </a>
                                     </div>
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
@@ -89,7 +91,9 @@ function ServicesBody() {
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-img">
+                                <a href={"https://www.geoflotte.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
                                     <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.jpg`} alt="" />
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +104,9 @@ function ServicesBody() {
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-img">
+                                <a href={"https://www.algeriainvest.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
                                     <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.jpg`} alt="" />
+                                </a>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">

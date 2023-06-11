@@ -8343,3 +8343,8 @@ background: transparent !important;
 .mission-vision-separation{
   border-left: 11px #43baff solid;
 }
+
+.smaller-on-hover>img:hover{
+  max-width: 99.8%;
+  transition: 400ms;
+}
