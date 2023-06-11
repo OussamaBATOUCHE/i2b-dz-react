@@ -34,7 +34,7 @@ function ServicesBody() {
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                     <div className="left-img">
-                                        <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.png`} alt="" />
+                                        <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.jpg`} alt="" />
                                     </div>
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
@@ -89,7 +89,7 @@ function ServicesBody() {
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-img">
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.png`} alt="" />
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.jpg`} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ function ServicesBody() {
                         <div className="row">
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-img">
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.png`} alt="" />
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.jpg`} alt="" />
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-12 col-md-12">
