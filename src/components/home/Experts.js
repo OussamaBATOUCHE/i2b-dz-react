@@ -2,13 +2,18 @@ import React from 'react'
 import ExpertCard from './page_components/ExpertCard'
 
 const Experts = () => {
-    let experts = [{name:'Amine', surname: 'Bennacef', position:'CO-Founder'},
+    let experts1 = [{name:'Amine', surname: 'Bennacef', position:'CO-Founder'},
                    {name:'Salim', surname: 'Babasi', position:'Sales Manager GEO'},
                    {name:'Billal', surname: 'Zidi', position:'Sales Manager AT-AI'},
                    {name:'Mohamed', surname: 'Betit', position:'XXX'},
-                   {name:'Nisrine', surname: 'Batata', position:'XXX'},
-                   {name:'Naim', surname: 'Midni', position:'XXX'},
-                   {name:'Hanane', surname: 'Toutaoui', position:'XXX'}]
+                   {name:'Naim', surname: 'Midni', position:'XXX'}
+                   ]
+
+    let experts2 = [{name:'Hanane', surname: 'Toutaoui', position:'XXX'},
+                   {name:'Hakima', surname: 'Belouadah', position:'XXX'},
+                   {name:'Yanis', surname: 'Si Saleh', position:'XXX'},
+                   {name:'Oussama', surname: 'Bounouh', position:'XXX'},
+                   {name:'Sihem', surname: 'Chouial', position:'XXX'}]
   return (
     <>
     <section className="team-v5">
@@ -24,21 +29,26 @@ const Experts = () => {
                     <div className="space-20"></div>
                 </div>
             </div>
-
-            {/* Start expert Row */}
+            
             <div className="row ">
+                {experts1.map(expert => (
+                    <ExpertCard name={expert.name} surname={expert.surname} position={expert.position}/>
+                ))}
+            </div>
+
+            <div className="row ">
+                {experts2.map(expert => (
+                    <ExpertCard name={expert.name} surname={expert.surname} position={expert.position}/>
+                ))}
+            </div>
+
                 {/* <div className="owl-carousel owl-theme owl-loaded">
                     <div className="owl-stage-outer">
                         <div className="owl-stage"> */}
-                            {experts.map(expert => (
-                                <ExpertCard name={expert.name} surname={expert.surname} position={expert.position}/>
-                            ))}
+                            
                         {/* </div>
                     </div>
                 </div> */}
-
-            </div>
-            {/* End expert Row */}
         </div>
     </section>
     </>
