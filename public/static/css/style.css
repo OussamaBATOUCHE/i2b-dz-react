@@ -6774,6 +6774,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .serv-box.bg-s1 {
     /* background-image: linear-gradient(110deg,#75227fe6 30%,#ae549ac7 70%),url(../images/i2bproducts/at.png); */
+    background-color: #43baffd6;
     background-size: cover;
     height: 200px;
 }
@@ -6782,11 +6783,13 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .serv-box.bg-s2 {
     /* background-image: linear-gradient(110deg,#033878e6 30%,#1e8c92c7 70%),url(../images/i2bproducts/gf.png); */
+    background-color: #43baffd6;
     background-size: cover;
     height: 200px;
 }
 .serv-box.bg-s3 {
   /* background-image: linear-gradient(110deg,#235295e8 30%,#4e7cbee3 70%),url(../images/i2bproducts/ai.png); */
+  background-color: #43baffd6;
   background-size: cover;
   height: 200px;
 }
@@ -8335,4 +8338,8 @@ background: transparent !important;
 
 .img-hgt-300 > img{
   height: 300px;
+}
+
+.mission-vision-separation{
+  border-left: 11px #43baff solid;
 }
