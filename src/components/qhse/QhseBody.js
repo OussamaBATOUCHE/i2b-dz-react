@@ -1,6 +1,5 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
-import Clients from '../home/Clients'
 import CertificationsIso from './CertificationsIso'
 
 function QhseBody() {
@@ -139,7 +138,7 @@ function QhseBody() {
                         <div className="col-lg-4 col-md-6">
                             <div className="team-wrap v3">
                                 <div className="team-thumb img-hgt-300">
-                                    <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} />                                 
+                                    <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} alt='i2b dz'/>                                 
                                     <div className="team-social flex-middle">
                                         <div>
                                             <a rel="nofollow" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title='Télécharger'><i class="fa fa-download"></i> </a>
