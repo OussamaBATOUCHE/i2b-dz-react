@@ -3,17 +3,17 @@ import ExpertCard from './page_components/ExpertCard'
 
 const Experts = () => {
     let experts1 = [{name:'Amine', surname: 'Bennacef', position:'CO-Founder', photo_path: '7.png'},
-                   {name:'Salim', surname: 'Babasi', position:'Sales Manager GEO', photo_path: '10.png'},
-                   {name:'Billal', surname: 'Zidi', position:'Sales Manager AT-AI', photo_path: '8.png'},
-                   {name:'Mohamed', surname: 'Betit', position:'XXX', photo_path: '9.png'},
-                   {name:'Naim', surname: 'Midni', position:'XXX', photo_path: '1.png'}
+                   {name:'Salim', surname: 'Babasi', position:'Sales Manager Geoflotte', photo_path: '10.png'},
+                   {name:'Billal', surname: 'Zidi', position:'Sales Manager Algeriatenders', photo_path: '8.png'},
+                   {name:'Mohamed', surname: 'Betit', position:'Sales Manager Algeriainvest', photo_path: '9.png'},
+                   {name:'Naim', surname: 'Midni', position:'Finance Director', photo_path: '1.png'}
                    ]
 
-    let experts2 = [{name:'Hanane', surname: 'Toutaoui', position:'XXX', photo_path: '6.png'},
-                   {name:'Yasmine', surname: 'Mezghich', position:'XXX', photo_path: '2.png'},
-                   {name:'Yanis', surname: 'Si Saleh', position:'XXX', photo_path: '3.png'},
-                   {name:'Oussama', surname: 'Bounouh', position:'XXX', photo_path: '5.png'},
-                   {name:'Sihem', surname: 'Chouial', position:'XXX', photo_path: '4.png'}]
+    let experts2 = [{name:'Hanane', surname: 'Toutaoui', position:'RH Partner', photo_path: '6.png'},
+                   {name:'Yasmine', surname: 'Mezghich', position:'Quality Responsible Geoflotte', photo_path: '2.png'},
+                   {name:'Yanis', surname: 'Si Saleh', position:'Digital Manager', photo_path: '3.png'},
+                   {name:'Oussama', surname: 'Bounouh', position:'IT Supports & Facilities Manager', photo_path: '5.png'},
+                   {name:'Sihem', surname: 'Chouial', position:'Quality Responsible Algeriatenders', photo_path: '4.png'}]
   return (
     <>
     <section className="team-v5">
