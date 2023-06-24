@@ -22,9 +22,9 @@ const LargeClients = () => {
                     <div className="partners">
 
                         {all_clogos.map(cslogo => (
-                            <div className="row">
+                            <div key={all_clogos.length+cslogo.length} className="row">
                             {cslogo.map(c_logo => (
-                                <div className={'col-md-'+(12/cslogo.length)}>
+                                <div key={c_logo} className={'col-md-'+(12/cslogo.length)}>
                                     <a href="/" className="client-logo">
                                         <figure className="partners-slide-inner">
                                             <img className="partners-slide-image" src={`${process.env.PUBLIC_URL}/static/images/partners/${c_logo}`} alt="i2b dz" />

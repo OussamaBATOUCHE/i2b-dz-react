@@ -25,7 +25,7 @@ function Header() {
                                             <ul className="menu nav-style-2">
                                                 <li className='menu-item-has-children current-menu-item current-menu-ancestor'>
                                                     <HashLink to="/#top" reloadDocument>Accueil</HashLink>
-                                                    <ul class="sub-menu">
+                                                    <ul className="sub-menu">
                                                         <li>
                                                             <HashLink to="/#quisommenous" smooth={true} reloadDocument>Qui somme-nous?</HashLink>
                                                         </li>
@@ -39,7 +39,7 @@ function Header() {
                                                 </li>
                                                 <li className='menu-item-has-children'>
                                                     <HashLink to="/services#top" reloadDocument>Services</HashLink>
-                                                    <ul class="sub-menu">
+                                                    <ul className="sub-menu">
                                                         <li>
                                                             <HashLink to="/services#servicesat" smooth={true} reloadDocument>Algeria Tenders</HashLink>
                                                         </li>
@@ -53,7 +53,7 @@ function Header() {
                                                 </li>
                                                 <li className='menu-item-has-children'>
                                                     <HashLink to="/qhse#top" reloadDocument>QHSE</HashLink>
-                                                    <ul class="sub-menu">
+                                                    <ul className="sub-menu">
                                                         <li>
                                                             <HashLink to="/qhse#qhseintro" smooth={true} reloadDocument>Introduction</HashLink>
                                                         </li>
@@ -111,7 +111,7 @@ function Header() {
                                         <div className="octf-header-module">
                                             <div className="ft-list-icon ">
                                                 <a className="globe" href="/" >
-                                                    <i class="flaticon-world-globe"></i>
+                                                    <i className="flaticon-world-globe"></i>
                                                 </a>
                                             </div>
                                         </div>

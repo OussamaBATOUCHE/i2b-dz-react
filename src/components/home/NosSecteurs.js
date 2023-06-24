@@ -31,7 +31,7 @@ const NosSecteurs = () => {
                     <div className="space-30"></div>
                     <div className="row">
                         {nb_secteurs.map(i => (
-                            <Secteur title={title_secteurs[i]}  context={li_items[i]} icon={sec_icons[i]} bckgrnd_img_cls={sec_bckgrnd[i]}/>
+                            <Secteur key={i} title={title_secteurs[i]}  context={li_items[i]} icon={sec_icons[i]} bckgrnd_img_cls={sec_bckgrnd[i]}/>
                         ))}
                     </div>
                 </div>

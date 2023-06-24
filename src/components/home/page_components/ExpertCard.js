@@ -6,7 +6,7 @@ const ExpertCard = ({name, surname, position, photo_path}) => {
     <div className="team-item col">
         <div className="">
             <div className="team-wrap v3">
-                <div className="team-thumb">
+                <div className="team-thumb" data-toggle="modal" data-target="#exampleModalCenter">
                     <img src={process.env.PUBLIC_URL+`/static/images/team/`+photo_path} alt="GPS Algerie" />
                 </div>
                 <div className="team-info">

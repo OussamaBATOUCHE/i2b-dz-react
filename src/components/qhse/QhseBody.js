@@ -141,14 +141,14 @@ function QhseBody() {
                                     <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} alt='i2b dz'/>                                 
                                     <div className="team-social flex-middle">
                                         <div>
-                                            <a rel="nofollow" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title='Télécharger'><i class="fa fa-download"></i> </a>
-                                            <a rel="nofollow" href="#"  title='Partager'><i className="fa fa-share"></i></a>
+                                            <a rel="nofollow noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title='Télécharger'><i class="fa fa-download"></i> </a>
+                                            <a rel="nofollow noopener noreferrer" href="/"  title='Partager'><i className="fa fa-share"></i></a>
                                         </div>
                                     </div>  
                                 </div>
                                 <div className="team-info">
                                     <h4>{pdf.title}</h4>
-                                    <a href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>Afficher</a>
+                                    <a rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>Afficher</a>
                                 </div>
                             </div>
                         </div>

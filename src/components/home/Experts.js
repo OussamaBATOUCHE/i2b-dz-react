@@ -1,19 +1,9 @@
 import React from 'react'
 import ExpertCard from './page_components/ExpertCard'
+import { experts1, experts2 } from './data/experts'
 
 const Experts = () => {
-    let experts1 = [{name:'Amine', surname: 'Bennacef', position:'CO-Founder', photo_path: '7.png'},
-                   {name:'Salim', surname: 'Babasi', position:'Sales Manager Geoflotte', photo_path: '10.png'},
-                   {name:'Billal', surname: 'Zidi', position:'Sales Manager Algeriatenders', photo_path: '8.png'},
-                   {name:'Mohamed', surname: 'Betit', position:'Sales Manager Algeriainvest', photo_path: '9.png'},
-                   {name:'Naim', surname: 'Midni', position:'Finance Director', photo_path: '1.png'}
-                   ]
 
-    let experts2 = [{name:'Hanane', surname: 'Toutaoui', position:'RH Partner', photo_path: '6.png'},
-                   {name:'Yasmine', surname: 'Mezghich', position:'Quality Responsible Geoflotte', photo_path: '2.png'},
-                   {name:'Yanis', surname: 'Si Saleh', position:'Digital Manager', photo_path: '3.png'},
-                   {name:'Oussama', surname: 'Bounouh', position:'IT Supports & Facilities Manager', photo_path: '5.png'},
-                   {name:'Sihem', surname: 'Chouial', position:'Quality Responsible Algeriatenders', photo_path: '4.png'}]
   return (
     <>
     <section className="team-v5">
@@ -32,13 +22,13 @@ const Experts = () => {
 
             <div className="row ">
                 {experts1.map(expert => (
-                    <ExpertCard name={expert.name} surname={expert.surname} position={expert.position} photo_path={expert.photo_path}/>
+                    <ExpertCard key={expert.name} name={expert.name} surname={expert.surname} position={expert.position} photo_path={expert.photo_path} text={expert.text}/>
                 ))}
             </div>
 
             <div className="row ">
                 {experts2.map(expert => (
-                    <ExpertCard name={expert.name} surname={expert.surname} position={expert.position} photo_path={expert.photo_path}/>
+                    <ExpertCard key={expert.name} name={expert.name} surname={expert.surname} position={expert.position} photo_path={expert.photo_path} text={expert.text}/>
                 ))}
             </div>
 
@@ -51,6 +41,26 @@ const Experts = () => {
                 </div> */}
         </div>
     </section>
+
+    {/* <!-- Modal --> */}
+    <div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content">
+            <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLongTitle">EXPERT DETAILS</h5>
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div className="modal-body">
+                Voilaaa
+            </div>
+            <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
     </>
   )
 }
