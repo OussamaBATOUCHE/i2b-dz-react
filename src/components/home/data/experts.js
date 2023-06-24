@@ -1,6 +1,6 @@
 export const experts1 = [
                         { 
-                            name:'Amine', surname: 'Bennacef', position:'CO-Founder', photo_path: '7.png',
+                            name:'Amine', surname: 'Bennacef', position:'General Manager', photo_path: '7.png',
                             text:"Amine Bennacef a co-fondé i2b en 2002, avec plus de 20 ans d'expérience dans le domaine de l'ingénierie et de la technologie, diplôme de l'université des Sciences et de la Technologie 'USTHB'. Il joue un rôle clé dans la direction stratégique et la gestion globale de l'entreprise, i2b a connu une croissance significative et s'est positionnée en leader sur le marché des TIC en Algérie."
                         },
                         {
