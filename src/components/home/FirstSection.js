@@ -1,7 +1,10 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
+import { useTranslation } from "react-i18next";
 
 const FirstSection = () => {
+    const { t } = useTranslation();
+
   return (
     <>
         <section className="top-v5">
@@ -10,12 +13,12 @@ const FirstSection = () => {
                     <div className="col-xl-6 col-lg-12 align-self-center">
                         <div className="top-left-v5">
                             <div className="ot-heading">
-                                <span>Vision et performance</span>
-                                <h2 className="main-heading">Intégrateur de Solutions Informatiques & Télécommunications</h2>
+                                <span>{t("home.FirstSection.vision-performance")}</span>
+                                <h2 className="main-heading">{t("home.FirstSection.integr-solu-infor-telec")}</h2>
                             </div>
                             <div className="ot-button">
                                 {/* <a href="#site-footer" className="octf-btn octf-btn-primary">Nous Découvrir</a> */}
-                                <HashLink className="octf-btn octf-btn-primary" to="/#quisommenous" smooth={true} reloadDocument>Nous Découvrir</HashLink>
+                                <HashLink className="octf-btn octf-btn-primary" to="/#quisommenous" smooth={true} reloadDocument>{t("home.FirstSection.nous-decouvrir")}</HashLink>
                             </div>
                             {/* <div className="video-popup style-3">
                             <div className="btn-inner">

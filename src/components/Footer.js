@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
     <>
     <footer id="site-footer" className="site-footer footer-v1">
@@ -8,7 +10,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-8 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
-                        <p>Suivez nos réseaux sociaux</p>
+                        <p>{t("Footer.reseaux-sociaux")}</p>
                         <div className="ft-list-icon">
                                 <a className="facebook" href="https://www.facebook.com/i2b.SPA" target={'blank'}><i className="fab fa-facebook-f"></i></a>
                                 <a className="linkedin" href="https://www.linkedin.com/company/i2b-spa/" target={'blank'}><i className="fab fa-linkedin-in"></i></a>
@@ -18,11 +20,11 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
-                        <p>S'inscrire à nos newsletters</p>
+                        <p>{t("Footer.inscrire-newsletter")}</p>
                         <form action="newsletter.php" id="mc4wp-form-1" className="mc4wp-form" method="post">
                             <div className="mc4wp-form-fields">
                                 <div className="subscribe-inner-form">
-                                    <input type="email" name="email" placeholder="Votre e-mail" required="" />
+                                    <input type="email" name="email" placeholder={t("Footer.placeholder")} required="" />
                                     <button type="submit" className="subscribe-btn-icon"><i className="flaticon-telegram"></i></button>
                                 </div>
                             </div>
@@ -47,7 +49,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="col-md-8 text-left text-md-right align-self-center">
-                    <p className="copyright-text">Copyright © {new Date().getFullYear()} i2b SPA. Tous les droits sont réservés.</p>
+                    <p className="copyright-text">Copyright © {new Date().getFullYear()} i2b SPA. {t("Footer.droits-reserves")}</p>
                 </div>
             </div>
         </div>

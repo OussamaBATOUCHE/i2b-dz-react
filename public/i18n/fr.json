@@ -1,0 +1,24 @@
+{
+    "Header.accueil": "Accueil",
+    "Header.qui-somme-nous": "Qui somme-nous?",
+    "Header.nos-valeurs": "Nos valeurs",
+    "Header.notre-vision": "Notre vision",
+    "Header.services": "Services",
+    "Header.qhse": "QHSE",
+    "Header.introduction": "Introduction",
+    "Header.nos-engagements": "Nos engagements",
+    "Header.nos-objectifs": "Nos Objectifs",
+    "Header.hostorique": "Historique",
+    "Header.certifications": "Certifications",
+    "Header.talens": "Talents",
+    "Header.contact": "Contact",
+
+    "Footer.reseaux-sociaux": "Suivez nos réseaux sociaux",
+    "Footer.inscrire-newsletter":"S'inscrire à nos newsletters",
+    "Footer.droits-reserves": "Tous les droits sont réservés.",
+    "Footer.placeholder": "Votre e-mail",
+
+    "home.FirstSection.vision-performance": "Vision et performance",
+    "home.FirstSection.integr-solu-infor-telec":"Intégrateur de Solutions Informatiques & Télécommunications",
+    "home.FirstSection.nous-decouvrir": "Nous Découvrir"
+}
