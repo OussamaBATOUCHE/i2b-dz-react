@@ -1,11 +1,12 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 
 const FirstSection = () => {
   return (
     <>
         <section className="top-v5">
-            <div className="container">
-                <div className="row margin-left-m145" >
+            <div className="">
+                <div className="row margin-0-10" >
                     <div className="col-xl-6 col-lg-12 align-self-center">
                         <div className="top-left-v5">
                             <div className="ot-heading">
@@ -13,7 +14,8 @@ const FirstSection = () => {
                                 <h2 className="main-heading">Intégrateur de Solutions Informatiques & Télécommunications</h2>
                             </div>
                             <div className="ot-button">
-                                <a href="#site-footer" className="octf-btn octf-btn-primary">Nous Découvrir</a>
+                                {/* <a href="#site-footer" className="octf-btn octf-btn-primary">Nous Découvrir</a> */}
+                                <HashLink className="octf-btn octf-btn-primary" to="/#quisommenous" smooth={true} reloadDocument>Nous Découvrir</HashLink>
                             </div>
                             {/* <div className="video-popup style-3">
                             <div className="btn-inner">

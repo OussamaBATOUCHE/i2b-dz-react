@@ -27,7 +27,7 @@ function ServicesBody() {
             </section>
 
             <section className="section-clent-h2">
-                <div className="container">
+                <div className="margin-0-5">
 
                     {/* AT */}
                     <div id='servicesat' className="section-inner-about">
@@ -42,7 +42,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Numéro 1 des <br />marchés publics</h2>
+                                        <h2 className="main-heading">Numéro 1 des marchés publics</h2>
                                     </div>
                                     <p className='justify-text'>
                                         Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des 
@@ -70,7 +70,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire de <br />géolocalisation et de gestion de flotte.</h2>
+                                        <h2 className="main-heading">Votre partenaire de géolocalisation et de gestion de flotte.</h2>
                                     </div>
                                     <p className='justify-text'>
                                     Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
@@ -112,7 +112,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire pour <br />l'investissement en Algerie</h2>
+                                        <h2 className="main-heading">Votre partenaire pour l'investissement en Algerie</h2>
                                     </div>
                                     <p className='justify-text'>
                                     Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
