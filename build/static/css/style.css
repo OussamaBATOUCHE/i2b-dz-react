@@ -8361,3 +8361,8 @@ background: transparent !important;
 .margin-0-5{
   margin:  0% 5%;
 }
+
+.lang{
+  height: 30px;
+  margin-top: 50px;
+}

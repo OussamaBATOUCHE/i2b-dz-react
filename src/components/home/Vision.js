@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 const Vision = () => {
+    const { t } = useTranslation();
   return (
     <>
     <section id='notrevision' className="section-vision">
@@ -10,27 +12,20 @@ const Vision = () => {
                     <div className="misc-box text-white misc-box-bg-tr">
                         <div className="ot-counter">
                             <div>
-                                <span className="num">Mission</span>
+                                <span className="num">{t("home.Vision.mission")}</span>
                             </div>                    
                         </div>
-                        <p className='justify-text'>i2b œuvre à fournir des services informatiques & technologiques de haute qualité, 
-                            à la pointe de la te gnomique et à assurer un perfectionnement continu de l'ensemble 
-                            de ses produits pour garantir la satisfaction de ses clients et partenaires à long terme.
-                        </p>
+                        <p className='justify-text'>{t("home.Vision.mission-text")}</p>
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-12 mission-vision-separation" >
                     <div className="misc-box misc-box-bg-tr">
                         <div className="ot-counter">
                             <div>
-                                <span className="num">Vision</span>
+                                <span className="num">{t("home.Vision.vision")}</span>
                             </div>                    
                         </div>
-                        <p className='justify-text'>i2b aspire à repousser les limites de l'innovation, à anticiper les besoins futurs du marché
-                             et à créer un impact positif sur la société. En nous appuyant sur notre expertise et notre
-                              engagement envers la qualité , nous visons à être le choix privilégié de nos clients et à 
-                              bâtir une entreprise solide et durable.
-                        </p>
+                        <p className='justify-text'>{t("home.Vision.vision-text")}</p>
                     </div>
                 </div>
             </div>

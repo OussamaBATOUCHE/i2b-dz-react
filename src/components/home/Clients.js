@@ -1,15 +1,17 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
+import { CLIENTS_LOGOS } from "../../constants/index"
 
 const Clients = () => {
-    let clients_logo = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png', 'sarens.png', 'satim.png', 'zoomlion.png']
-  return (
+    const { t } = useTranslation();
+    return (
     <>
     <div className="padding-half bg-light-1">
         <div className="container">
             <div className='row'>
                 <div className="col-lg-12 text-center">
                     <div className="ot-heading">
-                        <h2 className="main-heading">Nos partenaires</h2>              
+                        <h2 className="main-heading">{t("home.Clients.nos-partenaires")}</h2>              
                     </div>
                 </div>
             </div>
@@ -18,7 +20,7 @@ const Clients = () => {
                     <div className="partners">
                         <div className="owl-carousel owl-theme home-client-carousel">
 
-                            {clients_logo.map(c_logo => (
+                            {CLIENTS_LOGOS.map(c_logo => (
                                 <div className="partners-slide">
                                     <a href="/" className="client-logo">
                                         <figure className="partners-slide-inner">

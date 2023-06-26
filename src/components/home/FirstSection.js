@@ -52,9 +52,7 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-sa'>
-                            Plateforme digitale dédiée exclusivement à la centralisation des avis d'appels d'offres,
-                            nationaux et internationaux ainsi que la mise à disposition des entreprises des indications
-                            liées aux annonces publiées sur tout le territoire national.
+                            {t("home.FirstSection.at-text")}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -65,8 +63,7 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-s1'>
-                            Solution de géolocalisation et de gestion de flotte de tous types de véhicules, d'engins et d'équipements mobiles
-                            en temps réel, qui permet aux entreprises de suivre, de maîtriser, de gérer et de sécuriser l'intégralité de leur flotte.
+                            {t("home.FirstSection.geo-text")}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -77,8 +74,7 @@ const FirstSection = () => {
                             </div>
                         </div>
                         <div className='products-box border-s1'>
-                            Service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs nationaux et internationaux
-                            souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de leurs projets.
+                            {t("home.FirstSection.ai-text")}
                         </div>
                     </div>
                 </div>

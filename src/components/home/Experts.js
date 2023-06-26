@@ -1,10 +1,10 @@
 import React from 'react'
 import ExpertCard from './page_components/ExpertCard'
 import { experts1, experts2 } from './data/experts'
-
+import { useTranslation } from "react-i18next";
 
 const Experts = () => {
-
+    const { t } = useTranslation();
   return (
     <>
     <section className="team-v5">
@@ -13,7 +13,7 @@ const Experts = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="ot-heading">
-                        <span>{"Notre Equipe"}</span>
+                        <span>{t("home.Experts.notre-equipe")}</span>
                         <h2 className="main-heading">Leadership Team</h2>
                     </div>
                     <div className="space-5"></div>

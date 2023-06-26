@@ -1,10 +1,9 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
+import { ALL_CLOGOS } from "../../constants/index"
 
 const LargeClients = () => {
-    let clients_4_logo = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png' ]
-    let clients_3_logo = ['sarens.png', 'satim.png', 'zoomlion.png']
-    let all_clogos = [clients_4_logo, clients_3_logo]
-
+    const { t } = useTranslation();
   return (
     <>
     <div className="padding-half">
@@ -12,7 +11,7 @@ const LargeClients = () => {
             <div className='row'>
                 <div className="col-lg-12 text-center">
                     <div className="ot-heading">
-                        <h2 className="main-heading">Nos partenaires</h2>              
+                        <h2 className="main-heading">{t("home.Clients.nos-partenaires")}</h2>              
                     </div>
                 </div>
                 <div className="space-20"></div>
@@ -21,8 +20,8 @@ const LargeClients = () => {
                 <div className="col-md-12">
                     <div className="partners">
 
-                        {all_clogos.map(cslogo => (
-                            <div key={all_clogos.length+cslogo.length} className="row">
+                        {ALL_CLOGOS.map(cslogo => (
+                            <div key={ALL_CLOGOS.length+cslogo.length} className="row">
                             {cslogo.map(c_logo => (
                                 <div key={c_logo} className={'col-md-'+(12/cslogo.length)}>
                                     <a href="/" className="client-logo">
