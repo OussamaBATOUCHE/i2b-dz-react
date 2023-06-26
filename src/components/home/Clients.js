@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
-import { CLIENTS_LOGOS } from "../../constants/index"
+import { CLIENTS_LOGOS } from "../../constants"
 
 const Clients = () => {
     const { t } = useTranslation();

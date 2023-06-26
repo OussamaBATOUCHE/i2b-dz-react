@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
-import { ALL_CLOGOS } from "../../constants/index"
+import { ALL_CLOGOS } from "../../constants"
 
 const LargeClients = () => {
     const { t } = useTranslation();
