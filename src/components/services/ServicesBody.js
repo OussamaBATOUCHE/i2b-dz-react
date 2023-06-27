@@ -1,7 +1,9 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
+import { useTranslation } from "react-i18next";
 
 function ServicesBody() {
+    const { t } = useTranslation();
   return (
     <>
        <div id="content" className="site-content">
@@ -14,11 +16,10 @@ function ServicesBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <p className="small-text">Vision et performance</p>
-                                <h2>NOS SERVICES</h2>
-                                <p className="sub-text">
-                                Solutions innovantes à forte Valeurs
-                                </p>
+
+                                <p className="small-text"> {t("services.ServicesBody.vision-perfomance")} </p>
+                                <h2> {t("services.ServicesBody.nos-services")} </h2>
+                                <p className="sub-text"> {t("services.ServicesBody.solutions-innovantes-forte-valeurs")} </p>
                                 
                             </div>
                         </div>
@@ -42,20 +43,12 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Numéro 1 des marchés publics</h2>
+                                        <h2 className="main-heading"> {t("services.ServicesBody.at")} </h2>
                                     </div>
-                                    <p className='justify-text'>
-                                        Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des 
-                                        avis d'appels d'offres, nationaux et internationaux, ainsi qu'à la mise à la disposition des entreprises 
-                                        des précisions et des indications ayant trait aux annonces publiées sur le territoire national 
-                                        (avis d'attribution, d'infructuosité, de consultation, de prorogation, de vente aux enchères, et 
-                                        d'autres) permettant ainsi à ses clients l'accès à toutes les opportunités du marché algérien.
-                                    </p>
+                                    <p className='justify-text'> {t("services.ServicesBody.at-paragraph-1")} </p>
                                     <p className='justify-text'><em className="text-dark">
                                         <strong>
-                                            Aujourd'hui, avec une couverture de +500 sources d'information spécialisées avec le support d'une équipe qualifiée, 
-                                            i2b est devenue une véritable référence du marché algérien pour +5000 entreprises nationales et internationales 
-                                            (y compris non-résidentes) et dont le nombre ne cesse de croître.
+                                            {t("services.ServicesBody.at-paragraph-2")} 
                                         </strong></em>
                                     </p>
                                     <div className="space-20"></div>
@@ -70,22 +63,9 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire de géolocalisation et de gestion de flotte.</h2>
+                                        <h2 className="main-heading"> {t("services.ServicesBody.geo")} </h2>
                                     </div>
-                                    <p className='justify-text'>
-                                    Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, 
-                                    d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de 
-                                    gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges 
-                                    logistiques.
-                                    
-                                    En 2008, i2b a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT 
-                                    (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b a acquis, depuis quelques années, une 
-                                    position de leader sur le marché national.
-                                    
-                                    Dans un premier temps, i2b a importé cette solution, puis après avoir capitalisé de l'expérience et acquis 
-                                    les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements 
-                                    consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).
-                                    </p>
+                                    <p className='justify-text'> {t("services.ServicesBody.geo-paragraph-1")} </p>
                                     <div className="space-20"></div>
                                 </div>
                             </div>
@@ -112,23 +92,11 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-content">
                                     <div className="ot-heading">
-                                        <h2 className="main-heading">Votre partenaire pour l'investissement en Algerie</h2>
+                                        <h2 className="main-heading">{t("services.ServicesBody.ai")}</h2>
                                     </div>
-                                    <p className='justify-text'>
-                                    Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première 
-                                    plateforme digitale dédiée à l'investissement en Algérie. 
-                                    </p>
-                                    <p className='justify-text'>
-                                    Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs 
-                                    nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de 
-                                    leurs projets.
-                                    </p>
-                                    <p className='justify-text'>
-                                    Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits
-                                    et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création 
-                                    d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marchés, l'assistance 
-                                    juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.
-                                    </p>
+                                    <p className='justify-text'> {t("services.ServicesBody.ai-paragraph-1")} </p>
+                                    <p className='justify-text'> {t("services.ServicesBody.ai-paragraph-2")} </p>
+                                    <p className='justify-text'> {t("services.ServicesBody.ai-paragraph-3")} </p>
                                     <div className="space-20"></div>
                                 </div>
                             </div> 
@@ -146,15 +114,15 @@ function ServicesBody() {
                         <div className="col-lg-6 mb-4 mb-lg-0">
                             <div className="technology-left">
                                 <div className="ot-heading">
-                                    <span className="text-primary-light">Technology index</span>
-                                    <h2 className="main-heading text-white">Améliorer et innover avec les tendances technologiques</h2>
+                                    <span className="text-primary-light"> {t("services.ServicesBody.technology-index")} </span>
+                                    <h2 className="main-heading text-white"> {t("services.ServicesBody.ameliorer-innover-avec-tendances")} </h2>
                                 </div>
-                                <p>Nos équipes peuvent vous aider à transformer votre entreprise grâce aux dernières capacités technologiques pour garder une longueur d'avance.</p>
+                                <p> {t("services.ServicesBody.text")} </p>
                                 <ul className="style-none text-white">
-                                    <li><i className="fas fa-check"></i> Investissement en Algerie</li>
-                                    <li><i className="fas fa-check"></i> Appels d'offre </li>
-                                    <li><i className="fas fa-check"></i> Geolocalisation GPS</li>
-                                    <li><i className="fas fa-check"></i> Service client 7/24</li>
+                                    <li><i className="fas fa-check"></i> {t("services.ServicesBody.invest-algerie")} </li>
+                                    <li><i className="fas fa-check"></i> {t("services.ServicesBody.appels-offres")} </li>
+                                    <li><i className="fas fa-check"></i> {t("services.ServicesBody.geolocalisation-gps")} </li>
+                                    <li><i className="fas fa-check"></i> {t("services.ServicesBody.service-client-7-24")} </li>
                                 </ul>
                             </div>
                         </div>
@@ -206,9 +174,9 @@ function ServicesBody() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
+                            <h2>{t("services.ServicesBody.notre-sav-disposition")}</h2>
                             <div className="ot-button">
-                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >Nous contacter</HashLink>
+                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >{t("services.ServicesBody.nous-contacter")}</HashLink>
                             </div>
                         </div>
                     </div>

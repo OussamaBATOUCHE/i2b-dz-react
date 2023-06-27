@@ -1,6 +1,6 @@
 import React from 'react'
 import ExpertCard from './page_components/ExpertCard'
-import { experts1, experts2 } from './data/experts'
+import { experts1, experts2 } from '../../constants'
 import { useTranslation } from "react-i18next";
 
 const Experts = () => {
