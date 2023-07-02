@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 // import {useNavigate} from 'react-router-dom';
 // import {Link} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
@@ -13,6 +13,41 @@ function Header() {
         const lang_code = e.target.value;
         i18n.changeLanguage(lang_code);
     };
+
+    const nav_accueil = useRef(null);
+    const nav_services = useRef(null);
+    const nav_qhse = useRef(null);
+    const nav_talents = useRef(null);
+    const nav_contact = useRef(null);
+      
+    function click_clean() {
+        nav_accueil.current.classList.remove('current-menu-item');
+        nav_services.current.classList.remove('current-menu-item');
+        nav_qhse.current.classList.remove('current-menu-item');
+        nav_talents.current.classList.remove('current-menu-item');
+        nav_contact.current.classList.remove('current-menu-item');
+    }
+
+    function click_accueil() {
+        click_clean()
+        nav_accueil.current.classList.add('current-menu-item');
+    }
+    function click_services() {
+        click_clean()
+        nav_services.current.classList.add('current-menu-item');
+    }
+    function click_qhse() {
+        click_clean()
+        nav_qhse.current.classList.add('current-menu-item');
+    }
+    function click_talents() {
+        click_clean()
+        nav_talents.current.classList.add('current-menu-item');
+    }
+    function click_contact() {
+        click_clean()
+        nav_contact.current.classList.add('current-menu-item');
+    }
 
     return (
     <>
@@ -33,7 +68,9 @@ function Header() {
                             <div className="octf-col menu-col">
                                     <nav id="site-navigation" className="main-navigation">
                                         <ul className="menu nav-style-2">
-                                            <li className='menu-item-has-children current-menu-item current-menu-ancestor'>
+                                            <li ref={nav_accueil}
+                                                onClick={click_accueil}
+                                                className='menu-item-has-children'>
                                                 <HashLink to="/#top" reloadDocument>{t("Header.accueil")}</HashLink>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -47,7 +84,9 @@ function Header() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className='menu-item-has-children'>
+                                            <li ref={nav_services}
+                                                onClick={click_services} 
+                                                className='menu-item-has-children'>
                                                 <HashLink to="/services#top" reloadDocument>{t("Header.services")}</HashLink>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -61,7 +100,9 @@ function Header() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className='menu-item-has-children'>
+                                            <li ref={nav_qhse}
+                                                onClick={click_qhse} 
+                                                className='menu-item-has-children'>
                                                 <HashLink to="/qhse#top" reloadDocument>{t("Header.qhse")}</HashLink>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -81,10 +122,14 @@ function Header() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>
+                                            <li 
+                                                ref={nav_talents}
+                                                onClick={click_talents} >
                                                 <HashLink to="/talents#top" reloadDocument>{t("Header.talens")}</HashLink>
                                             </li>
-                                            <li>
+                                            <li
+                                                ref={nav_contact}
+                                                onClick={click_contact}>
                                                 <HashLink to="/contact#top" reloadDocument>{t("Header.contact")}</HashLink>
                                             </li>
                                         </ul>

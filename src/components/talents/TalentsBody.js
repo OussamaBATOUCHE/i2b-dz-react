@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 function TalentsBody() {
     const { t } = useTranslation();
+
   return (
     <>
        <div id="content" className="site-content">
