@@ -61,6 +61,33 @@
     "home.Stats.clients": "Clients",
     "home.Stats.clients-text": "To satisfy our customers, each solution offered is perfectly designed to adapt to the different needs expressed...",
 
-    "home.Clients.nos-partenaires": "Our partners"
+    "home.Clients.nos-partenaires": "Our partners",
+
+
+    "services.ServicesBody.vision-perfomance": "Vision and performance",
+    "services.ServicesBody.nos-services": "OUR SERVICES",
+    "services.ServicesBody.solutions-innovantes-forte-valeurs": "Innovative solutions with strong Values",
+    
+    "services.ServicesBody.at": "Number 1 in public procurement",
+    "services.ServicesBody.at-paragraph-1": "Digital platform dedicated exclusively to the research, exploitation, and centralization of national and international calls for tenders, as well as the provision to companies of details and indications relating to announcements published on the national territory (notice of attribution, fruitlessness, consultation, extension, auction, and others) thus allowing its customers access to all the opportunities of the Algerian market.",
+    "services.ServicesBody.at-paragraph-2": "Today, with coverage of +500 specialized information sources with the support of a qualified team, i2b has become a real benchmark in the Algerian market for +5000 national and international companies (including non-residents) and whose number continues to grow.",
+    
+    "services.ServicesBody.geo": "Your partner for geolocation and fleet management",
+    "services.ServicesBody.geo-paragraph-1": "Geoflotte is a GPS geolocation and fleet management solution for all types of vehicles, machinery and mobile equipment in real time, which allows companies to track, control, manage and secure their fleet to increase their productivity while optimizing their logistics costs. In 2008, i2b obtained authorization and approval to operate the geolocation system from the ARPT (now ARPCE). Thanks to this development strategy, i2b has acquired, in recent years, a leading position on the national market. Initially, i2b imported this solution, then after having capitalized on the experience and acquired the necessary knowledge, it developed, thanks to its own R&D department and the investment efforts made, its own geolocation web solution, (hardware, software and cartography).",
+    
+    "services.ServicesBody.ai": "Your partner for investment in Algeria",
+    "services.ServicesBody.ai-paragraph-1": "As part of its diversification strategy, i2b launched, in June 2021, Algeria INVEST® - the first digital platform dedicated to investment in Algeria.",
+    "services.ServicesBody.ai-paragraph-2": "Algeria INVEST® is an information and support service intended for all economic actors and national and international investors wishing to invest in Algeria, providing them with all the data necessary for the success of their projects.",
+    "services.ServicesBody.ai-paragraph-3": "Algeria INVEST® responds to the needs expressed by many investors in search of enlightened information on the circuits and the methods of investment in Algeria. Among the support services offered, assistance with business creation, representation of foreign companies, technical and economic studies, market studies, legal assistance, export assistance, advice and assistance in calls for tenders.",
+    
+    "services.ServicesBody.technology-index": "Technology index",
+    "services.ServicesBody.ameliorer-innover-avec-tendances": "Improve and innovate with technology trends",
+    "services.ServicesBody.text": "Our teams can help you transform your business with the latest technology capabilities to stay ahead.",
+    "services.ServicesBody.invert-algerie": "Investment in Algeria",
+    "services.ServicesBody.appels-offres": "Call off",
+    "services.ServicesBody.geolocalisation-gps": "GPS geolocation",
+    "services.ServicesBody.service-client-7-24": "24/7 customer service",
+    "services.ServicesBody.notre-sav-disposition": "Our after-sales service is at your disposal 24 hours a day, 7 days a week.",
+    "services.ServicesBody.nous-contacter":"Contact us"
     
     }

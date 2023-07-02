@@ -1,12 +1,15 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import CertificationsIso from './CertificationsIso'
+import { useTranslation } from "react-i18next";
 
 function QhseBody() {
 
+    const { t } = useTranslation();
+
     let iso_pdfs = [{title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'},
                     {title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'},
-                    {title:'Politique QHSE', img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
+                    {title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
 
   return (
     <>
@@ -21,13 +24,10 @@ function QhseBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <p className="small-text">Qualité - Santé - Sécurité  - Environnement</p>
+                                <p className="small-text">{t("qhse.QhseBody.qualite-sante-securite-environnement")}</p>
                                 <h2>QHSE</h2>
                                 <p className="sub-text justify-text">
-                                    Adopter et pronouvoir un comportement intègre et éthique dans l'ensemble de ses relations avec tous ses partenaires est
-                                    un engagement fort de i2b SPA. Ce principe a conduit le Groupe à définir des règles de conduite et des principes d'action
-                                    qui guident le comportement de l'ensemble de collaborateurs, des founisseurs et autres parties prenantes, en matière d'éthique,
-                                    de responsabilité environnementale. sociale et sociétale.
+                                    {t("qhse.QhseBody.text-1")}
                                 </p>
                             </div>
                         </div>
@@ -45,22 +45,15 @@ function QhseBody() {
                         <div className="col-lg-8 align-self-center">
                             <div className="right-about-v4">
                                 <div className="ot-heading">
-                                    <span>À PROPOS DE LA SOCIÉTÉ</span>
+                                    <span>{t("qhse.QhseBody.a-propos-societe")}</span>
                                     <h2 className="main-heading">INTRODUCTION</h2>
                                 </div>
                                 <div className="space-5"></div>
+                                <p>{t("qhse.QhseBody.introduction-text-1")}</p>
                                 <p>
-                                La SPA i2b, intégrateur de solutions informatiques, est une société innovante qui exerce dans 
-                                le secteur de la technologie de l'information et celui des télécommunications depuis 2002.
-                                </p>
-                                <p><em className="text-dark">
-                                    <strong>
-                                        Consciente du développement du marché des Nouvelles Technologies de l'information & de la Communication i2B a
-                                        décidé de se distinguer à travers une démarche de certification et d'amélioration constante de son système de
-                                        management intégré, permettant d'offrir à ses clients l'assurance d'avoir des services de qualité en étant 
-                                        constamment à leur écoute, et en répondant à leur préoccupations, le tout dans des conditions respectueuses 
-                                        de la santé des acteurs concernés et de l'environnement.
-                                    </strong></em>
+                                    <em className="text-dark">
+                                        <strong>{t("qhse.QhseBody.introduction-text-2")}</strong>
+                                    </em>
                                 </p>
                             </div>
                         </div>
@@ -73,26 +66,26 @@ function QhseBody() {
                     <div className="row">
                         <div className="col-lg-6 align-self-center">
                             <div className="ot-heading">
-                                <h2 className="main-heading">NOS ENGAGEMENTS<br /></h2>
+                                <h2 className="main-heading">{t("qhse.QhseBody.nos-engagements")}<br /></h2>
                             </div>
                             <ul className="">
-                                <li> Respect des exigences opposables.</li>
-                                <li> Maintenir le processus d'amelioration continue de notre SMI.</li>
-                                <li> Prevenir les prejudices corporels.</li>
-                                <li> Assurer la promotion de la protection de l'environnement et de la prévention de la pollution.</li>
-                                <li> Impliquer le personnel à toute question relative à la santé et sécurité au travail.</li>
+                                <li> {t("qhse.QhseBody.engagements-li-1")}</li>
+                                <li> {t("qhse.QhseBody.engagements-li-2")}</li>
+                                <li> {t("qhse.QhseBody.engagements-li-3")}</li>
+                                <li> {t("qhse.QhseBody.engagements-li-4")}</li>
+                                <li> {t("qhse.QhseBody.engagements-li-5")}</li>
                             </ul>
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="ot-heading">
-                                <h2 className="main-heading">NOS OBJECTIFS<br /></h2>
+                                <h2 className="main-heading">{t("qhse.QhseBody.nos-objectifs")}<br /></h2>
                             </div>
                             <ul className="">
-                                <li>Elévation de nos parts de marche et de notre marge commerciale.</li>
-                                <li>Surveillance de niveau de conformité à la règlementation et autres exigences.</li>
-                                <li>Maîtrise de la fréquence et de la gravité des accidents de travail.</li>
-                                <li>Récupération de tous les boitiers GPS à chaque fin de contrat.</li>
-                                <li>Recycler le maximum de consommables informatiques découlant de nos activités.</li>
+                                <li>{t("qhse.QhseBody.objectifs-li-1")}</li>
+                                <li>{t("qhse.QhseBody.objectifs-li-2")}</li>
+                                <li>{t("qhse.QhseBody.objectifs-li-3")}</li>
+                                <li>{t("qhse.QhseBody.objectifs-li-4")}</li>
+                                <li>{t("qhse.QhseBody.objectifs-li-5")}</li>
                             </ul>
                         </div>
                     </div>
@@ -104,20 +97,11 @@ function QhseBody() {
                     <div className="row">
                         <div className="col-lg-7 align-self-center">
                             <div className="ot-heading">
-                                <h2 className="main-heading">HISTORIQUE<br /></h2>
+                                <h2 className="main-heading">{t("qhse.QhseBody.historique")}<br /></h2>
                             </div>
-                            <p className="mb-0">
-                                Forte de sa culture en matière de Qualité – Hygiène – Sécurité - Environnement (QHSE), et convaincue des différents
-                                avantages qu’offrent les outils de management ISO, i2b a décidé de se lancer dans une démarche QHSE, et a obtenu
-                                la triple certification en 2014.
-                            </p>
+                            <p className="mb-0">{t("qhse.QhseBody.historique-text-1")}</p>
                             <br />
-                            <p className="mb-0">
-                                Grâce aux multiples efforts et à notre stratégie basée sur les compétences humaines, l’innovation et la fidélisation des
-                                clients nous avons maintenu nos certificats au fil des années avons renouvelé les cycles de certification tout en les
-                                améliorant. Aujourd’hui i2b est fière d’être certifiée par l’un des leaders mondiaux reconnus pour ses certification
-                                « Bureau VERITAS » et ce pour les trois référentiels (ISO 9001 V2015, ISO 14001 V2015 et ISO 45001 V2018).
-                            </p>
+                            <p className="mb-0">{t("qhse.QhseBody.historique-text-2")}</p>
                         </div>
                         <div className="col-lg-5">
                             <div className="ot-heading mb-0 mx-w-50">
@@ -141,14 +125,14 @@ function QhseBody() {
                                     <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} alt='i2b dz'/>                                 
                                     <div className="team-social flex-middle">
                                         <div>
-                                            <a rel="nofollow noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title='Télécharger'><i class="fa fa-download"></i> </a>
-                                            <a rel="nofollow noopener noreferrer" href="/"  title='Partager'><i className="fa fa-share"></i></a>
+                                            <a rel="nofollow noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title={t("qhse.QhseBody.telecharger")}><i class="fa fa-download"></i> </a>
+                                            <a rel="nofollow noopener noreferrer" href="/"  title={t("qhse.QhseBody.partager")}><i className="fa fa-share"></i></a>
                                         </div>
                                     </div>  
                                 </div>
                                 <div className="team-info">
                                     <h4>{pdf.title}</h4>
-                                    <a rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>Afficher</a>
+                                    <a rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank'>{t("qhse.QhseBody.afficher")}</a>
                                 </div>
                             </div>
                         </div>
@@ -161,9 +145,9 @@ function QhseBody() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
+                            <h2>{t("services.ServicesBody.notre-sav-disposition")}</h2>
                             <div className="ot-button">
-                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >Nous contacter</HashLink>
+                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >{t("services.ServicesBody.nous-contacter")}</HashLink>
                             </div>
                         </div>
                     </div>

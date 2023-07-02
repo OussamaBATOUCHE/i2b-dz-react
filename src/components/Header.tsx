@@ -82,7 +82,7 @@ function Header() {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <HashLink to="/carrieres#top" reloadDocument>{t("Header.talens")}</HashLink>
+                                                <HashLink to="/talents#top" reloadDocument>{t("Header.talens")}</HashLink>
                                             </li>
                                             <li>
                                                 <HashLink to="/contact#top" reloadDocument>{t("Header.contact")}</HashLink>
@@ -168,7 +168,7 @@ function Header() {
                                 <a href="/qhse">QHSE</a>
                             </li>
                             <li>
-                                <a href="/carriere">Carrières</a>
+                                <a href="/talents">Carrières</a>
                             </li>
                             <li>
                                 <a href="/contact">Contact</a>
