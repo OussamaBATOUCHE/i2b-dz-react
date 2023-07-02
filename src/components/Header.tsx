@@ -159,19 +159,19 @@ function Header() {
                     <div className="mobile_nav collapse">
                         <ul id="menu-main-menu" className="mobile_mainmenu">
                             <li className="menu-item-has-children current-menu-item current-menu-ancestor">
-                                <a href="/">Accueil</a>
+                                <HashLink to="/#top" reloadDocument>{t("Header.accueil")}</HashLink>
                             </li>
                             <li>
-                                <a href="/services">Services</a>
+                                <HashLink to="/services#top" reloadDocument>{t("Header.services")}</HashLink>
                             </li>
                             <li>
-                                <a href="/qhse">QHSE</a>
+                                <HashLink to="/qhse#top" reloadDocument>{t("Header.qhse")}</HashLink>
                             </li>
                             <li>
-                                <a href="/talents">Carrières</a>
+                                <HashLink to="/talents#top" reloadDocument>{t("Header.talens")}</HashLink>
                             </li>
                             <li>
-                                <a href="/contact">Contact</a>
+                                <HashLink to="/contact#top" reloadDocument>{t("Header.contact")}</HashLink>
                             </li>
                         </ul>
                     </div>
