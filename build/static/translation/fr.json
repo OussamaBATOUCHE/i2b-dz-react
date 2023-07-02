@@ -88,6 +88,67 @@
     "services.ServicesBody.geolocalisation-gps": "Geolocalisation GPS",
     "services.ServicesBody.service-client-7-24": "Service client 7/24",
     "services.ServicesBody.notre-sav-disposition": "Notre  SAV est à votre disposition 24h/24 et 7/7",
-    "services.ServicesBody.nous-contacter":"Nous contacter"
-  
+    "services.ServicesBody.nous-contacter":"Nous contacter",
+
+
+    "qhse.QhseBody.qualite-sante-securite-environnement": "Qualité - Santé - Sécurité  - Environnement",
+    "qhse.QhseBody.text-1": "Adopter et pronouvoir un comportement intègre et éthique dans l'ensemble de ses relations avec tous ses partenaires est un engagement fort de i2b SPA. Ce principe a conduit le Groupe à définir des règles de conduite et des principes d'action qui guident le comportement de l'ensemble de collaborateurs, des founisseurs et autres parties prenantes, en matière d'éthique, de responsabilité environnementale. sociale et sociétale.",
+    "qhse.QhseBody.a-propos-societe": "À PROPOS DE LA SOCIÉTÉ",
+    "qhse.QhseBody.introduction-text-1": "La SPA i2b, intégrateur de solutions informatiques, est une société innovante qui exerce dans le secteur de la technologie de l'information et celui des télécommunications depuis 2002.",
+    "qhse.QhseBody.introduction-text-2": "Consciente du développement du marché des Nouvelles Technologies de l'information & de la Communication i2B a décidé de se distinguer à travers une démarche de certification et d'amélioration constante de son système de management intégré, permettant d'offrir à ses clients l'assurance d'avoir des services de qualité en étant constamment à leur écoute, et en répondant à leur préoccupations, le tout dans des conditions respectueuses de la santé des acteurs concernés et de l'environnement.",
+    
+    "qhse.QhseBody.nos-engagements": "NOS ENGAGEMENTS",
+    "qhse.QhseBody.engagements-li-1": "Respect des exigences opposables.",
+    "qhse.QhseBody.engagements-li-2": "Maintenir le processus d'amelioration continue de notre SMI.",
+    "qhse.QhseBody.engagements-li-3": "Prévenir les préjudices corporels.",
+    "qhse.QhseBody.engagements-li-4": "Assurer la promotion de la protection de l'environnement et de la prévention de la pollution.",
+    "qhse.QhseBody.engagements-li-5": "Impliquer le personnel à toute question relative à la santé et sécurité au travail.",
+
+    "qhse.QhseBody.nos-objectifs": "NOS OBJECTIFS",
+    "qhse.QhseBody.objectifs-li-1": "Elévation de nos parts de marche et de notre marge commerciale.",
+    "qhse.QhseBody.objectifs-li-2": "Surveillance de niveau de conformité à la règlementation et autres exigences.",
+    "qhse.QhseBody.objectifs-li-3": "Maîtrise de la fréquence et de la gravité des accidents de travail.",
+    "qhse.QhseBody.objectifs-li-4": "Récupération de tous les boitiers GPS à chaque fin de contrat.",
+    "qhse.QhseBody.objectifs-li-5": "Recycler le maximum de consommables informatiques découlant de nos activités.",
+
+    "qhse.QhseBody.historique": "HISTORIQUE",
+    "qhse.QhseBody.historique-text-1": "Forte de sa culture en matière de Qualité - Hygiène - Sécurité - Environnement (QHSE), et convaincue des différents avantages qu'offrent les outils de management ISO, i2b a décidé de se lancer dans une démarche QHSE, et a obtenu la triple certification en 2014.",
+    "qhse.QhseBody.historique-text-2": "Grâce aux multiples efforts et à notre stratégie basée sur les compétences humaines, l'innovation et la fidélisation des clients nous avons maintenu nos certificats au fil des années avons renouvelé les cycles de certification tout en les améliorant. Aujourd'hui i2b est fière d'être certifiée par l'un des leaders mondiaux reconnus pour ses certification « Bureau VERITAS » et ce pour les trois référentiels (ISO 9001 V2015, ISO 14001 V2015 et ISO 45001 V2018).",
+    
+    "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "CE QUI NOUS DIFFÉRENCIE",
+    "qhse.QhseBody.CertificationsIso.title-secteurs": ["Début du cycle d'origine", "Transition + Reconduction", "Reconduction", "Transition SST"],
+
+    "qhse.QhseBody.iso-pdfs.title-3": "Politique QHSE",
+    "qhse.QhseBody.afficher": "Afficher",
+    "qhse.QhseBody.telecharger":"Télécharger",
+    "qhse.QhseBody.partager":"Partager",
+
+
+    "talents.TalentsBody.carriere-i2b": "Votre carrière chez i2b",
+    "talents.TalentsBody.text-1": "Les profils diversifiés de i2b forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions innovantes en se basant sur des standards de qualité très élevés. ",
+    "talents.TalentsBody.collaborateurs": "collaborateurs",
+    "talents.TalentsBody.formations-continues": "formations continues",
+    "talents.TalentsBody.lancez-votre-carriere": "Lancez votre carrière",
+    "talents.TalentsBody.rejoignez-nous": "Rejoignez-nous",
+    "talents.TalentsBody.text-2": "i2b SPA est une entreprise avec un potentiel de croissance élevé. La société a une politique de recrutement stable et sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.",
+    "talents.TalentsBody.text-3": "Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : recrutement@i2b-dz.com",
+
+
+    "contact.ContactBody.details-contact": "Détails du contact",
+    "contact.ContactBody.nous-contacter": "Nous-Contacter",
+    "contact.ContactBody.sites": "Sites",
+    "contact.ContactBody.alger": "Alger",
+    "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Alger",
+    "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
+    "contact.ContactBody.telephones": "Téléphones",
+    "contact.ContactBody.pret-a-commencer": "Prêt à commencer?",
+    "contact.ContactBody.form-text": "Votre adresse email ne sera pas publiée. Les champs obligatoire sont indiqués par *",
+    "contact.ContactBody.form-nom": "Nom *",
+    "contact.ContactBody.form-entreprise": "Entreprise",
+    "contact.ContactBody.form-sujet": "Sujet *",
+    "contact.ContactBody.form-message": "Message...",
+    "contact.ContactBody.form-button": "Envoyer le message",
+    "contact.ContactBody.bureaux-alger": "Bureaux d'Alger",
+    "contact.ContactBody.bureaux-oran": "Bureaux d'Oran"
+    
   }

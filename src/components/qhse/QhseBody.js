@@ -7,9 +7,9 @@ function QhseBody() {
 
     const { t } = useTranslation();
 
-    let iso_pdfs = [{title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'},
-                    {title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'},
-                    {title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
+    let iso_pdfs = [{id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'},
+                    {id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'},
+                    {id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
 
   return (
     <>
@@ -119,13 +119,13 @@ function QhseBody() {
                 <div className="container">
                     <div className="row no-margin">
                     {iso_pdfs.map(pdf => (
-                        <div className="col-lg-4 col-md-6">
+                        <div key={pdf.id} className="col-lg-4 col-md-6">
                             <div className="team-wrap v3">
                                 <div className="team-thumb img-hgt-300">
                                     <img src={ `${process.env.PUBLIC_URL}`+pdf.img_path} alt='i2b dz'/>                                 
                                     <div className="team-social flex-middle">
                                         <div>
-                                            <a rel="nofollow noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title={t("qhse.QhseBody.telecharger")}><i class="fa fa-download"></i> </a>
+                                            <a rel="nofollow noopener noreferrer" href={`${process.env.PUBLIC_URL}`+pdf.img_path} target='_blank' title={t("qhse.QhseBody.telecharger")}><i className="fa fa-download"></i> </a>
                                             <a rel="nofollow noopener noreferrer" href="/"  title={t("qhse.QhseBody.partager")}><i className="fa fa-share"></i></a>
                                         </div>
                                     </div>  

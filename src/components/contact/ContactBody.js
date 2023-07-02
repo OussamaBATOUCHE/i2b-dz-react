@@ -65,16 +65,16 @@ function ContactBody() {
                                     <h2>{t("contact.ContactBody.pret-a-commencer")}</h2>
                                     <p className="font14">{t("contact.ContactBody.form-text")}</p>
                                     <p>
-                                        <input type="text" name="name" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-nom")} required />
+                                        <input type="text" name="name" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-nom")} required />
                                     </p>
                                     <p>
-                                        <input type="email" name="email" value="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" required />
+                                        <input type="email" name="email" defaultValue="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" required />
                                     </p>
                                     <p>
-                                        <input type="text" name="entreprise" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-entreprise")}  />
+                                        <input type="text" name="entreprise" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-entreprise")}  />
                                     </p>
                                     <p>
-                                        <input type="text" name="sujet" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-sujet")} required />
+                                        <input type="text" name="sujet" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-sujet")} required />
                                     </p>
                                     <p>
                                         <textarea name="message" cols="40" rows="10" className="" aria-invalid="false" placeholder={t("contact.ContactBody.form-message")} required></textarea>
@@ -100,10 +100,10 @@ function ContactBody() {
                 </div>
                 <div className="map row">
                     <div className="col">
-                        <iframe title='location' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3197.4942874545445!2d3.085458!3d36.734705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecd4af1884c3f841!2si2b%20S.P.A!5e0!3m2!1sfr!2sdz!4v1664475238556!5m2!1sfr!2sdz" height="500" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe title='location' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3197.4942874545445!2d3.085458!3d36.734705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecd4af1884c3f841!2si2b%20S.P.A!5e0!3m2!1sfr!2sdz!4v1664475238556!5m2!1sfr!2sdz" height="500" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                     </div>
                     <div className="col">
-                        <iframe title='location' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6479.574474570514!2d-0.600004!3d35.706853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9374c3cab4ef70e!2si2b%20oran!5e0!3m2!1sfr!2sdz!4v1664474793917!5m2!1sfr!2sdz" height="500" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe title='location' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6479.574474570514!2d-0.600004!3d35.706853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9374c3cab4ef70e!2si2b%20oran!5e0!3m2!1sfr!2sdz!4v1664474793917!5m2!1sfr!2sdz" height="500" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                     </div>
                 </div>
             </div>

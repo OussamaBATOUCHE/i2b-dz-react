@@ -3,7 +3,7 @@ import React from 'react'
 const CertifIso = ({title, context, icon, bckgrnd_img_cls, date}) => {
   return (
     <>
-    <div className="col-lg-3 col-md-6 mb-30">
+    <div  className="col-lg-3 col-md-6 mb-30">
         <div className={`${bckgrnd_img_cls} s2 border-s1 bg text-center height-350`}>
             <div className="icon-main">
                 {/* <span className={icon}></span> */}
@@ -14,7 +14,7 @@ const CertifIso = ({title, context, icon, bckgrnd_img_cls, date}) => {
                 <h5><a href="/">{title}</a></h5>
                 <ul className='ul-no-style text-left'>
                 {context.map(item => (
-                            <li> <i class="fa fa-arrow-right"></i> {item}</li>
+                            <li key={item}> <i className="fa fa-arrow-right"></i> {item}</li>
                         ))}
                 </ul>
             </div>

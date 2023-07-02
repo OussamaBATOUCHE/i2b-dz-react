@@ -88,6 +88,67 @@
     "services.ServicesBody.geolocalisation-gps": "GPS geolocation",
     "services.ServicesBody.service-client-7-24": "24/7 customer service",
     "services.ServicesBody.notre-sav-disposition": "Our after-sales service is at your disposal 24 hours a day, 7 days a week.",
-    "services.ServicesBody.nous-contacter":"Contact us"
+    "services.ServicesBody.nous-contacter":"Contact us",
+
+
+    "qhse.QhseBody.qualite-sante-securite-environnement": "Quality - Health - Safety - Environment",
+    "qhse.QhseBody.text-1": "Adopting and promoting honest and ethical behavior in all of its relations with all of its partners is a strong commitment of i2b SPA. This principle has led the Group to define rules of conduct and action principles that guide the behavior of all employees, suppliers and other stakeholders, in terms of ethics and environmental responsibility. social and societal.",
+    "qhse.QhseBody.a-propos-societe": "ABOUT THE COMPANY",
+    "qhse.QhseBody.introduction-text-1": "SPA i2b, integrator of IT solutions, is an innovative company that has been operating in the information technology and telecommunications sectors since 2002.",
+    "qhse.QhseBody.introduction-text-2": "Aware of the development of the New Information & Communication Technologies market, i2B has decided to distinguish itself through a process of certification and constant improvement of its integrated management system, allowing it to offer its customers the assurance to have quality services by constantly listening to them, and responding to their concerns, all in conditions that respect the health of the actors concerned and the environment.",
+    
+    "qhse.QhseBody.nos-engagements": "OUR ENGAGEMENTS",
+    "qhse.QhseBody.engagements-li-1": "Compliance with enforceable requirements.",
+    "qhse.QhseBody.engagements-li-2": "Maintain the continuous improvement process of our SMI.",
+    "qhse.QhseBody.engagements-li-3": "Prevent bodily harm.",
+    "qhse.QhseBody.engagements-li-4": "Promote environmental protection and pollution prevention.",
+    "qhse.QhseBody.engagements-li-5": "Involve staff in any issue relating to occupational health and safety.",
+
+    "qhse.QhseBody.nos-objectifs": "OUR GOALS",
+    "qhse.QhseBody.objectifs-li-1": "Increase in our market share and our commercial margin.",
+    "qhse.QhseBody.objectifs-li-2": "Regulatory compliance level monitoring and other requirements.",
+    "qhse.QhseBody.objectifs-li-3": "Control of the frequency and severity of work accidents.",
+    "qhse.QhseBody.objectifs-li-4": "Recovery of all GPS boxes at the end of each contract.",
+    "qhse.QhseBody.objectifs-li-5": "Recycle as many IT consumables as possible from our activities.",
+
+    "qhse.QhseBody.historique": "HISTORICAL",
+    "qhse.QhseBody.historique-text-1": "Strengthened by its culture in terms of Quality - Health - Safety - Environment (QHSE), and convinced of the various advantages offered by ISO management tools, i2b decided to embark on a QHSE approach, and obtained triple certification in 2014.",
+    "qhse.QhseBody.historique-text-2": "Thanks to multiple efforts and our strategy based on human skills, innovation and customer loyalty, we have maintained our certificates over the years and have renewed the certification cycles while improving them. Today i2b is proud to be certified by one of the recognized world leaders for its « Bureau VERITAS » certification for the three standards (ISO 9001 V2015, ISO 14001 V2015 and ISO 45001 V2018).",
+    
+    "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "WHAT MAKES US DIFFERENT",
+    "qhse.QhseBody.CertificationsIso.title-secteurs": ["Original cycle Start", "Transition + Rollover", "Rollover", "SST Transition"],
+
+    "qhse.QhseBody.iso-pdfs.title-3": "QHSE policy",
+    "qhse.QhseBody.afficher": "Show",
+    "qhse.QhseBody.telecharger":"Download",
+    "qhse.QhseBody.partager":"Share",
+
+
+    "talents.TalentsBody.carriere-i2b": "Your career at i2b",
+    "talents.TalentsBody.text-1": "The diversified profiles of i2b form a dynamic team that strives to offer our customers innovative solutions based on very high quality standards.",
+    "talents.TalentsBody.collaborateurs": "collaborators",
+    "talents.TalentsBody.formations-continues": "continuing training",
+    "talents.TalentsBody.lancez-votre-carriere": "Launch your career",
+    "talents.TalentsBody.rejoignez-nous": "Join us",
+    "talents.TalentsBody.text-2": "i2b SPA is a company with high growth potential. The company has a stable and selective recruitment policy to ensure that the best talent is hired. i2b SPA regularly invests in the continuous training of its employees so that they have the necessary skills to meet the needs of the company.",
+    "talents.TalentsBody.text-3": "Want to join us? send us your CV and cover letter to: recrutement@i2b-dz.com",
+
+
+    "contact.ContactBody.details-contact": "Contact Details",
+    "contact.ContactBody.nous-contacter": "Contact us",
+    "contact.ContactBody.sites": "Addresses",
+    "contact.ContactBody.alger": "Algiers",
+    "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Algiers",
+    "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
+    "contact.ContactBody.telephones": "Telephones",
+    "contact.ContactBody.pret-a-commencer": "Ready to start?",
+    "contact.ContactBody.form-text": "Your email address will not be published. Mandatory fields are indicated by *",
+    "contact.ContactBody.form-nom": "Name *",
+    "contact.ContactBody.form-entreprise": "Company",
+    "contact.ContactBody.form-sujet": "Subject *",
+    "contact.ContactBody.form-message": "Message...",
+    "contact.ContactBody.form-button": "Send",
+    "contact.ContactBody.bureaux-alger": "Algiers offices",
+    "contact.ContactBody.bureaux-oran": "Oran offices"
     
     }
