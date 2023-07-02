@@ -121,5 +121,34 @@
     "qhse.QhseBody.iso-pdfs.title-3": "Politique QHSE",
     "qhse.QhseBody.afficher": "Afficher",
     "qhse.QhseBody.telecharger":"Télécharger",
-    "qhse.QhseBody.partager":"Partager"
+    "qhse.QhseBody.partager":"Partager",
+
+
+    "talents.TalentsBody.carriere-i2b": "Votre carrière chez i2b",
+    "talents.TalentsBody.text-1": "Les profils diversifiés de i2b forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions innovantes en se basant sur des standards de qualité très élevés. ",
+    "talents.TalentsBody.collaborateurs": "collaborateurs",
+    "talents.TalentsBody.formations-continues": "formations continues",
+    "talents.TalentsBody.lancez-votre-carriere": "Lancez votre carrière",
+    "talents.TalentsBody.rejoignez-nous": "Rejoignez-nous",
+    "talents.TalentsBody.text-2": "i2b SPA est une entreprise avec un potentiel de croissance élevé. La société a une politique de recrutement stable et sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.",
+    "talents.TalentsBody.text-3": "Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : recrutement@i2b-dz.com",
+
+
+    "contact.ContactBody.details-contact": "Détails du contact",
+    "contact.ContactBody.nous-contacter": "Nous-Contacter",
+    "contact.ContactBody.sites": "Sites",
+    "contact.ContactBody.alger": "Alger",
+    "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Alger",
+    "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
+    "contact.ContactBody.telephones": "Téléphones",
+    "contact.ContactBody.pret-a-commencer": "Prêt à commencer?",
+    "contact.ContactBody.form-text": "Votre adresse email ne sera pas publiée. Les champs obligatoire sont indiqués par *",
+    "contact.ContactBody.form-nom": "Nom *",
+    "contact.ContactBody.form-entreprise": "Entreprise",
+    "contact.ContactBody.form-sujet": "Sujet *",
+    "contact.ContactBody.form-message": "Message...",
+    "contact.ContactBody.form-button": "Envoyer le message",
+    "contact.ContactBody.bureaux-alger": "Bureaux d'Alger",
+    "contact.ContactBody.bureaux-oran": "Bureaux d'Oran"
+    
   }

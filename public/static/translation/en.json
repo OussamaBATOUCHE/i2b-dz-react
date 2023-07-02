@@ -121,6 +121,34 @@
     "qhse.QhseBody.iso-pdfs.title-3": "QHSE policy",
     "qhse.QhseBody.afficher": "Show",
     "qhse.QhseBody.telecharger":"Download",
-    "qhse.QhseBody.partager":"Share"
+    "qhse.QhseBody.partager":"Share",
+
+
+    "talents.TalentsBody.carriere-i2b": "Your career at i2b",
+    "talents.TalentsBody.text-1": "The diversified profiles of i2b form a dynamic team that strives to offer our customers innovative solutions based on very high quality standards.",
+    "talents.TalentsBody.collaborateurs": "collaborators",
+    "talents.TalentsBody.formations-continues": "continuing training",
+    "talents.TalentsBody.lancez-votre-carriere": "Launch your career",
+    "talents.TalentsBody.rejoignez-nous": "Join us",
+    "talents.TalentsBody.text-2": "i2b SPA is a company with high growth potential. The company has a stable and selective recruitment policy to ensure that the best talent is hired. i2b SPA regularly invests in the continuous training of its employees so that they have the necessary skills to meet the needs of the company.",
+    "talents.TalentsBody.text-3": "Want to join us? send us your CV and cover letter to: recrutement@i2b-dz.com",
+
+
+    "contact.ContactBody.details-contact": "Contact Details",
+    "contact.ContactBody.nous-contacter": "Contact us",
+    "contact.ContactBody.sites": "Addresses",
+    "contact.ContactBody.alger": "Algiers",
+    "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Algiers",
+    "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
+    "contact.ContactBody.telephones": "Telephones",
+    "contact.ContactBody.pret-a-commencer": "Ready to start?",
+    "contact.ContactBody.form-text": "Your email address will not be published. Mandatory fields are indicated by *",
+    "contact.ContactBody.form-nom": "Name *",
+    "contact.ContactBody.form-entreprise": "Company",
+    "contact.ContactBody.form-sujet": "Subject *",
+    "contact.ContactBody.form-message": "Message...",
+    "contact.ContactBody.form-button": "Send",
+    "contact.ContactBody.bureaux-alger": "Algiers offices",
+    "contact.ContactBody.bureaux-oran": "Oran offices"
     
     }

@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 function ContactBody() {
+    const { t } = useTranslation();
+
   return (
     <>
        <div id="content" className="site-content">
@@ -27,16 +30,16 @@ function ContactBody() {
                         <div className="col-lg-6">
                             <div className="contact-left">
                                 <div className="ot-heading">
-                                    <span>Détails du contact</span>
-                                    <h2 className="main-heading">Nous-Contacter</h2>
+                                    <span>{t("contact.ContactBody.details-contact")}</span>
+                                    <h2 className="main-heading">{t("contact.ContactBody.nous-contacter")}</h2>
                                 </div>
                                 <div className="space-5"></div>
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-world-globe"></i>                    
                                     <div className="info-text">
-                                        <h6>Sites</h6>
-                                        <p> <strong>Alger :</strong> 6, rue Ahmed Chérifi, Kouba, Alger</p>
-                                        <p> <strong>Oran :</strong> Cité point du jour lot n°57, Oran</p> 
+                                        <h6>{t("contact.ContactBody.sites")}</h6>
+                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong> {t("contact.ContactBody.address-alger")}</p>
+                                        <p> <strong>Oran :</strong> {t("contact.ContactBody.address-oran")}</p> 
                                     </div>
                                 </div>
                                 <div className="contact-info box-style1">
@@ -49,8 +52,8 @@ function ContactBody() {
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-phone-1"></i>
                                     <div className="info-text">
-                                        <h6>Téléphones</h6>
-                                        <p> <strong>Alger :</strong>+213 (0) 23 78 63 47</p>
+                                        <h6>{t("contact.ContactBody.telephones")}</h6>
+                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 47</p>
                                         <p> <strong>Oran  :</strong>+213 (0) 782 48 56 92</p>
                                     </div>
                                 </div>
@@ -59,24 +62,24 @@ function ContactBody() {
                         <div className="col-lg-6">
                             <form action="contact.php" method="post" className="wpcf7">
                                 <div className="main-form">
-                                    <h2>Prêt à commencer?</h2>
-                                    <p className="font14">Votre adresse email ne sera pas publiée. Les champs obligatoire sont indiqués par *</p>
+                                    <h2>{t("contact.ContactBody.pret-a-commencer")}</h2>
+                                    <p className="font14">{t("contact.ContactBody.form-text")}</p>
                                     <p>
-                                        <input type="text" name="name" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder="Nom *" required />
+                                        <input type="text" name="name" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-nom")} required />
                                     </p>
                                     <p>
                                         <input type="email" name="email" value="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" required />
                                     </p>
                                     <p>
-                                        <input type="text" name="entreprise" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder="Entreprise"  />
+                                        <input type="text" name="entreprise" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-entreprise")}  />
                                     </p>
                                     <p>
-                                        <input type="text" name="sujet" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder="Sujet *" required />
+                                        <input type="text" name="sujet" value="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-sujet")} required />
                                     </p>
                                     <p>
-                                        <textarea name="message" cols="40" rows="10" className="" aria-invalid="false" placeholder="Message..." required></textarea>
+                                        <textarea name="message" cols="40" rows="10" className="" aria-invalid="false" placeholder={t("contact.ContactBody.form-message")} required></textarea>
                                     </p>
-                                    <p><button type="submit" className="octf-btn octf-btn-light">Envoyer le message</button>
+                                    <p><button type="submit" className="octf-btn octf-btn-light">{t("contact.ContactBody.form-button")}</button>
                                     </p>
                                 </div>
                             </form>
@@ -89,10 +92,10 @@ function ContactBody() {
             <div className="no-padding">
                 <div className="row">
                     <div className="col align-self-center text-center">
-                        <h2 className="main-heading">Bureaux d'Alger</h2>
+                        <h2 className="main-heading">{t("contact.ContactBody.bureaux-alger")}</h2>
                     </div>
                     <div className="col align-self-center text-center">
-                    <h2 className="main-heading">Bureaux d'Oran</h2>
+                    <h2 className="main-heading">{t("contact.ContactBody.bureaux-oran")}</h2>
                     </div>
                 </div>
                 <div className="map row">

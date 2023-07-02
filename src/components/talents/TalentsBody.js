@@ -1,7 +1,9 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
+import { useTranslation } from "react-i18next";
 
 function TalentsBody() {
+    const { t } = useTranslation();
   return (
     <>
        <div id="content" className="site-content">
@@ -15,10 +17,9 @@ function TalentsBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <h2>Votre carrière chez i2b</h2>
+                                <h2>{t("talents.TalentsBody.carriere-i2b")}</h2>
                                 <p className="sub-text">
-                                    Les profils diversifiés de i2b forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions
-                                    innovantes en se basant sur des standards de qualité très élevés. 
+                                    {t("talents.TalentsBody.text-1")}
                                 </p>
                             </div>
                         </div>
@@ -43,7 +44,7 @@ function TalentsBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'>+96 <br />collaborateurs</h2>    
+                                    <h2 className='text-center'>+96 <br />{t("talents.TalentsBody.collaborateurs")}</h2>    
                                 </div>
                             </div>
                         </div>
@@ -51,7 +52,7 @@ function TalentsBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'>+50 <br />formations continues</h2>    
+                                    <h2 className='text-center'>+50 <br />{t("talents.TalentsBody.formations-continues")}</h2>    
                                 </div>
                             </div>
                         </div>
@@ -68,16 +69,12 @@ function TalentsBody() {
                         <div className="col-lg-6 align-self-center">
                             <div className="right-about-v4">
                                 <div className="ot-heading">
-                                    <span>Lancez votre carrière</span>
-                                    <h2 className="main-heading">Rejoignez-nous</h2>
+                                    <span>{t("talents.TalentsBody.lancez-votre-carriere")}</span>
+                                    <h2 className="main-heading">{t("talents.TalentsBody.rejoignez-nous")}</h2>
                                 </div>
                                 <div className="space-5"></div>
-                                <p className='justify-text'>
-                                   i2b SPA est une entreprise avec un potentiel de croissance élevé. La société a une politique de recrutement stable et
-                                   sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue 
-                                   de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.      
-                                </p>
-                                <p><em className="text-dark"><strong>Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : recrutement@i2b-dz.com</strong></em></p>
+                                <p className='justify-text'>{t("talents.TalentsBody.text-2")}</p>
+                                <p><em className="text-dark"><strong>{t("talents.TalentsBody.text-3")}</strong></em></p>
                             </div>
                         </div>
                         <div className="col-lg-6 mb-4 mb-lg-0 align-self-center">
@@ -91,9 +88,9 @@ function TalentsBody() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h2>Notre  SAV est à votre disposition 24h/24 et 7/7</h2>
+                            <h2>{t("services.ServicesBody.notre-sav-disposition")}</h2>
                             <div className="ot-button">
-                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >Nous contacter</HashLink>
+                                <HashLink to="/contact#top" reloadDocument className="octf-btn octf-btn-primary" >{t("services.ServicesBody.nous-contacter")}</HashLink>
                             </div>
                         </div>
                     </div>
