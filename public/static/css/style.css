@@ -1669,8 +1669,8 @@ a:hover, a:active {
   top: calc(100% + 1px);
   right: -30px;
   background: #fff;
-  width: 330px;
-  padding: 30px;
+  width: 175px;
+  padding: 25px;
   box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
   -webkit-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
   -moz-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
@@ -1729,7 +1729,16 @@ a:hover, a:active {
   font-size: 11px;
   font-weight: bold;
 }
-
+.lang-btn:hover{
+  background-color: #3c208e;
+  color: white;
+  transition: 500ms;
+}
+.lang-btn-active{
+  background-color: #3c208e;
+  color: white;
+  transition: 500ms;
+}
 .header-style-3 {
   border: none;
 }

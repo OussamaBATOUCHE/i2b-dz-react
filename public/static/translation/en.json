@@ -27,7 +27,7 @@
     
     "home.QuiSommesNous.annees-experience":"Over 20 years of experience",
     "home.QuiSommesNous.qui-sommes-nous":"Who are we ?",
-    "home.QuiSommesNous.paragraph":"i2b SPA is an IT Engineering Services Company, created in 2002, a true integrator of solutions in the field of new IT and telecommunications technologies, thanks to its development policy which consists of investing in other niches. with high technological potential. i2b has set up a gradual and constant technology transfer in order to ensure a certain independence vis-à-vis external supply by integrating technical capacities and national skills. Currently, we have ninety-three (93) employees with various backgrounds, mainly composed of technicians and developer engineers (software & hardware). i2b covers the entire national territory with offices in Algiers and Oran, with numerous representatives in Sétif, Constantine, Bordj Bou Arreridj and Hassi-Mesaoud.",
+    "home.QuiSommesNous.paragraph":"i2b SPA Company is an IT Engineering Services Company, set up in 2002.  After having built strong experience and achieved proficiency in technical mechanisms, i2b has asserted itself today as a solution of information technology & telecommunications integrator.i2b has achieved a gradual and constant technological transfer by integrating national technical capacities & skills, The company has at present  more than ninety-three (93) employees, who are mainly software and hardware developers and technicians, i2b has offices in Algiers and Oran, with representatives in Sétif, Constantine, Bordj Bou Arreridj and Hassi-Mesaoud, to cover the entire national territory.",
     
     "home.NosSecteurs.nos-secteurs":"OUR SECTORS",
     "home.NosSecteurs.diff-secteurs-activite":"Our different sectors of activity",
@@ -55,6 +55,50 @@
     "home.Vision.vision-text": "i2b aspires to push the boundaries of innovation, anticipate future market needs and create a positive impact on society. Leveraging our expertise and commitment to quality, we aim to be our customers' first choice and build a strong and sustainable business.",
 
     "home.Experts.notre-equipe":"Our Team",
+    "home.Experts.experts1" : [
+          { 
+              "name":"Amine", "surname": "Bennacef", "position":"General Manager", "photo_path": "7.png",
+              "text":"Amine Bennacef is the co-founder and CEO of i2b SPA since 2002. He graduated from the University of Science and Technology USTHB and has over 20 years of experience in the engineering and technology field. He plays a crucial role in the strategic direction and overall management of the company, enabling significant growth and establishing a leading position in the ICT market in Algeria."
+          },
+          {
+            "name":"Salim", "surname": "Babasi", "position":"Sales Manager, Geoflotte", "photo_path": "10.png",
+            "text": "Salim has over 14 years of experience in the automotive industry, fleet management, and geotracking. Before joining Geoflotte in 2020, he worked with various groups, including Renault Trucks Algeria, Citroën Algeria, and Maghreb Leasing Algeria - MLA. With this wealth of expertise, he brings vision and know-how to the group."
+          },
+          {
+            "name":"Billal", "surname": "Zidi", "position":"Sales Manager, Algeria Tenders", "photo_path": "8.png",
+            "text": "Billal is an expert in sales and public relations. Graduated from EHEC, he has over 16 years of experience in customer relations, which has positioned Algeria Tenders as a leader and reference in the public procurement market in Algeria, and fostered a spirit of unity and cohesion within his team. He is currently the Sales Director of the Algeria Tenders Business Unit, where he began his career in 2007 as a sales executive and has had a successful career progression within the company."
+          },
+          {
+            "name":"Mohamed", "surname": "Betit", "position":"Sales Manager, Algeria Invest", "photo_path": "9.png",
+            "text": "Mohamed has over 15 years of experience in the multi-platform sales sector. He has held several positions, including Sales Manager Western Region at Axa Assurances, Head of Large Account Department at Ooredoo Algeria, as well as various positions at Cima Motors and Onab Nutrition. With his ability to adapt to diverse environments and his diversified background, Mohamed offers national and international investors customized solutions to support them in all their projects."
+          },
+          {
+              "name":"Naim", "surname": "Midni", "position":"Chief Financial Officer", "photo_path": "1.png",
+              "text": "Naim Midni has over 22 years of experience in financial management, accounting, auditing, and financial analysis, including more than 10 years as a Finance Director for several international groups. Naim has also been a Chartered Accountant since 2010."
+          }
+    ],
+    "home.Experts.experts2" : [
+          {
+            "name":"Hanane", "surname": "Toutaoui", "position":"HR Partner", "photo_path": "6.png",
+            "text": "Hanane joined in 2013 as a tenders Analyst within the Business Unit Algeria Tenders. She has experienced career growth and currently holds the position of HR Manager at i2b SPA. Additionally, she’s also part of the CPHS committee."
+          },  
+          {
+              "name":"Yasmine", "surname": "Mezghich", "position":"Quality and Customer Service Officer, Geoflotte", "photo_path": "2.png",
+              "text": "Yasmine joined in July 2019, bringing over 14 years of experience in sales and customer management. She has notably enriched her expertise in renowned companies such as Djezzy and Jumia Algeria."
+          },
+          {
+            "name":"Yanis", "surname": "SiSalah", "position":"Digital Marketing Manager", "photo_path": "3.png",
+            "text": "Yanis joined i2b SPA in 2020. He holds a Bachelor's degree in Business Administration from ICN Business School and a Master's degree in Marketing from the University of Côte d'Azur. He previously worked as a PR Executive at Allegorie Group, bringing solid experience of over 5 years in the fields of marketing and public relations."
+          },
+          {
+              "name":"Oussama", "surname": "Bounouh", "position":"IT Support & Facilities Manager", "photo_path": "5.png",
+              "text": "Oussama Bounouh has over 14 years of experience in computer engineering. In 2009, he joined i2b SPA as an IT maintenance officer. He is diligent and resourceful in managing technical projects and has contributed to the success of numerous collaborations with multinational companies."
+          },
+          {
+              "name":"Sihem", "surname": "Chouial", "position":"Customer Quality Manager, ALGERIA TENDERS", "photo_path": "4.png",
+              "text": "In 2010, Sihem Chouial joined Algeria Tenders as a Bid Analyst and progressed to the position of Customer Quality Manager. With a degree in economics and business management, she has over 10 years of experience in customer quality management. Her expertise enables her to provide strategic advice to clients in the field of tendering."
+          }
+    ],
 
     "home.Stats.collaborateurs": "Collaborators",
     "home.Stats.collaborateurs-text": "Our success is based on the efforts and commitment of our employees who share the same identity and the same state of mind...",
@@ -97,23 +141,23 @@
     "qhse.QhseBody.introduction-text-1": "SPA i2b, integrator of IT solutions, is an innovative company that has been operating in the information technology and telecommunications sectors since 2002.",
     "qhse.QhseBody.introduction-text-2": "Aware of the development of the New Information & Communication Technologies market, i2B has decided to distinguish itself through a process of certification and constant improvement of its integrated management system, allowing it to offer its customers the assurance to have quality services by constantly listening to them, and responding to their concerns, all in conditions that respect the health of the actors concerned and the environment.",
     
-    "qhse.QhseBody.nos-engagements": "OUR ENGAGEMENTS",
-    "qhse.QhseBody.engagements-li-1": "Compliance with enforceable requirements.",
-    "qhse.QhseBody.engagements-li-2": "Maintain the continuous improvement process of our SMI.",
-    "qhse.QhseBody.engagements-li-3": "Prevent bodily harm.",
+    "qhse.QhseBody.nos-engagements": "OUR COMMITMENTS",
+    "qhse.QhseBody.engagements-li-1": "Be in compliance with enforceable requirements.",
+    "qhse.QhseBody.engagements-li-2": "Maintain our SMI continuous improvement process.",
+    "qhse.QhseBody.engagements-li-3": "Prevent physical harm.",
     "qhse.QhseBody.engagements-li-4": "Promote environmental protection and pollution prevention.",
-    "qhse.QhseBody.engagements-li-5": "Involve staff in any issue relating to occupational health and safety.",
+    "qhse.QhseBody.engagements-li-5": "Involve staff in all matters related to occupational health and safety.",
 
-    "qhse.QhseBody.nos-objectifs": "OUR GOALS",
-    "qhse.QhseBody.objectifs-li-1": "Increase in our market share and our commercial margin.",
-    "qhse.QhseBody.objectifs-li-2": "Regulatory compliance level monitoring and other requirements.",
-    "qhse.QhseBody.objectifs-li-3": "Control of the frequency and severity of work accidents.",
-    "qhse.QhseBody.objectifs-li-4": "Recovery of all GPS boxes at the end of each contract.",
-    "qhse.QhseBody.objectifs-li-5": "Recycle as many IT consumables as possible from our activities.",
+    "qhse.QhseBody.nos-objectifs": "OUR OBJECTIVES",
+    "qhse.QhseBody.objectifs-li-1": "Increase our market share and sales margin.",
+    "qhse.QhseBody.objectifs-li-2": "Monitor regulation and requirement compliance.",
+    "qhse.QhseBody.objectifs-li-3": "Control the frequency and seriousness of occupational accidents.",
+    "qhse.QhseBody.objectifs-li-4": "Recover all GPS boxes at each end of contract.",
+    "qhse.QhseBody.objectifs-li-5": "Recycle as much as possible IT consumables.",
 
-    "qhse.QhseBody.historique": "HISTORICAL",
-    "qhse.QhseBody.historique-text-1": "Strengthened by its culture in terms of Quality - Health - Safety - Environment (QHSE), and convinced of the various advantages offered by ISO management tools, i2b decided to embark on a QHSE approach, and obtained triple certification in 2014.",
-    "qhse.QhseBody.historique-text-2": "Thanks to multiple efforts and our strategy based on human skills, innovation and customer loyalty, we have maintained our certificates over the years and have renewed the certification cycles while improving them. Today i2b is proud to be certified by one of the recognized world leaders for its « Bureau VERITAS » certification for the three standards (ISO 9001 V2015, ISO 14001 V2015 and ISO 45001 V2018).",
+    "qhse.QhseBody.historique": "CERTIFICATIONS HISTORY",
+    "qhse.QhseBody.historique-text-1": "Strong in its culture in the field of Quality - Health - Safety - Environment (QHSE), and convinced of the various advantages offered by the ISO management tools, i2b decided to embark on a QHSE approach and obtained the triple certification. Today, i2b is proud to be certified by one of the world leaders recognized for its certification, i.e. 'Bureau VERITAS' and this for the three referential (ISO 9001 V2015, ISO 14001 V2015 and ISO 45001 V2018).",
+    "qhse.QhseBody.historique-text-2": "Thanks to multiple efforts and our strategy based on human skills, innovation and customer loyalty, we have maintained our certificates over the years and have renewed the certification cycles while improving them by applying the PDCA (Plan Do and Check) cycle.",
     
     "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "WHAT MAKES US DIFFERENT",
     "qhse.QhseBody.CertificationsIso.title-secteurs": ["Original cycle Start", "Transition + Rollover", "Rollover", "SST Transition"],
@@ -125,8 +169,8 @@
 
 
     "talents.TalentsBody.carriere-i2b": "Your career at i2b",
-    "talents.TalentsBody.text-1": "The diversified profiles of i2b form a dynamic team that strives to offer our customers innovative solutions based on very high quality standards.",
-    "talents.TalentsBody.collaborateurs": "collaborators",
+    "talents.TalentsBody.text-1": "i2b is made of a team of diverse profiles who work to offer our customers high-quality innovative solutions.",
+    "talents.TalentsBody.collaborateurs": "employees",
     "talents.TalentsBody.formations-continues": "continuing training",
     "talents.TalentsBody.lancez-votre-carriere": "Launch your career",
     "talents.TalentsBody.rejoignez-nous": "Join us",

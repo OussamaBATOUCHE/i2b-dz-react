@@ -138,6 +138,8 @@ function Header() {
                             <div className="octf-col cta-col text-right">
                             {/* <!--  Call To Action --> */}
                                 <div className="octf-btn-cta hstyle-2">
+                                    
+                                    
 
                                     <div className="octf-header-module">
                                         <div className="toggle_search octf-cta-icons">
@@ -162,14 +164,38 @@ function Header() {
                                             
                                         </ul>
                                     </div>
+
+                                    {/* Lang-popup */}
+                                    <div className="octf-header-module cart-btn-hover">
+                                        <div className="h-cart-btn octf-cta-icons">
+                                            <span className="cart-icon"><i className="flaticon-world-globe"></i><span className="count">{i18n.language}</span></span>
+                                        </div>  
+                                        <div className="site-header-cart">
+                                            <div className="widget woocommerce widget_shopping_cart">
+                                                <div className="widget_shopping_cart_content">
+                                                   <div className='row'>
+                                                    {LANGUAGES.map(({ code, label }) => (
+                                                        <button 
+                                                            className={`col-md-12 btn lang-btn ${code===i18n.language ? "lang-btn-active" : ""}`}  
+                                                            key={code} 
+                                                            value={code} 
+                                                            onClick={onChangeLang}>
+                                                            {label}
+                                                        </button>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <select className='lang' defaultValue={i18n.language} onChange={onChangeLang}>
+                                    {/* <select className='lang' defaultValue={i18n.language} onChange={onChangeLang}>
                                         {LANGUAGES.map(({ code, label }) => (
                                         <option key={code} value={code}>
                                             {label}
                                         </option>
                                         ))}
-                                    </select>
+                                    </select> */}
 
                                     {/* <div className="octf-header-module">
                                         <div className="ft-list-icon ">

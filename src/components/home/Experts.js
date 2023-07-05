@@ -1,10 +1,12 @@
 import React from 'react'
 import ExpertCard from './page_components/ExpertCard'
-import { experts1, experts2 } from '../../constants'
+// import { experts1, experts2 } from '../../constants'
 import { useTranslation } from "react-i18next";
 
 const Experts = () => {
     const { t } = useTranslation();
+    let experts1 = t("home.Experts.experts1")
+    let experts2 = t("home.Experts.experts2")
   return (
     <>
     <section className="team-v5">
