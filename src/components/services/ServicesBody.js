@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link'
 import { useTranslation } from "react-i18next";
 
 function ServicesBody() {
-    const { t } = useTranslation();
+    const { i18n, t } = useTranslation();
   return (
     <>
        <div id="content" className="site-content">
@@ -36,7 +36,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                     <div className="left-img">
                                         <a href={"https://www.algeriatenders.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
-                                            <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/at.jpg`} alt="" />
+                                            <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/${i18n.language}/at.jpg`} alt="" />
                                         </a>
                                     </div>
                             </div>
@@ -72,7 +72,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="right-img">
                                 <a href={"https://www.geoflotte.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/gf.jpg`} alt="" />
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/${i18n.language}/gf.jpg`} alt="" />
                                 </a>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ function ServicesBody() {
                             <div className="col-xl-6 col-lg-12 col-md-12">
                                 <div className="left-img">
                                 <a href={"https://www.algeriainvest.com/"} target={'blank'} className='smaller-on-hover' title='visitez le site web'>
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/ai.jpg`} alt="" />
+                                    <img src={`${process.env.PUBLIC_URL}/static/images/i2bproducts/${i18n.language}/ai.jpg`} alt="" />
                                 </a>
                                 </div>
                             </div>

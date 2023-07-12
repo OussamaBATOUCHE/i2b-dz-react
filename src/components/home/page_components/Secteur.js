@@ -11,7 +11,8 @@ const Secteur = ({title, context, icon, bckgrnd_img_cls}) => {
             </div>
             <div className="content-box">
                 <h5><a href="/">{title}</a></h5>
-                <ul className='ul-no-style text-left'>
+                {/* ul-no-style */}
+                <ul className=' text-left'>
                 {context.map(item => (
                             <li key={item}> {item}</li>
                         ))}
