@@ -27,21 +27,21 @@
     
     "home.QuiSommesNous.annees-experience":"Plus de 20 années d'expérience",
     "home.QuiSommesNous.qui-sommes-nous":"Qui Sommes-nous ?",
-    "home.QuiSommesNous.paragraph":"i2b SPA est une Société de Services en Ingénierie Informatique SSII, créée en 2002, un véritable intégrateur de solutions dans le domaine des nouvelles technologies de l'informatique et des télécommunications, grâce à sa politique de développement qui consiste à investir dans d'autres créneaux à fort potentiel technologique. i2b a mis en place un transfert technologique graduel et constant afin d'assurer une certaine indépendance vis-à-vis d'un approvisionnement extérieur par l'intégration des capacités techniques et des compétences nationales. Actuellement, nous comptons quatre-vingt-treize (93) employés aux profils diverses, composés essentiellement de techniciens et d'ingénieurs développeurs (software & hardware). i2b couvre le territoire national en disposant de bureaux situés à Alger et à Oran, tout en déployant des représentants au niveau de Sétif, Constantine, Bordj Bou Arreridj et Hassi-Mesaoud.",
+    "home.QuiSommesNous.paragraph":"i2b SPA est une Société de Services en Ingénierie Informatique SSII, créée en 2002, un véritable intégrateur de solutions dans le domaine des nouvelles technologies de l'informatique et des télécommunications, grâce à sa politique de développement qui consiste à investir dans d'autres créneaux à fort potentiel technologique. i2b SPA a mis en place un transfert technologique graduel et constant afin d'assurer une certaine indépendance vis-à-vis d'un approvisionnement extérieur par l'intégration des capacités techniques et des compétences nationales. Actuellement, nous comptons quatre-vingt-treize (93) employés aux profils diverses, composés essentiellement de techniciens et d'ingénieurs développeurs (software & hardware). i2b SPA couvre le territoire national en disposant de bureaux situés à Alger et à Oran, tout en déployant des représentants au niveau de Sétif, Constantine, Bordj Bou Arreridj et Hassi-Mesaoud.",
     
     "home.NosSecteurs.nos-secteurs":"NOS SECTEURS",
     "home.NosSecteurs.diff-secteurs-activite":"Nos différents secteurs d'activité ",
-    "home.NosSecteurs.text":"Découvrez comment nos produits innovants répondent aux besoins de divers secteurs d'activité, en apportant des solutions adoptées à une multitude d'industies.",
+    "home.NosSecteurs.text":"Découvrez comment nos produits innovants répondent aux besoins de divers secteurs d'activité, en apportant des solutions adoptées à une multitude d'industries.",
     "home.NosSecteurs.TITLE_SECTEURS": ["Veille des marchés publics et privés","Géolocalisation & Gestion de flottes","Accompagnement des investisseurs"],
     "home.NosSecteurs.LI_ITEMS": [
-                                ["Business intelligence", "Accès aux appels d'offres", "Dépôt de soumission", "Assistance aux entreprise", "Accès aux archives"],
-                                ["Géolocalisation de flotte", "Suivi des trajets", "Gestion des parc", "Gestion des alertes", "Gestion des interventions"],
-                                ["Etude de marché", "Etudes technico-économiques", "Assistance aux entreprises", "Implémentation et Logistiques", "Moteurs de Recherche juridique"]
+                                ["Business intelligence", "Accès aux appels d'offres", "Dépôt de soumissions", "Assistance aux entreprises", "Accès aux archives"],
+                                ["Géolocalisation de flotte", "Suivi des trajets", "Gestion des parcs", "Gestion des alertes", "Gestion des interventions"],
+                                ["Etude de marché", "Etudes technico-économiques", "Assistance aux entreprises", "Implémentation et Logistiques", "Moteur de Recherche juridique"]
                               ],
     
     "home.Valeurs.vision-performance": "Vision et performance",
     "home.Valeurs.valeurs-fondatrices": "Les valeurs fondatrices de notre entreprise",
-    "home.Valeurs.paragraph-1": "i2b se distingue par son engagement envers la qualité, la performance, le leadership et l'innovation. Créant ainsi, un environnement propice à l'épanouissement des employés et au succès de nos projets.",
+    "home.Valeurs.paragraph-1": "i2b SPA se distingue par son engagement envers la qualité, la performance, le leadership et l'innovation. Créant ainsi, un environnement propice à l'épanouissement des employés et au succès de nos projets.",
     "home.Valeurs.paragraph-2": "Grâce à notre culture axée sur l'amélioration continue, nous visons à anticiper les besoins changeants de nos clients et à apporter des solutions novatrices à leurs défis les plus complexes.",
     "home.Valeurs.paragraph-3": "Nous mettons en valeur la créativité de chaque membre de notre équipe, lui permettant de contribuer activement et de jouer un rôle clé dans la réalisation de notre vision commune. En cultivant une atmosphère d'ouverture et de collaboration, nous favorisons l'épanouissement professionnel et personnel de nos employés, ce qui se reflète dans la qualité de notre travail et la satisfaction de nos clients.",
     "home.Valeurs.4-boxes-qualite": "Qualité",
@@ -50,9 +50,9 @@
     "home.Valeurs.4-boxes-leadership": "Leadership",
     
     "home.Vision.mission": "Mission",
-    "home.Vision.mission-text": "i2b œuvre à fournir des services informatiques & technologiques de haute qualité, à la pointe de la technologie, et à assurer un perfectionnement continu de l'ensemble de ses produits pour garantir la satisfaction de ses clients et partenaires à long terme.",
+    "home.Vision.mission-text": "i2b SPA œuvre à fournir des services informatiques & technologiques de haute qualité, à la pointe de la technologie, et à assurer un perfectionnement continu de l'ensemble de ses produits pour garantir la satisfaction de ses clients et partenaires à long terme.",
     "home.Vision.vision": "Vision",
-    "home.Vision.vision-text": "i2b aspire à repousser les limites de l'innovation, à anticiper les besoins futurs du marché et à créer un impact positif sur la société. En nous appuyant sur notre expertise et notre engagement envers la qualité, nous visons à être le choix privilégié de nos clients et à bâtir une entreprise solide et durable.",
+    "home.Vision.vision-text": "i2b SPA aspire à repousser les limites de l'innovation, à anticiper les besoins futurs du marché et à créer un impact positif sur la société. En nous appuyant sur notre expertise et notre engagement envers la qualité, nous visons à être le choix privilégié de nos clients et à bâtir une entreprise solide et durable.",
     
     "home.Experts.notre-equipe":"Notre Equipe",
     "home.Experts.experts1" : [
@@ -61,7 +61,7 @@
                       "text":"Amine Bennacef est le co-fondateur et le Directeur Général de i2b SPA depuis 2002, il est diplômé de l'université des Sciences et de la Technologie USTHB, avec +20 ans d'expérience dans le domaine de l'ingénierie et de la technologie. Il joue un rôle essentiel dans la direction stratégique et la gestion globale de l'entreprise, ayant permis une croissance significative ainsi qu'un positionnement en leader sur le marché des TIC en Algérie."
                   },
                   {
-                    "name":"Salim", "surname": "Babasi", "position":"Sales Manager Geoflotte", "photo_path": "10.png",
+                    "name":"Salim", "surname": "Babaci", "position":"Sales Manager Geoflotte", "photo_path": "10.png",
                     "text": "Salim a +14 ans dans l'industrie automobile, de la gestion de flotte et du geotracking. Avant de rejoindre Geoflotte en 2020, il a travaillé au sein de plusieurs groupes, notamment chez Renault Trucks Algérie, Citroën Algérie et Maghreb Leasing Algérie - MLA. Riche de cette expertise, il apporte vision et savoir-faire au groupe."
                   },
                   {
@@ -82,10 +82,7 @@
                     "name":"Hanane", "surname": "Toutaoui", "position":"HR Partner", "photo_path": "6.png",
                     "text": "Hanane a rejoint l'entreprise en 2013, en tant que Analyste d'appels d'offres au sein de la Business Unit Algeria Tenders, et a profité d'une évolution de carrière pour occuper aujourd'hui, le poste de Responsable Ressources Humaines chez i2b SPA, et membre du comité CPHS."
                   },  
-                  {
-                      "name":"Yasmine", "surname": "Mezghich", "position":"Chargée Qualité et Service Client Geoflotte", "photo_path": "2.png",
-                      "text": "Arrivée en Juillet  2019, Yasmine apporte son expérience de +14 ans dans le domaine commercial et gestion de clientèle. Elle a notamment enrichi son savoir-faire dans des entreprises renommées, telles que Djezzy et Jumia Algérie."
-                  },
+                  
                   {
                     "name":"Yanis", "surname": "SiSalah", "position":"Digital Marketing Manager", "photo_path": "3.png",
                     "text": "Yanis a rejoint i2b SPA en 2020, titulaire d'un Bachelor en Business Administration de l'ICN Busiiness School et d'un Master en Marketing de l'Université de la Côte d'Azur. Il a précédemment occupé le poste de PR exécutive chez Allĕgorie Group avec une expérience solide de +5ans dans les domaines du marketing et des relations publiques."
@@ -93,6 +90,10 @@
                   {
                       "name":"Oussama", "surname": "Bounouh", "position":"IT Supports & Facilities Manager", "photo_path": "5.png",
                       "text": "Oussama Bounouh compte +14 ans d'expériences en ingénierie informatique. En 2009, il rejoint i2b SPA en tant que Chargé de la maintenance informatique. Il est consciencieux et ingénieux dans la conduite de projets techniques, et a contribué au succès de nombreuses collaborations avec des entreprises multinationales."
+                  },
+                  {
+                    "name":"Yasmine", "surname": "Mezghich", "position":"Chargée Qualité et Service Client Geoflotte", "photo_path": "2.png",
+                    "text": "Arrivée en Juillet  2019, Yasmine apporte son expérience de +14 ans dans le domaine commercial et gestion de clientèle. Elle a notamment enrichi son savoir-faire dans des entreprises renommées, telles que Djezzy et Jumia Algérie."
                   },
                   {
                       "name":"Sihem", "surname": "Chouial", "position":"Responsable Qualité clientèle ALGERIA TENDERS", "photo_path": "4.png",
@@ -114,13 +115,13 @@
     
     "services.ServicesBody.at": "Numéro 1 des marchés publics",
     "services.ServicesBody.at-paragraph-1": "Plateforme digitale dédiée exclusivement à la recherche, à l'exploitation, et à la centralisation des avis d'appels d'offres, nationaux et internationaux, ainsi qu'à la mise à la disposition des entreprises des précisions et des indications ayant trait aux annonces publiées sur le territoire national (avis d'attribution, d'infructuosité, de consultation, de prorogation, de vente aux enchères, et d'autres) permettant ainsi à ses clients l'accès à toutes les opportunités du marché algérien.",
-    "services.ServicesBody.at-paragraph-2": "Aujourd'hui, avec une couverture de +500 sources d'information spécialisées avec le support d'une équipe qualifiée, i2b est devenue une véritable référence du marché algérien pour +5000 entreprises nationales et internationales (y compris non-résidentes) et dont le nombre ne cesse de croître.",
+    "services.ServicesBody.at-paragraph-2": "Aujourd'hui, avec une couverture de +500 sources d'information spécialisées avec le support d'une équipe qualifiée, i2b SPA est devenue une véritable référence du marché algérien pour +5000 entreprises nationales et internationales (y compris non-résidentes) et dont le nombre ne cesse de croître.",
     
     "services.ServicesBody.geo": "Votre partenaire de géolocalisation et de gestion de flotte",
-    "services.ServicesBody.geo-paragraph-1": "Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges logistiques. En 2008, i2b a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b a acquis, depuis quelques années, une position de leader sur le marché national. Dans un premier temps, i2b a importé cette solution, puis après avoir capitalisé de l'expérience et acquis les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).",
+    "services.ServicesBody.geo-paragraph-1": "Geoflotte est une solution de géolocalisation GPS et de gestion de flotte de tous types de véhicules, d'engins et d'équipements mobiles en temps réel, qui permet aux entreprises de suivre, de maîtriser, de gérer et de sécuriser leur flotte pour augmenter leur productivité tout en optimisant leurs charges logistiques. En 2008, i2b SPA a obtenu l'autorisation et l'agrément d'exploitation du système de géolocalisation de l'ARPT (aujourd'hui ARPCE). Grâce à cette stratégie de développement, i2b SPA a acquis, depuis quelques années, une position de leader sur le marché national. Dans un premier temps, i2b SPA a importé cette solution, puis après avoir capitalisé de l'expérience et acquis les connaissances nécessaires, elle a développé, grâce à son propre service R&D et aux efforts d'investissements consentis, sa propre solution web de géolocalisation, (le hardware, le logiciel et la cartographie).",
     
     "services.ServicesBody.ai": "Votre partenaire pour l'investissement en Algerie",
-    "services.ServicesBody.ai-paragraph-1": "Dans le cadre de sa stratégie de diversification, i2b a lancé, en juin 2021, Algeria INVEST® - première plateforme digitale dédiée à l'investissement en Algérie. ",
+    "services.ServicesBody.ai-paragraph-1": "Dans le cadre de sa stratégie de diversification, i2b SPA a lancé, en juin 2021, Algeria INVEST® - première plateforme digitale dédiée à l'investissement en Algérie. ",
     "services.ServicesBody.ai-paragraph-2": "Algeria INVEST® est un service d'information et d'accompagnement destiné à tous les acteurs économiques et aux investisseurs nationaux et internationaux souhaitant investir en Algérie, leur fournissant toutes les données nécessaires à la réussite de leurs projets.",
     "services.ServicesBody.ai-paragraph-3": "Algeria INVEST® répond aux besoins formulés par de nombreux investisseurs en recherche d'informations éclairées sur les circuits et les modalités d'investissements en Algérie. Figurent parmi les services d'accompagnement proposés, l'assistance à la création d'entreprises, la représentation des sociétés étrangères, les études technico-économiques, les études de marché, l'assistance juridique, l'aide à l'exportation, le conseil et l'assistance dans les appels d'offres.",
     
@@ -132,14 +133,14 @@
     "services.ServicesBody.geolocalisation-gps": "Geolocalisation GPS",
     "services.ServicesBody.service-client-7-24": "Service client 7/24",
     "services.ServicesBody.notre-sav-disposition": "Notre  SAV est à votre disposition 24h/24 et 7/7",
-    "services.ServicesBody.nous-contacter":"Nous contacter",
+    "services.ServicesBody.nous-contacter":"Contactez-nous",
 
 
     "qhse.QhseBody.qualite-sante-securite-environnement": "Qualité - Santé - Sécurité  - Environnement",
     "qhse.QhseBody.text-1": "Adopter et promouvoir un comportement intégré et éthique dans l'ensemble de ses relations avec tous ses partenaires est un engagement fort de i2b SPA. Ce principe a conduit le Groupe à définir des règles de conduite et des principes d'action qui guident le comportement de l'ensemble de collaborateurs, des fournisseurs et autres parties prenantes, en matière d'éthique, de responsabilité environnementale sociale et sociétale.",
     "qhse.QhseBody.a-propos-societe": "À PROPOS DE LA SOCIÉTÉ",
-    "qhse.QhseBody.introduction-text-1": "La SPA i2b, intégrateur de solutions informatiques, est une société innovante qui exerce dans le secteur de la technologie de l'information et celui des télécommunications depuis 2002.",
-    "qhse.QhseBody.introduction-text-2": "Consciente du développement du marché des Nouvelles Technologies de l'information & de la Communication i2B a décidé de se distinguer à travers une démarche de certification et d'amélioration constante de son système de management intégré, permettant d'offrir à ses clients l'assurance d'avoir des services de qualité en étant constamment à leur écoute, et en répondant à leur préoccupations, le tout dans des conditions respectueuses de la santé des acteurs concernés et de l'environnement.",
+    "qhse.QhseBody.introduction-text-1": "i2b SPA, intégrateur de solutions informatiques, est une société innovante qui exerce dans le secteur de la technologie de l'information et celui des télécommunications depuis 2002.",
+    "qhse.QhseBody.introduction-text-2": "Consciente du développement du marché des Nouvelles Technologies de l'information & de la Communication i2B SPA a décidé de se distinguer à travers une démarche de certification et d'amélioration constante de son système de management intégré, permettant d'offrir à ses clients l'assurance d'avoir des services de qualité en étant constamment à leur écoute, et en répondant à leur préoccupations, le tout dans des conditions respectueuses de la santé des acteurs concernés et de l'environnement.",
     
     "qhse.QhseBody.nos-engagements": "NOS ENGAGEMENTS",
     "qhse.QhseBody.engagements-li-1": "Respect des exigences opposables.",
@@ -156,8 +157,8 @@
     "qhse.QhseBody.objectifs-li-5": "Recycler le maximum de consommables informatiques découlant de nos activités.",
 
     "qhse.QhseBody.historique": "HISTORIQUE",
-    "qhse.QhseBody.historique-text-1": "Forte de sa culture en matière de Qualité - Hygiène - Sécurité - Environnement (QHSE), et convaincue des différents avantages qu'offrent les outils de management ISO, i2b a décidé de se lancer dans une démarche QHSE, et a obtenu la triple certification en 2014.",
-    "qhse.QhseBody.historique-text-2": "Grâce aux multiples efforts et à notre stratégie basée sur les compétences humaines, l'innovation et la fidélisation des clients nous avons maintenu nos certificats au fil des années avons renouvelé les cycles de certification tout en les améliorant. Aujourd'hui i2b est fière d'être certifiée par l'un des leaders mondiaux reconnus pour ses certifications « Bureau VERITAS » et ce pour les trois référentiels (ISO 9001 V2015, ISO 14001 V2015 et ISO 45001 V2018).",
+    "qhse.QhseBody.historique-text-1": "Forte de sa culture en matière de Qualité - Hygiène - Sécurité - Environnement (QHSE), et convaincue des différents avantages qu'offrent les outils de management ISO, i2b SPA a décidé de se lancer dans une démarche QHSE, et a obtenu la triple certification en 2014.",
+    "qhse.QhseBody.historique-text-2": "Grâce aux multiples efforts et à notre stratégie basée sur les compétences humaines, l'innovation et la fidélisation des clients, nous avons maintenu nos certificats au fil des années avons renouvelé les cycles de certification tout en les améliorant. Aujourd'hui i2b est fière d'être certifiée par l'un des leaders mondiaux reconnus pour ses certifications « Bureau VERITAS », et ce, pour les trois référentiels (ISO 9001 V2015, ISO 14001 V2015 et ISO 45001 V2018.",
     
     "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "CE QUI NOUS DIFFÉRENCIE",
     "qhse.QhseBody.CertificationsIso.title-secteurs": ["Début du cycle d'origine", "Transition + Reconduction", "Reconduction", "Transition SST"],
@@ -168,31 +169,31 @@
     "qhse.QhseBody.partager":"Partager",
 
 
-    "talents.TalentsBody.carriere-i2b": "Votre carrière chez i2b",
-    "talents.TalentsBody.text-1": "Les profils diversifiés de i2b forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions innovantes en se basant sur des standards de qualité très élevés. ",
+    "talents.TalentsBody.carriere-i2b": "Votre carrière",
+    "talents.TalentsBody.text-1": "Les profils diversifiés de i2b SPA forment une équipe dynamique qui s'attèle à offrir à nos clients des solutions innovantes en se basant sur des standards de qualité très élevés. ",
     "talents.TalentsBody.collaborateurs": "collaborateurs",
     "talents.TalentsBody.formations-continues": "formations continues",
     "talents.TalentsBody.lancez-votre-carriere": "Lancez votre carrière",
     "talents.TalentsBody.rejoignez-nous": "Rejoignez-nous",
     "talents.TalentsBody.text-2": "i2b SPA est une entreprise avec un potentiel de croissance élevé. La société a une politique de recrutement stable et sélective pour s'assurer d'embaucher les meilleurs talents. i2b SPA investit régulièrement dans la formation continue de ses collaborateurs pour qu'ils disposent des compétences nécessaires pour répondre aux besoins de l'entreprise.",
-    "talents.TalentsBody.text-3": "Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : recrutement@i2b-dz.com",
+    "talents.TalentsBody.text-3": "Vous souhaitez nous rejoindre ? envoyez-nous votre CV et votre lettre de motivation à l'adresse : careers@i2b-dz.com",
 
 
     "contact.ContactBody.details-contact": "Détails du contact",
-    "contact.ContactBody.nous-contacter": "Nous-Contacter",
+    "contact.ContactBody.nous-contacter": "Contactez-nous",
     "contact.ContactBody.sites": "Sites",
     "contact.ContactBody.alger": "Alger",
     "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Alger",
     "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
     "contact.ContactBody.telephones": "Téléphones",
     "contact.ContactBody.pret-a-commencer": "Prêt à commencer?",
-    "contact.ContactBody.form-text": "Votre adresse email ne sera pas publiée. Les champs obligatoire sont indiqués par *",
+    "contact.ContactBody.form-text": "Votre adresse email ne sera pas publiée. Les champs obligatoires sont indiqués par *",
     "contact.ContactBody.form-nom": "Nom *",
     "contact.ContactBody.form-entreprise": "Entreprise",
     "contact.ContactBody.form-sujet": "Sujet *",
     "contact.ContactBody.form-message": "Message...",
     "contact.ContactBody.form-button": "Envoyer le message",
-    "contact.ContactBody.bureaux-alger": "Bureaux d'Alger",
-    "contact.ContactBody.bureaux-oran": "Bureaux d'Oran"
+    "contact.ContactBody.bureaux-alger": "Bureau d'Alger",
+    "contact.ContactBody.bureaux-oran": "Bureau d'Oran"
     
   }

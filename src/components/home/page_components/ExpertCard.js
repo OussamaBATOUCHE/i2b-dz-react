@@ -30,7 +30,7 @@ const ExpertCard = ({name, surname, position, photo_path, text}) => {
         <div className="">
             <div className="team-wrap v3">
                 <div className="team-thumb">
-                    <img src={process.env.PUBLIC_URL+`/static/images/team/`+photo_path} alt="GPS Algerie" />
+                    <img className='img-team' src={process.env.PUBLIC_URL+`/static/images/team/`+photo_path} alt="GPS Algerie" />
                 </div>
                 <div className="team-info">
                     <h4>{name} {surname}</h4>

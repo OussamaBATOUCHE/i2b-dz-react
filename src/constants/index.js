@@ -8,9 +8,9 @@ export const NB_SECTEURS = [0, 1, 2];
 export const SEC_ICONS = ['sec1.png', 'sec2.png', 'sec3.png']
 export const SEC_BCKGRND = ['icon-box-s2 bg1', 'icon-box-s2 bg2', 'icon-box-s2 bg3']
 
-export const CLIENTS_LOGOS = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png', 'sarens.png', 'satim.png', 'zoomlion.png']
+export const CLIENTS_LOGOS = ['cnr.png', 'hadj_ali.png', 'nord_sud.png', 'sarens.png', 'satim.png', 'zoomlion.png']
 
-let clients_4_logo = ['cnr.png', 'fermann.png', 'hadj_ali.png', 'nord_sud.png' ]
+let clients_4_logo = ['cnr.png', 'hadj_ali.png', 'nordsud.png' ]
 let clients_3_logo = ['sarens.png', 'satim.png', 'zoomlion.png']
 export const ALL_CLOGOS = [clients_4_logo, clients_3_logo]
 
@@ -39,7 +39,7 @@ export const experts1 = [
 
 export const experts2 = [
     {
-        name:'Salim', surname: 'Babasi', position:'Sales Manager Geoflotte', photo_path: '10.png',
+        name:'Salim', surname: 'Babaci', position:'Sales Manager Geoflotte', photo_path: '10.png',
         text: "Apportant une riche expérience de plus de 14ans dans le domaine de l'automobile à son rôle. Avant de rejoindre Geoflotte en 2020, Salim a travaillé chez Renault Trucks Algérie en tant que Vendeur Entreprise, où il a développé une solide connaissance des ventes dans l'industrie automobile.Par la suite, Salim a occupé des postes clés chez Citroën en tant que Manager Grands Comptes et Appels d'Offres, et Directeur d'Agence chez Maghreb Leasing Algérie - MLA."
     },
     {

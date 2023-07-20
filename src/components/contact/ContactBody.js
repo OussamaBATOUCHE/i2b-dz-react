@@ -53,8 +53,8 @@ function ContactBody() {
                                     <i className="flaticon-phone-1"></i>
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.telephones")}</h6>
-                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 47</p>
-                                        <p> <strong>Oran  :</strong>+213 (0) 782 48 56 92</p>
+                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 74</p>
+                                        <p> <strong>Oran  :</strong>+213 (0) 41 82 72 26</p>
                                     </div>
                                 </div>
                             </div>

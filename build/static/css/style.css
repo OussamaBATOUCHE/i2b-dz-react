@@ -6428,14 +6428,12 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 .section-vision p {
   color: #FFF;
   font-family: "Nunito Sans",Sans-serif;
-  font-size: 24px;
   font-weight: 400;
   line-height: 1.4em;
   margin-bottom: 15px;
 }
 .section-vision h2 {
   color: #FFF;
-  font-size: 72px;
   font-weight: 900;
   line-height: 80px;
   margin-bottom: 38px;
@@ -8374,4 +8372,8 @@ background: transparent !important;
 .lang{
   height: 30px;
   margin-top: 50px;
+}
+
+.img-team{
+  max-width: 80%;
 }

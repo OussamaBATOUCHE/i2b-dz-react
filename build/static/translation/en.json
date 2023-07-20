@@ -61,7 +61,7 @@
               "text":"Amine Bennacef is the co-founder and CEO of i2b SPA since 2002. He graduated from the University of Science and Technology USTHB and has over 20 years of experience in the engineering and technology field. He plays a crucial role in the strategic direction and overall management of the company, enabling significant growth and establishing a leading position in the ICT market in Algeria."
           },
           {
-            "name":"Salim", "surname": "Babasi", "position":"Sales Manager, Geoflotte", "photo_path": "10.png",
+            "name":"Salim", "surname": "Babaci", "position":"Sales Manager, Geoflotte", "photo_path": "10.png",
             "text": "Salim has over 14 years of experience in the automotive industry, fleet management, and geotracking. Before joining Geoflotte in 2020, he worked with various groups, including Renault Trucks Algeria, Citroën Algeria, and Maghreb Leasing Algeria - MLA. With this wealth of expertise, he brings vision and know-how to the group."
           },
           {
@@ -83,10 +83,6 @@
             "text": "Hanane joined in 2013 as a tenders Analyst within the Business Unit Algeria Tenders. She has experienced career growth and currently holds the position of HR Manager at i2b SPA. Additionally, she’s also part of the CPHS committee."
           },  
           {
-              "name":"Yasmine", "surname": "Mezghich", "position":"Quality and Customer Service Officer, Geoflotte", "photo_path": "2.png",
-              "text": "Yasmine joined in July 2019, bringing over 14 years of experience in sales and customer management. She has notably enriched her expertise in renowned companies such as Djezzy and Jumia Algeria."
-          },
-          {
             "name":"Yanis", "surname": "SiSalah", "position":"Digital Marketing Manager", "photo_path": "3.png",
             "text": "Yanis joined i2b SPA in 2020. He holds a Bachelor's degree in Business Administration from ICN Business School and a Master's degree in Marketing from the University of Côte d'Azur. He previously worked as a PR Executive at Allegorie Group, bringing solid experience of over 5 years in the fields of marketing and public relations."
           },
@@ -95,8 +91,12 @@
               "text": "Oussama Bounouh has over 14 years of experience in computer engineering. In 2009, he joined i2b SPA as an IT maintenance officer. He is diligent and resourceful in managing technical projects and has contributed to the success of numerous collaborations with multinational companies."
           },
           {
+            "name":"Yasmine", "surname": "Mezghiche", "position":"Quality and Customer Service Officer, Geoflotte", "photo_path": "2.png",
+            "text": "Yasmine joined in July 2019, bringing over 14 years of experience in sales and customer management. She has notably enriched her expertise in renowned companies such as Djezzy and Jumia Algeria."
+          },
+          {
               "name":"Sihem", "surname": "Chouial", "position":"Customer Quality Manager, ALGERIA TENDERS", "photo_path": "4.png",
-              "text": "In 2010, Sihem Chouial joined Algeria Tenders as a Bid Analyst and progressed to the position of Customer Quality Manager. With a degree in economics and business management, she has over 10 years of experience in customer quality management. Her expertise enables her to provide strategic advice to clients in the field of tendering."
+              "text": "In 2010, Sihem Chouial joined Algeria Tenders as a tenders Analyst and progressed to the position of Customer Quality Manager. With a degree in economics and business management, she has over 10 years of experience in customer quality management. Her expertise enables her to provide strategic advice to clients in the field of tendering."
           }
     ],
 
