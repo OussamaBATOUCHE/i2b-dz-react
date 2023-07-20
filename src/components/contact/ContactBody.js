@@ -57,6 +57,14 @@ function ContactBody() {
                                         <p> <strong>Oran  :</strong>+213 (0) 41 82 72 26</p>
                                     </div>
                                 </div>
+                                <div className="contact-info box-style1">
+                                    <i className="fas fa-fax"></i> 
+                                    <div className="info-text">
+                                        <h6>Fax</h6>
+                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 39</p>
+                                        <p> <strong>Oran  :</strong>+213 (0) 41 82 72 25</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
