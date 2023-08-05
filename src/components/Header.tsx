@@ -49,6 +49,23 @@ function Header() {
         nav_contact.current.classList.add('current-menu-item');
     }
 
+    function activate_mmenu(){
+        $( "#mmenu_toggle" ).toggleClass( "active" );
+
+        if ($("#mmenu_toggle").hasClass( "active" )) {
+            $('.mobile_nav').stop(true, true).slideDown();
+        }else{
+            $('.mobile_nav').stop(true, true).slideUp();
+        }	
+    }
+    $(".mobile_mainmenu > li").on("click", function() {
+        if ($("#mmenu_toggle").hasClass( "active" )) {
+            $( "#mmenu_toggle" ).toggleClass( "active" );
+            $('.mobile_nav').stop(true, true).slideUp();
+        }	
+    });
+   
+
     return (
     <>
     <header id="site-header" className="site-header header-overlay sticky-header header-style-2 header-fullwidth">
@@ -138,10 +155,8 @@ function Header() {
                             <div className="octf-col cta-col text-right">
                             {/* <!--  Call To Action --> */}
                                 <div className="octf-btn-cta hstyle-2">
-                                    
-                                    
-
-                                    <div className="octf-header-module">
+                                
+                                    <div className="octf-header-module ">
                                         <div className="toggle_search octf-cta-icons">
                                             <i className="flaticon-search"></i>
                                         </div>
@@ -223,13 +238,13 @@ function Header() {
                         </a>
                     </div>
                     <div id="mmenu_toggle">
-                        <button></button>
+                        <button onClick={activate_mmenu}></button>
                     </div>
                 </div>
                 <div className="mmenu_wrapper">
                     <div className="mobile_nav collapse">
                         <ul id="menu-main-menu" className="mobile_mainmenu">
-                            <li className="menu-item-has-children current-menu-item current-menu-ancestor">
+                            <li>
                                 <HashLink to="/#top" reloadDocument>{t("Header.accueil")}</HashLink>
                             </li>
                             <li>

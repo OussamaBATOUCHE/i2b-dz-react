@@ -31,7 +31,9 @@
     Search on Header
     ========================================== */
     $(window).on("load", function(){
+        
         $('.toggle_search').on("click", function(){
+            console.log('clicked 1')
             $(this).toggleClass( "active" );
             $('.h-search-form-field').toggleClass('show');
             if ($(this).find('i').hasClass( "flaticon-search" )) {
@@ -514,6 +516,7 @@
             items: 4,
         });
     });
+
 
 })( jQuery );
 

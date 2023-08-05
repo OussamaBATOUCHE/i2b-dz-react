@@ -8274,14 +8274,30 @@ section {
 }
 @media (max-width: 490px) {
   .vid-in-laptop{
-    left: 14%;
+    left: 4%;
     top: 27%;
     width: 278px;
-    height: 183px;
+    height: 144px;
   }
   .top-v5{
     padding: 131px 0 170px 0;
   }
+
+  .top-left-v5 .ot-heading h2 {
+    font-size: 24px;
+  }
+
+  .left-v5  {
+    margin: 10px;
+  }
+
+  .partners-slide-inner{
+    text-align: center;
+  }
+  .footer-v1{
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -8299,6 +8315,8 @@ section {
     width: 255px;
     height: 171px;
   }
+
+  
 }
 
 .img-box-blur{

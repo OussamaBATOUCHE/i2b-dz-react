@@ -21,7 +21,7 @@ const LargeClients = () => {
                     <div className="partners">
 
                         {ALL_CLOGOS.map(cslogo => (
-                            <div key={ALL_CLOGOS.length+cslogo.length} className="row">
+                            <div key={Math.random()} className="row">
                             {cslogo.map(c_logo => (
                                 <div key={c_logo} className={'col-md-'+(12/cslogo.length)}>
                                     <a href="/" className="client-logo">
