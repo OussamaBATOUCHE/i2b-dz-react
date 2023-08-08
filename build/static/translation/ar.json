@@ -1,0 +1,28 @@
+{
+    "Header.accueil": "الصفحة الرئيسية",
+    "Header.qui-somme-nous": "من نحن؟",
+    "Header.nos-valeurs": "قيمنا",
+    "Header.notre-vision": "رؤيتنا",
+    "Header.services": "الخدمات",
+    "Header.qhse": "QHSE",
+    "Header.introduction": "مقدمة",
+    "Header.nos-engagements": "ارتباطاتنا",
+    "Header.nos-objectifs": "أهدافنا",
+    "Header.hostorique": "نبذة تاريخية",
+    "Header.certifications": "الشهادات",
+    "Header.talens": "مواهب",
+    "Header.contact": "اتصل بنا",
+
+    "Footer.reseaux-sociaux": "تابعنا على مواقع التواصل",
+    "Footer.inscrire-newsletter":"اشترك في نشراتنا الإخبارية",
+    "Footer.droits-reserves": "كل الحقوق محفوظة.",
+    "Footer.placeholder": "بريدك الإلكتروني",
+
+    "home.FirstSection.vision-performance": "رؤية و أداء",
+    "home.FirstSection.integr-solu-infor-telec":"تكامل تكنولوجيا المعلومات وحلول الاتصالات",
+    "home.FirstSection.nous-decouvrir": "معلومات عنا",
+    "home.FirstSection.at-text": "منصة رقمية مخصصة حصريًا لمركزية إشعارات المناقصات الوطنية والدولية بالإضافة إلى تزويد الشركات بالمؤشرات المتعلقة بالإعلانات المنشورة في جميع أنحاء التراب الوطني.",
+    "home.FirstSection.geo-text": "حل تحديد الموقع الجغرافي وإدارة الأسطول لجميع أنواع المركبات والآلات والمعدات المتنقلة في الوقت الفعلي ، مما يسمح للشركات بتتبع أسطولها بالكامل والتحكم فيه وإدارته وتأمينه.",
+    "home.FirstSection.ai-text": "خدمة المعلومات والدعم لجميع الفاعلين الاقتصاديين والمستثمرين الوطنيين والدوليين الراغبين في الاستثمار في الجزائر ، وتزويدهم بكافة البيانات اللازمة لنجاح مشاريعهم."
+    
+}

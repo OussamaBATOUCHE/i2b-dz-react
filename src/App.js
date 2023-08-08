@@ -6,8 +6,11 @@ import QhseBody from './components/qhse/QhseBody'
 import TalentsBody from './components/talents/TalentsBody'
 import ContactBody from './components/contact/ContactBody'
 import Error from './components/error/Error'
+import { useTranslation } from "react-i18next";
 
 const App = () =>{
+  const { i18n } = useTranslation();
+  document.body.dir = i18n.dir();  
   return(
     <>
     <Suspense fallback="loading">
@@ -23,7 +26,6 @@ const App = () =>{
         </Routes>
       </HashRouter>
     </Suspense>
-   
     </>
   )
 }
