@@ -194,6 +194,8 @@
     "contact.ContactBody.form-message": "Message...",
     "contact.ContactBody.form-button": "Envoyer le message",
     "contact.ContactBody.bureaux-alger": "Bureau d'Alger",
-    "contact.ContactBody.bureaux-oran": "Bureau d'Oran"
-    
+    "contact.ContactBody.bureaux-oran": "Bureau d'Oran",
+    "contact.ContactBody.form-alert.missing-fields": "Veuillez remplir tous les champs obligatoires",
+    "contact.ContactBody.form-alert.success":"Votre demande a été envoyée avec succès!",
+    "contact.ContactBody.form-alert.error":"Une erreur s'est produite lors de la soumission de votre demande, veuillez réessayer !"
   }

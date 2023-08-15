@@ -1,8 +1,79 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { useTranslation } from "react-i18next";
+import Axios from 'axios';
 
 function ContactBody() {
     const { t } = useTranslation();
+
+    const refName = useRef(null);
+    const refEmail = useRef(null);
+    const refCompany = useRef(null);
+    const refSubject = useRef(null);
+    const refMessage = useRef(null);
+
+    const refAlert = useRef(null);
+    const [alrtmsg, setAlrtmsg] = useState('');
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [company, setCompany] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const submitContact = ()=>{
+        if(email === '' || subject === '' || message === ''){
+            addAlert(t("contact.ContactBody.form-alert.missing-fields"), 'alert-warning');
+        }else{
+            const data = {  contactName: name, 
+                contactEmail: email,
+                contactCompany: company,
+                contactSubject: subject,
+                contactMessage: message};
+            const host = 'http://localhost:3001/api/insert';
+            const host2 = 'https://i2b-dz.com/api/insert';
+
+            Axios.post(host2, data).then((response)=>{
+                if(response.data === true){
+                    console.log('ALL IS GOOD');
+
+                    resetInputs();
+                    resetVars();
+                    addAlert(t("contact.ContactBody.form-alert.success"), 'alert-success');
+                    // alert(t("contact.ContactBody.form-alert.success"));
+                }else{
+                    console.log('We have problems !!!')
+                    addAlert(t("contact.ContactBody.form-alert.error"), 'alert-danger');
+                    // alert(t("contact.ContactBody.form-alert.error"));   
+                }
+            });
+        }
+        
+    };
+
+    const removeAlert = () => {
+        refAlert.current.classList.remove('show-alert', 'alert-danger','alert-success', 'alert-warning');
+    }
+
+    const addAlert = (text, theclass) => {
+        refAlert.current.classList.remove('alert-danger','alert-success', 'alert-warning');
+        refAlert.current.classList.add(theclass, 'show-alert');
+        setAlrtmsg(text)
+    }
+
+    const resetInputs = () => {
+        refName.current.value = ''
+        refEmail.current.value = ''
+        refCompany.current.value = ''
+        refSubject.current.value = ''
+        refMessage.current.value = ''
+    };
+    const resetVars = () => {
+        setName('');
+        setEmail('');
+        setCompany('');
+        setSubject('');
+        setMessage('');
+    }
 
   return (
     <>
@@ -68,29 +139,60 @@ function ContactBody() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <form action="contact.php" method="post" className="wpcf7">
+                            <div ref={refAlert} className="alert alert-dismissible fade" role="alert">
+                                <strong>{alrtmsg}</strong>
+                                <button type="button" className="close" onClick={removeAlert}>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div className="wpcf7">
                                 <div className="main-form">
                                     <h2>{t("contact.ContactBody.pret-a-commencer")}</h2>
                                     <p className="font14">{t("contact.ContactBody.form-text")}</p>
                                     <p>
-                                        <input type="text" name="name" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-nom")} required />
+                                        <input  type="text" ref={refName}
+                                        name="name" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-nom")} 
+                                        required 
+                                        onChange={(e)=>{
+                                            setName(e.target.value)
+                                        }}/>
                                     </p>
                                     <p>
-                                        <input type="email" name="email" defaultValue="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" required />
+                                        <input type="email" ref={refEmail}
+                                        name="email" defaultValue="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" 
+                                        required 
+                                        onChange={(e)=>{
+                                            setEmail(e.target.value)
+                                        }}/>
                                     </p>
                                     <p>
-                                        <input type="text" name="entreprise" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-entreprise")}  />
+                                        <input type="text" ref={refCompany}
+                                        name="company" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-entreprise")}  
+                                        required
+                                        onChange={(e)=>{
+                                            setCompany(e.target.value)
+                                        }}/>
                                     </p>
                                     <p>
-                                        <input type="text" name="sujet" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-sujet")} required />
+                                        <input type="text" ref={refSubject}
+                                        name="subject" defaultValue="" size="70" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-sujet")} 
+                                        required 
+                                        onChange={(e)=>{
+                                            setSubject(e.target.value)
+                                        }}/>
                                     </p>
                                     <p>
-                                        <textarea name="message" cols="40" rows="10" className="" aria-invalid="false" placeholder={t("contact.ContactBody.form-message")} required></textarea>
+                                        <textarea name="message" ref={refMessage} cols="40" rows="10" className="" aria-invalid="false" placeholder={t("contact.ContactBody.form-message")} 
+                                        required
+                                        onChange={(e)=>{
+                                            setMessage(e.target.value)
+                                        }}></textarea>
                                     </p>
-                                    <p><button type="submit" className="octf-btn octf-btn-light">{t("contact.ContactBody.form-button")}</button>
+                                    <p>
+                                        <button className="octf-btn octf-btn-light" onClick={submitContact}>{t("contact.ContactBody.form-button")}</button>
                                     </p>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>

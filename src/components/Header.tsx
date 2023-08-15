@@ -259,6 +259,19 @@ function Header() {
                             <li>
                                 <HashLink to="/contact#top" reloadDocument>{t("Header.contact")}</HashLink>
                             </li>
+                            <li>
+                                <div className='lang-mobile'>
+                                    {LANGUAGES.map(({ code, label }) => (
+                                        <button 
+                                            className={`col-md-12 btn lang-btn ${code===i18n.language ? "lang-btn-active" : ""}`}  
+                                            key={code} 
+                                            value={code} 
+                                            onClick={onChangeLang}>
+                                            {label}
+                                        </button>
+                                    ))}
+                                </div>             
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -193,6 +193,9 @@
     "contact.ContactBody.form-message": "Message...",
     "contact.ContactBody.form-button": "Send",
     "contact.ContactBody.bureaux-alger": "Algiers offices",
-    "contact.ContactBody.bureaux-oran": "Oran offices"
+    "contact.ContactBody.bureaux-oran": "Oran offices",
+    "contact.ContactBody.form-alert.missing-fields": "Please fill in all mandatory fields",
+    "contact.ContactBody.form-alert.success":"Your request was sent successfully!",
+    "contact.ContactBody.form-alert.error":"There was an error submitting your request, please try again!"
     
     }

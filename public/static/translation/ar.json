@@ -21,8 +21,183 @@
     "home.FirstSection.vision-performance": "رؤية و أداء",
     "home.FirstSection.integr-solu-infor-telec":"تكامل تكنولوجيا المعلومات وحلول الاتصالات",
     "home.FirstSection.nous-decouvrir": "معلومات عنا",
-    "home.FirstSection.at-text": "منصة رقمية مخصصة حصريًا لمركزية إشعارات المناقصات الوطنية والدولية بالإضافة إلى تزويد الشركات بالمؤشرات المتعلقة بالإعلانات المنشورة في جميع أنحاء التراب الوطني.",
-    "home.FirstSection.geo-text": "حل تحديد الموقع الجغرافي وإدارة الأسطول لجميع أنواع المركبات والآلات والمعدات المتنقلة في الوقت الفعلي ، مما يسمح للشركات بتتبع أسطولها بالكامل والتحكم فيه وإدارته وتأمينه.",
-    "home.FirstSection.ai-text": "خدمة المعلومات والدعم لجميع الفاعلين الاقتصاديين والمستثمرين الوطنيين والدوليين الراغبين في الاستثمار في الجزائر ، وتزويدهم بكافة البيانات اللازمة لنجاح مشاريعهم."
+    "home.FirstSection.at-text": "منصة رقمية مخصصة حصريا لتجميع المناقصات الوطنية والدولية في فضاء واحد ، وكذلك استجواب الشركات عن المؤشرات المتعلقة بالإعلانات المنشورة في جميع أنحاء الوطن.",
+    "home.FirstSection.geo-text": "حل معلوماتي لتحديد الموقع الجغرافي وإدارة أسطول مختلف المركبات والآلات والمعدات المتنقلة في الوقت الفعلي ، مُمكّنا الشركات بمراقبة أسطولهم بالكامل والتحكم فيه وإدارته وتأمينه.",
+    "home.FirstSection.ai-text": "خدمة توفير المعلومات وتقديم الدعم لجميع الفاعلين الاقتصاديين والمستثمرين الوطنيين والدوليين الراغبين في الاستثمار في الجزائر وتزويدهم بكافة البيانات اللازمة لنجاح مشاريعهم.",
+    
+    "home.QuiSommesNous.annees-experience":"اكثر من 20 سنة خبرة",
+    "home.QuiSommesNous.qui-sommes-nous":"من نحن؟",
+    "home.QuiSommesNous.paragraph":" i2b SPA هي شركة خدمات هندسية لتكنولوجيا المعلومات ، تم إنشاؤها في عام 2002 ، وهي تكامل حقيقي للحلول في مجال تكنولوجيا المعلومات وتقنيات الاتصالات السلكية واللاسلكية الجديدة ،بفضل سياستها التنموية التي تتمثل فيى  الاستثمار في مجالات أخرى ذات إمكانات تكنولوجية عالية. أحدثت شركة i2b SPA نقلًا تدريجيًا ومستمرًا للتكنولوجيا من أجل ضمان استقلالية تجاه الإمدادات الخارجية من خلال دمج القدرات الفنية والمهارات الوطنية.  تُوظف الشركة في الوقت الحالي  ثلاثة وتسعون (93) موظفًا بمؤهلات أكاديمية مختلفة ، منهم تقنيين ومهندسين مطورين (للبرامجيات و أجهزة الحاسوب). تتواجد مكاتب  i2b SPA في كامل التراب الوطني بما في ذلك الجزائر العاصمة ووهران مع وجود مُكثف لممثليها في سطيف وقسنطينة وبرج بوعريريج وحاسي مسعود.",
+
+    "home.NosSecteurs.nos-secteurs":"نشاطنا",
+    "home.NosSecteurs.diff-secteurs-activite":"قطاعات نشاطنا المختلفة",
+    "home.NosSecteurs.text":"اكتشف كيف تلبي منتجاتنا المبتكرة احتياجات مختلف قطاعات الأعمال من خلال توفير حلول تعتمدها العديد من الصناعات.",
+    "home.NosSecteurs.TITLE_SECTEURS": ["رصد الاسواق العمومية والخاصة", "تحديد الموقع الجغرافي و إدارة أسطول المركبات", "دعم المستثمر"],
+    "home.NosSecteurs.LI_ITEMS": [
+                                ["ذكاء الأعمال", "الوصول إلى المناقصات", "تقديم العطاءات", "مساعدة الشركات", "إمكانية استخدام الأرشيف"],
+                                [" تحديد الموقع الجغرافي لاسطول المركبات", " تسيير حظيرة السيارات", "تتبع المسار", "إدارة التنبيهات", " إدارة التدخلات"],
+                                ["دراسة السّوق", "الدراسات التقنية و الاقتصادية", "المساعدة في إنشاء المؤسسات", "لموقع والخدمات اللوجستية", "محرك بحث قانوني"]
+                              ],
+    
+    "home.Valeurs.vision-performance": "الرؤية والأداء",
+    "home.Valeurs.valeurs-fondatrices": "قيمنا",
+    "home.Valeurs.paragraph-1": "تتميز i2b SPA بالتزامها بالجودة والأداء والريادة والابتكار مُستحدثةً بذلك بيئة مواتية لتطوير الموظفين ونجاح مشاريعها.",
+    "home.Valeurs.paragraph-2": " نسعى من خلال ثقافتنا المتمثلة في التحسين المستمر إلى توقع الاحتياجات المتغيرة لعملائنا وتقديم حلول مبتكرة للتحديات الأكثر تعقيدًا.",
+    "home.Valeurs.paragraph-3": " نُثمن  إبداع كل عضو في فريقنا ، الأمر الذي يُحفزهم لأداء دور رئيسي في تحقيق رؤيتنا المشتركة. كما نعزز من خلال جو من الانفتاح والتعاون ، التطوير المهني والشخصي لموظفينا ، والذي ينعكس حتما في جودة الخدمات المُقدمة وإرضاء  عملائنا.",
+    "home.Valeurs.4-boxes-qualite": "جودة",
+    "home.Valeurs.4-boxes-innovation": "ابتكار",
+    "home.Valeurs.4-boxes-performance": "أداء",
+    "home.Valeurs.4-boxes-leadership": "قيادة",
+    
+    "home.Vision.mission": "مهمتنا",
+    "home.Vision.mission-text": " تسعى i2b SPA جاهدة لتوفير خدمات معلوماتية وتكنولوجيا المعلومات عالية الجودة وحديثة وتحرص على تحسين منتجاتها باستمرار لإرضاء عملائها وشركائها على المدى الطويل.",
+    "home.Vision.vision": "الرؤية",
+    "home.Vision.vision-text": " تطمح i2b SPA إلى دفع حدود الابتكار وتوَقُع احتياجات السوق المستقبلية وإحداث تأثير إيجابي على المجتمع. كما نسعى إلى أن نكون الخيار الأول لعملائنا وإقامة أعمال قوية ومستدامة بناءً على خبرتنا والتزامنا بالجودة .",
+         
+    "home.Experts.notre-equipe":"فريق العمل",
+    "home.Experts.experts1" : [
+          { 
+              "name":"أمين", "surname": "بن ناصف", "position":" المدير العام", "photo_path": "7.png",
+              "text":" أمين بن ناصف، المؤسس المشارك والمدير العام لشركة i2b SPA منذ عام 2002. تخرج من جامعة العلوم والتكنولوجيا هواري بومدين و على مر السنين اكتسب ازيد من 20 عاما من الخبرة في مجال الهندسة والتكنولوجيا. يؤدي دورا رئيسيا في التوجيه الاستراتيجي والإدارة العامة للمؤسسة مُحققا لها نموا فائقا ، جَعلها في صدارة سوق تكنولوجيا المعلومات والاتصالات في الجزائر."
+          },
+          {
+            "name":"سليم", "surname": "باباسي", "position":" مدير مبيعات Geoflotte", "photo_path": "10.png",
+            "text": " يمتلك خبرة في صناعة السيارات وإدارة الأسطول وتتبع الموقع الجغرافي لأزيد من 14 سنة. قبل انضمامه إلى Geoflotte سنة 2020 ، عمل في عدة مؤسسات ، بما في ذلك رينو الجزائر وسيتروين الجزائر والمغاربية للايجار المالي الجزائر - MLA. وبفضل  حنكته ، لديه بَصَرٌ بالأمور وخبرة كافية للتسيير."
+          },
+          {
+            "name":"بلال", "surname": "زيدي", "position":" مدير مبيعات Algeria Tenders", "photo_path": "8.png",
+            "text": " خبير في مجالات المناقصات والعلاقات العامة. تخرج من المعهد الوطني للتجارة، اكتسب خبرة تزيد عن 16 عاما في العلاقات مع العملاء ، مكنته من جعل Algeria Tenders  منصة رائدة ومرجع لا يُضاهى في الصفقات العمومية في الجزائر ، جاعلا روح العمل الجماعي والتماسك داخل الفريق ركيزة أساسية في العمل . يشغل حاليا منصب مدير مبيعات وحدة Algeria Tenders ، حيث بدأ حياته المهنية في عام 2007 كمسؤول تجاري وتابع تطورا مهنيا ملحوظا داخل الشركة."
+          },
+          {
+            "name":"محمد", "surname": "بطيط", "position":"مدير مبيعات Algeria Invest", "photo_path": "9.png",
+            "text": " يتمتع بأزيد من 15 عاما خبرة في قطاع مبيعات الوسائط المتعددة. وقد شغل العديد من المناصب، مثل مدير المبيعات في المنطقة الغربية في شركة أكسا للتأمينات، ورئيس قسم الحسابات الكبيرة في Ooredoo الجزائر، بالإضافة إلى العديد من المناصب في شركة سيما موتورز وشركة أوناب للتغذية. بفضل قدرته على التكيف مع البيئات المتنوعة ومساره المهني الغني ، يقدم للمستثمرين المحليين والدوليين حلولا حسب الطلب لدعمهم في جميع مشاريعهم."
+          },
+          {
+              "name":"نعيم", "surname": "ميدني", "position":"مدير مالي", "photo_path": "1.png",
+              "text": " يتمتع  بخبرة ازيد من 22 عاما في الإدارة المالية والمحاسبة والتدقيق المالي ، بما في ذلك اكثر من 10 سنوات كمدير مالي لعدة مؤسسات دولية . كما يتقلد منصب مندوب حسابات منذ عام 2010."
+          }
+    ],
+    "home.Experts.experts2" : [
+          {
+            "name":"حنان", "surname": "توتاوي", "position":"مسؤولة الموارد البشرية", "photo_path": "6.png",
+            "text": " انضمت حنان إلى الشركة عام 2013 ، كمحللة مناقصات في وحدة Algeria Tenders ، واستفادت من التطوير الوظيفي لشغل حاليا منصب مسيرة الموارد البشرية في i2b SPA ، وعضو في اللجنة متساوية الأعضاء للصحة والأمن CPHS."
+          },  
+          {
+            "name":"يانيس", "surname": "سي صالح", "position":" مسؤول التسويق الرقمي.", "photo_path": "3.png",
+            "text": " انضم إلى i2b SPA في عام 2020 ، وهو حاصل على شهادة البكالوريوس في إدارة الأعمال من مدرسة ICN Business و شهادة ماستر في التسويق من جامعة كوت دازور. شغل سابقا منصب العلاقات العامة التنفيذية بAllĕgorie مع ازيد من 5 سنوات خبرة في مجالات التسويق والعلاقات العامة."
+          },
+          {
+              "name":"اسامة", "surname": "بونوح", "position":" مسؤول دعم تقنية المعلومات و المرافق اللوجستية", "photo_path": "5.png",
+              "text": " يتمتع بخبرة تزيد عن 14 عاما في هندسة الاعلام الالي. انضم إلى i2b SPA  في عام 2009 ،كمسؤول صيانة تكنولوجيا المعلومات. يتمتع بخبرة في إدارة المشاريع التقنية ، وقد ساهم في نجاح العديد من التعاونات مع شركات متعددة الجنسيات."
+          },
+          {
+            "name":"ياسمين", "surname": "مزغيش", "position":" مسؤؤلة جودة و ادارة العملاء Geoflotte", "photo_path": "2.png",
+            "text": " انضمت إلى المؤسسة في يوليو 2019 ، وتمتلك خبرة تزيد عن 14 عاما في المجال التجاري وإدارة العملاء. قامت بإثراء خبرتها في عدة شركات مهمة ، مثل جازي وجوميا الجزائر."
+          },
+          {
+              "name":"سهام", "surname": "شويعل", "position":" مسؤؤلة جودة و ادارة العملاء Algeria Tenders", "photo_path": "4.png",
+              "text": " انضمت في عام 2010 إلى Algeria Tenders كمحلل مناقصات وواصلت تطورها المهني كمسؤولة جودة العملاء. تخرجت في الاقتصاد وإدارة الأعمال ، ولديها ازيد من 10 سنوات من الخبرة في إدارة جودة العملاء. تُقدم بفضل خبرتها المساعدة الاستراتيجية للعملاء في مجال المناقصات."
+          }
+    ],
+
+    "home.Stats.collaborateurs": "موظف",
+    "home.Stats.collaborateurs-text": " يعتمد نجاحنا على جهود والتزام موظفينا الذين تجمعهم هوية واحدة و طريقة تفكير واحدة ...",
+    "home.Stats.clients": "عميل",
+    "home.Stats.clients-text": " لإرضاء عملائنا ، تم تصميم كل حل مقترح  بشكل مثالي للتكيف مع الاحتياجات المختلفة المعبر عنها ...",
+
+    "home.Clients.nos-partenaires": "شركاؤنا",
+
+
+    "services.ServicesBody.vision-perfomance": "الرؤية والأداء",
+    "services.ServicesBody.nos-services": "خدماتنا",
+    "services.ServicesBody.solutions-innovantes-forte-valeurs": "حلول مبتكرة ذات قيم عالية",
+    
+    "services.ServicesBody.at": "المنصة الخاصة بالمناقصات رقم 1 في الجزائر",
+    "services.ServicesBody.at-paragraph-1": "المنصة الرقمية مُتخصصة في نشر المناقصات الوطنية للشركات العمومية والخاصة حصريا بعد البحث عنها واستغلالها و جمعها  في فضاء واحد مما يتيح لعملائها الوصول إلى جميع فرص السوق الجزائرية.",
+    "services.ServicesBody.at-paragraph-2": " أصبحت i2b SPA استنادا إلى أزيد من +500 مصدر معلومات جمعه  فريق مؤهل ، مرجعًا حقيقيًا للسوق الجزائرية لأكثر من 5000 شركة وطنية ودولية (بما في ذلك المؤسسات غير المقيمة) والتي يتزايد عددها باستمرار .",
+    
+    "services.ServicesBody.geo": "شريكك في تحديد الموقع الجغرافي وإدارة أسطول المركبات",
+    "services.ServicesBody.geo-paragraph-1": "  Geoflotte هو حل لتحديد الموقع الجغرافي وإدارة أسطول مختلف المركبات والآلات والمعدات المتنقلة في الوقت الفعلي ، مما يُمكّن الشركات بتتبع أسطولهم والتحكم فيه وإدارته وتأمينه لزيادة إنتاجيتهم مع تحسين التكاليف اللوجستية. حصلت i2b SPA في عام 2008  على إذن وموافقة لتشغيل نظام تحديد الموقع الجغرافي من سلطة ضبط البريد والاتصالات الالكترونية. و اكتسبت بفضل استراتيجية التطوير هذه في السنوات الأخيرة ، مكانة رائدة في السوق الوطنية. فبعد استورادها لهذا الحل  في البداية ، طورت i2b SPA بفضل الخبرة واكتساب المعرفة اللازمة عن طريق قسم البحث والتطوير الخاص بها وجهود الاستثمار التي بُذلت في هذا الشأن ، حل خاص بتحديد الموقع الجغرافي.",
+    
+    "services.ServicesBody.ai": "شريكك في الاستثمار في الجزائر",
+    "services.ServicesBody.ai-paragraph-1": "  أطلقت SPA i2b ، في يونيو 2021 ، في إطار استراتجية تنويع منتجاتها و خدماتها ، أول منصة رقمية مخصصة للاستثمار في الجزائرAlgeria INVEST® .",
+    "services.ServicesBody.ai-paragraph-2": " Algeria INVEST® هي خدمة توفير المعلومات وتقديم الدعم لجميع الفاعلين الاقتصاديين والمستثمرين الوطنيين والدوليين الراغبين في الاستثمار في الجزائر ، و تزويدهم بكافة  البيانات اللازمة لنجاح مشاريعهم.",
+    "services.ServicesBody.ai-paragraph-3": " تستجيب منصة Algeria INVEST® للاحتياجات التي أعرب عنها العديد من المستثمرين الذين يسعون للحصول على معلومات مستنيرة حول طرق وأساليب الاستثمار في الجزائر. نجد من بين خدمات الدعم المقدمة ،  المساعدة في إنشاء المؤسسات  ، وتمثيل الشركات الأجنبية ، والدراسات الفنية والاقتصادية ، ودراسات السوق ، والمساعدة القانونية ، والمساعدة في التصدير ، وتقديم المشورة والمساعدة في المناقصات.",
+    
+    "services.ServicesBody.technology-index": "مؤشرات التكنولوجيا",
+    "services.ServicesBody.ameliorer-innover-avec-tendances": "تطوير وابتكار تكنولوجيا جديدة",
+    "services.ServicesBody.text": "  يمكن لفرقنا مساعدتك على تطوير و تزويد مؤسستك بأحدث القدرات التكنولوجية للبقاء في الطليعة.",
+    "services.ServicesBody.invest-algerie": " الاستثمار في الجزائر",
+    "services.ServicesBody.appels-offres": " المناقصات",
+    "services.ServicesBody.geolocalisation-gps": "  تحديد الموقع الجغرافي GPS",
+    "services.ServicesBody.service-client-7-24": " خدمة العملاء على مدار الساعة طوال أيام الأسبوع",
+    "services.ServicesBody.notre-sav-disposition": "خدمة ما بعد البيع تحت تصرفك على مدار الساعة طوال أيام الأسبوع",
+    "services.ServicesBody.nous-contacter":"اتصل بنا",
+
+
+    "qhse.QhseBody.qualite-sante-securite-environnement": "Quality - Health - Safety - Environment",
+    "qhse.QhseBody.text-1": "Adopting and promoting honest and ethical behavior in all of its relations with all of its partners is a strong commitment of i2b SPA. This principle has led the Group to define rules of conduct and action principles that guide the behavior of all employees, suppliers and other stakeholders, in terms of ethics and environmental responsibility. social and societal.",
+    "qhse.QhseBody.a-propos-societe": "ABOUT US",
+    "qhse.QhseBody.introduction-text-1": "i2b SPA is a leading provider of IT solutions, specializing in the fields of information technology and telecommunications. Since our establishment in 2002, we have been at the forefront of innovation, delivering cutting-edge solutions to our clients.",
+    "qhse.QhseBody.introduction-text-2": "Aware of the progress of the new information & communication technologies market, i2b SPA has engaged in certification and constant improvement of its integrated management system, offering its customers the assurance to have quality services by constantly listening and responding to their concerns - respecting the health of the actors concerned and the environment.",
+    
+    "qhse.QhseBody.nos-engagements": "OUR COMMITMENTS",
+    "qhse.QhseBody.engagements-li-1": "Be in compliance with enforceable requirements",
+    "qhse.QhseBody.engagements-li-2": "Maintain our SMI continuous improvement process",
+    "qhse.QhseBody.engagements-li-3": "Prevent physical harm",
+    "qhse.QhseBody.engagements-li-4": "Promote environmental protection and pollution prevention",
+    "qhse.QhseBody.engagements-li-5": "Involve staff in all matters related to occupational health and safety",
+
+    "qhse.QhseBody.nos-objectifs": "OUR OBJECTIVES",
+    "qhse.QhseBody.objectifs-li-1": "Increase our market share and sales margin",
+    "qhse.QhseBody.objectifs-li-2": "Monitor regulation and requirement compliance",
+    "qhse.QhseBody.objectifs-li-3": "Control the frequency and seriousness of occupational accidents",
+    "qhse.QhseBody.objectifs-li-4": "Recover all GPS boxes at each end of contract",
+    "qhse.QhseBody.objectifs-li-5": "Recycle as much as possible IT consumables",
+
+    "qhse.QhseBody.historique": "CERTIFICATIONS HISTORY",
+    "qhse.QhseBody.historique-text-1": "Strong in its culture in the field of Quality - Health - Safety - Environment (QHSE), and convinced of the various advantages offered by the ISO management tools, i2b decided to embark on a QHSE approach and obtained the triple certification. Today, i2b is proud to be certified by one of the world leaders recognized for its certification, i.e. 'Bureau VERITAS' and this for the three referential (ISO 9001 V2015, ISO 14001 V2015 and ISO 45001 V2018).",
+    "qhse.QhseBody.historique-text-2": "Thanks to multiple efforts and our strategy based on human skills, innovation and customer loyalty, we have maintained our certificates over the years and have renewed the certification cycles while improving them by applying the PDCA (Plan Do and Check) cycle.",
+    
+    "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "WHAT MAKES US DIFFERENT",
+    "qhse.QhseBody.CertificationsIso.title-secteurs": ["Original cycle Start", "Transition + Rollover", "Rollover", "SST Transition"],
+
+    "qhse.QhseBody.iso-pdfs.title-3": "QHSE policy",
+    "qhse.QhseBody.afficher": "Show",
+    "qhse.QhseBody.telecharger":"Download",
+    "qhse.QhseBody.partager":"Share",
+
+
+    "talents.TalentsBody.carriere-i2b": "Your career at i2b",
+    "talents.TalentsBody.text-1": "i2b is made of a team of diverse profiles who work to offer our customers high-quality innovative solutions.",
+    "talents.TalentsBody.collaborateurs": "employees",
+    "talents.TalentsBody.formations-continues": "continuing training",
+    "talents.TalentsBody.lancez-votre-carriere": "Launch your career",
+    "talents.TalentsBody.rejoignez-nous": "Join us",
+    "talents.TalentsBody.text-2": "i2b SPA is a company with high growth potential. The company has a stable and selective recruitment policy to ensure that the best talent is hired. i2b SPA regularly invests in the continuous training of its employees so that they have the necessary skills to meet the needs of the company.",
+    "talents.TalentsBody.text-3": "Want to join us? send us your CV and cover letter to: recrutement@i2b-dz.com",
+
+
+    "contact.ContactBody.details-contact": "Contact Details",
+    "contact.ContactBody.nous-contacter": "Contact us",
+    "contact.ContactBody.sites": "Addresses",
+    "contact.ContactBody.alger": "Algiers",
+    "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Algiers",
+    "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
+    "contact.ContactBody.telephones": "Telephones",
+    "contact.ContactBody.pret-a-commencer": "Ready to start?",
+    "contact.ContactBody.form-text": "Your email address will not be published. Mandatory fields are indicated by *",
+    "contact.ContactBody.form-nom": "Name *",
+    "contact.ContactBody.form-entreprise": "Company",
+    "contact.ContactBody.form-sujet": "Subject *",
+    "contact.ContactBody.form-message": "Message...",
+    "contact.ContactBody.form-button": "Send",
+    "contact.ContactBody.bureaux-alger": "Algiers offices",
+    "contact.ContactBody.bureaux-oran": "Oran offices",
+    "contact.ContactBody.form-alert.missing-fields": "Please fill in all mandatory fields",
+    "contact.ContactBody.form-alert.success":"Your request was sent successfully!",
+    "contact.ContactBody.form-alert.error":"There was an error submitting your request, please try again!"
+    
+
     
 }

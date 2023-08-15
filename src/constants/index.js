@@ -1,7 +1,7 @@
 export const LANGUAGES = [
     {label: "Français", code: "fr"},
     {label: "English",  code: "en"},
-    // {label: "العربية",  code: "ar"}
+    {label: "العربية",  code: "ar"}
 ]
 
 // Nos secteurs

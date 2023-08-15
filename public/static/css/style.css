@@ -8395,3 +8395,17 @@ background: transparent !important;
 .img-team{
   max-width: 80%;
 }
+
+.lang-mobile{
+  padding: 15px;
+}
+
+.show-alert{
+  display: block;
+  opacity: 1!important;
+}
+
+/* 
+*[dir="ltr"] {
+  font-family: 'Droid Arabic Kufi';
+} */
