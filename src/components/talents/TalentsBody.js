@@ -37,7 +37,7 @@ function TalentsBody() {
                             <div className="serv-box bg-s2">
                                 <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
-                                    <h2 className='text-center'> 03 <br />business units</h2>    
+                                    <h2 className='text-center'> 03 <br />{t("talents.TalentsBody.business-units")}</h2>    
                                 </div>
                             </div>
                         </div>

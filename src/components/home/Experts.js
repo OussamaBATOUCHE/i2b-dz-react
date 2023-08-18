@@ -16,7 +16,7 @@ const Experts = () => {
                 <div className="col-lg-12 text-center">
                     <div className="ot-heading">
                         <span>{t("home.Experts.notre-equipe")}</span>
-                        <h2 className="main-heading">Leadership Team</h2>
+                        <h2 className="main-heading">{t("home.Experts.leadership-team")}</h2>
                     </div>
                     <div className="space-5"></div>
                     <div className="space-20"></div>

@@ -46,7 +46,7 @@ function QhseBody() {
                             <div className="right-about-v4">
                                 <div className="ot-heading">
                                     <span>{t("qhse.QhseBody.a-propos-societe")}</span>
-                                    <h2 className="main-heading">INTRODUCTION</h2>
+                                    <h2 className="main-heading">{t("qhse.QhseBody.CertificationsIso.INTRODUCTION")}</h2>
                                 </div>
                                 <div className="space-5"></div>
                                 <p>{t("qhse.QhseBody.introduction-text-1")}</p>

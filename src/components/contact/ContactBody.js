@@ -88,7 +88,7 @@ function ContactBody() {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="home2-top-right">
-                                <h2>Contact</h2>
+                                <h2>{t("contact.ContactBody.contact")}</h2>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ function ContactBody() {
                                 <div className="contact-info box-style1">
                                     <i className="flaticon-envelope"></i>
                                     <div className="info-text">
-                                        <h6>Email</h6>
+                                        <h6>{t("contact.ContactBody.email")}</h6>
                                         <p>contact@i2b-dz.com</p>
                                     </div>
                                 </div>
@@ -125,15 +125,15 @@ function ContactBody() {
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.telephones")}</h6>
                                         <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 74</p>
-                                        <p> <strong>Oran  :</strong>+213 (0) 41 82 72 26</p>
+                                        <p> <strong>{t("contact.ContactBody.oran")}  :</strong>+213 (0) 41 82 72 26</p>
                                     </div>
                                 </div>
                                 <div className="contact-info box-style1">
                                     <i className="fas fa-fax"></i> 
                                     <div className="info-text">
-                                        <h6>Fax</h6>
+                                        <h6>{t("contact.ContactBody.fax")}</h6>
                                         <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 39</p>
-                                        <p> <strong>Oran  :</strong>+213 (0) 41 82 72 25</p>
+                                        <p> <strong>{t("contact.ContactBody.oran")}  :</strong>+213 (0) 41 82 72 25</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ function ContactBody() {
                                     </p>
                                     <p>
                                         <input type="email" ref={refEmail}
-                                        name="email" defaultValue="" size="40" className="" aria-required="true" aria-invalid="false" placeholder="Email *" 
+                                        name="email" defaultValue="" size="40" className="" aria-required="true" aria-invalid="false" placeholder={t("contact.ContactBody.form-email")} 
                                         required 
                                         onChange={(e)=>{
                                             setEmail(e.target.value)

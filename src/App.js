@@ -10,7 +10,14 @@ import { useTranslation } from "react-i18next";
 
 const App = () =>{
   const { i18n } = useTranslation();
-  // document.body.dir = i18n.dir();  
+  document.body.dir = i18n.dir();  
+
+  if (i18n.dir() === 'rtl') {
+      document.body.style.textAlign = 'justify'
+  }
+
+  
+
   return(
     <>
     <Suspense fallback="loading">

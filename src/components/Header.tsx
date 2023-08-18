@@ -185,7 +185,7 @@ function Header() {
                                         <div className="h-cart-btn octf-cta-icons">
                                             <span className="cart-icon"><i className="flaticon-world-globe"></i><span className="count">{i18n.language}</span></span>
                                         </div>  
-                                        <div className="site-header-cart">
+                                        <div id="site-header-cart" className="site-header-cart">
                                             <div className="widget woocommerce widget_shopping_cart">
                                                 <div className="widget_shopping_cart_content">
                                                    <div className='row'>

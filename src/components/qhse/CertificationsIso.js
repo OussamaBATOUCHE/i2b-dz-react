@@ -23,7 +23,7 @@ const CertificationsIso = () => {
                         <div className="col-lg-12 text-center">
                             <div className="ot-heading">
                                 <span>{t("qhse.QhseBody.CertificationsIso.ce-que-nous-differencie")}</span>
-                                <h2 className="main-heading">CERTIFICATIONS</h2>
+                                <h2 className="main-heading">{t("qhse.QhseBody.CertificationsIso.certifications")}</h2>
                             </div>
                         </div>
                     </div>

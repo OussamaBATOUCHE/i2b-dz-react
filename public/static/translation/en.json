@@ -55,6 +55,7 @@
     "home.Vision.vision-text": "We push the boundaries of innovation, anticipate future market needs and create a positive impact on society. By leveraging our expertise and commitment to quality, we aim to be our customers' first choice and build a strong and sustainable business.",
 
     "home.Experts.notre-equipe":"Our Team",
+    "home.Experts.leadership-team": "Leadership Team",
     "home.Experts.experts1" : [
           { 
               "name":"Amine", "surname": "Bennacef", "position":"General Manager", "photo_path": "7.png",
@@ -136,6 +137,7 @@
 
 
     "qhse.QhseBody.qualite-sante-securite-environnement": "Quality - Health - Safety - Environment",
+    "qhse.QhseBody.CertificationsIso.INTRODUCTION": "INTRODUCTION",
     "qhse.QhseBody.text-1": "Adopting and promoting honest and ethical behavior in all of its relations with all of its partners is a strong commitment of i2b SPA. This principle has led the Group to define rules of conduct and action principles that guide the behavior of all employees, suppliers and other stakeholders, in terms of ethics and environmental responsibility. social and societal.",
     "qhse.QhseBody.a-propos-societe": "ABOUT US",
     "qhse.QhseBody.introduction-text-1": "i2b SPA is a leading provider of IT solutions, specializing in the fields of information technology and telecommunications. Since our establishment in 2002, we have been at the forefront of innovation, delivering cutting-edge solutions to our clients.",
@@ -160,6 +162,7 @@
     "qhse.QhseBody.historique-text-2": "Thanks to multiple efforts and our strategy based on human skills, innovation and customer loyalty, we have maintained our certificates over the years and have renewed the certification cycles while improving them by applying the PDCA (Plan Do and Check) cycle.",
     
     "qhse.QhseBody.CertificationsIso.ce-que-nous-differencie": "WHAT MAKES US DIFFERENT",
+    "qhse.QhseBody.CertificationsIso.certifications":"CERTIFICATIONS",
     "qhse.QhseBody.CertificationsIso.title-secteurs": ["Original cycle Start", "Transition + Rollover", "Rollover", "SST Transition"],
 
     "qhse.QhseBody.iso-pdfs.title-3": "QHSE policy",
@@ -170,6 +173,7 @@
 
     "talents.TalentsBody.carriere-i2b": "Your career at i2b",
     "talents.TalentsBody.text-1": "i2b is made of a team of diverse profiles who work to offer our customers high-quality innovative solutions.",
+    "talents.TalentsBody.business-units": "business units",
     "talents.TalentsBody.collaborateurs": "employees",
     "talents.TalentsBody.formations-continues": "continuing training",
     "talents.TalentsBody.lancez-votre-carriere": "Launch your career",
@@ -177,17 +181,23 @@
     "talents.TalentsBody.text-2": "i2b SPA is a company with high growth potential. The company has a stable and selective recruitment policy to ensure that the best talent is hired. i2b SPA regularly invests in the continuous training of its employees so that they have the necessary skills to meet the needs of the company.",
     "talents.TalentsBody.text-3": "Want to join us? send us your CV and cover letter to: recrutement@i2b-dz.com",
 
-
+    "contact.ContactBody.contact": "Contact us",
     "contact.ContactBody.details-contact": "Contact Details",
     "contact.ContactBody.nous-contacter": "Contact us",
     "contact.ContactBody.sites": "Addresses",
     "contact.ContactBody.alger": "Algiers",
+    "contact.ContactBody.oran": "Oran",
+    "contact.ContactBody.email": "Email",
     "contact.ContactBody.address-alger": "6, rue Ahmed Chérifi, Kouba, Algiers",
     "contact.ContactBody.address-oran": "Cité point du jour lot n°57, Oran",
     "contact.ContactBody.telephones": "Telephones",
+    "contact.ContactBody.fax": "Fax",
+
     "contact.ContactBody.pret-a-commencer": "Ready to start?",
     "contact.ContactBody.form-text": "Your email address will not be published. Mandatory fields are indicated by *",
+    
     "contact.ContactBody.form-nom": "Name *",
+    "contact.ContactBody.form-email": "Email *",
     "contact.ContactBody.form-entreprise": "Company",
     "contact.ContactBody.form-sujet": "Subject *",
     "contact.ContactBody.form-message": "Message...",
@@ -197,5 +207,4 @@
     "contact.ContactBody.form-alert.missing-fields": "Please fill in all mandatory fields",
     "contact.ContactBody.form-alert.success":"Your request was sent successfully!",
     "contact.ContactBody.form-alert.error":"There was an error submitting your request, please try again!"
-    
-    }
+}
