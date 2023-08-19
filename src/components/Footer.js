@@ -1,8 +1,60 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { useTranslation } from "react-i18next";
+import Axios from 'axios';
 
 const Footer = () => {
     const { t } = useTranslation();
+    
+    const refEmail = useRef(null);
+
+    const refAlert = useRef(null);
+    const [alrtmsg, setAlrtmsg] = useState('');
+
+    const [email, setEmail] = useState('');
+
+    const submitNewsletter = ()=>{
+        if(email === ''){
+            addAlert(t("Footer.form-alert.missing-fields"), 'alert-warning');
+        }else{
+            const data = {newsletterEmail: email};
+            const host = 'http://localhost:3001/api/insertnewsletter';
+            const host2 = 'https://i2b-dz.com/api/insertnewsletter';
+
+            Axios.post(host, data).then((response)=>{
+                if(response.data === true){
+                    console.log('ALL IS GOOD');
+
+                    resetInputs();
+                    resetVars();
+                    addAlert(t("Footer.form-alert.success"), 'alert-success');
+                    // alert(t("Footer.form-alert.success"));
+                }else{
+                    console.log('We have problems !!!')
+                    addAlert(t("Footer.form-alert.error"), 'alert-danger');
+                    // alert(t("newsletter.newsletterBody.form-alert.error"));   
+                }
+            });
+        }
+        
+    };
+
+    const removeAlert = () => {
+        refAlert.current.classList.remove('show-alert', 'alert-danger','alert-success', 'alert-warning');
+    }
+
+    const addAlert = (text, theclass) => {
+        refAlert.current.classList.remove('alert-danger','alert-success', 'alert-warning');
+        refAlert.current.classList.add(theclass, 'show-alert');
+        setAlrtmsg(text)
+    }
+
+    const resetInputs = () => {
+        refEmail.current.value = ''
+    };
+    const resetVars = () => {
+        setEmail('');
+    }
+
     return (
     <>
     <footer id="site-footer" className="site-footer footer-v1">
@@ -20,15 +72,25 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="widget-footer">
+                        {/* Alerts */}
+                        <div ref={refAlert} className="alert alert-dismissible fade" role="alert">
+                            <strong>{alrtmsg}</strong>
+                            <button type="button" className="close" onClick={removeAlert}>
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
                         <p>{t("Footer.inscrire-newsletter")}</p>
-                        <form action="newsletter.php" id="mc4wp-form-1" className="mc4wp-form" method="post">
+                        <div id="mc4wp-form-1" className="mc4wp-form" >
                             <div className="mc4wp-form-fields">
                                 <div className="subscribe-inner-form">
-                                    <input type="email" name="email" placeholder={t("Footer.placeholder")} required="" />
-                                    <button type="submit" className="subscribe-btn-icon"><i className="flaticon-telegram"></i></button>
+                                    <input ref={refEmail} type="email" name="email" placeholder={t("Footer.placeholder")} required onChange={(e)=>{
+                                            setEmail(e.target.value)
+                                        }}/>
+                                    <button className="subscribe-btn-icon" onClick={submitNewsletter}><i className="flaticon-telegram"></i></button>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,9 @@ const App = () =>{
   document.body.dir = i18n.dir();  
 
   if (i18n.dir() === 'rtl') {
-      document.body.style.textAlign = 'justify'
+    document.body.style.textAlign = 'right'
+  }else{
+    document.body.style.textAlign = 'left';
   }
 
   

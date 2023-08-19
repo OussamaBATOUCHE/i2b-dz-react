@@ -35,7 +35,6 @@ function TalentsBody() {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="serv-box bg-s2">
-                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
                                     <h2 className='text-center'> 03 <br />{t("talents.TalentsBody.business-units")}</h2>    
                                 </div>
@@ -43,7 +42,6 @@ function TalentsBody() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="serv-box bg-s2">
-                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
                                     <h2 className='text-center'>+96 <br />{t("talents.TalentsBody.collaborateurs")}</h2>    
                                 </div>
@@ -51,7 +49,6 @@ function TalentsBody() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="serv-box bg-s2">
-                                <a href={"https://www.algeriatenders.com/accueil"} className="overlay" target={'blank'}>-</a>
                                 <div className="content-box">
                                     <h2 className='text-center'>+50 <br />{t("talents.TalentsBody.formations-continues")}</h2>    
                                 </div>

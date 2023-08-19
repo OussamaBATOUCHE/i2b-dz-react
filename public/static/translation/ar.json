@@ -17,6 +17,9 @@
     "Footer.inscrire-newsletter":"اشترك في نشراتنا الإخبارية",
     "Footer.droits-reserves": "كل الحقوق محفوظة.",
     "Footer.placeholder": "بريدك الإلكتروني",
+    "Footer.form-alert.missing-fields": "يرجى ملء'البريد الإلكتروني'",
+    "Footer.form-alert.success":"تم ارسال طلبك بنجاح!",
+    "Footer.form-alert.error":"حدث خطأ. حاول مرة اخرى !",
 
     "home.FirstSection.vision-performance": "رؤية و أداء",
     "home.FirstSection.integr-solu-infor-telec":"تكامل تكنولوجيا المعلومات وحلول الاتصالات",

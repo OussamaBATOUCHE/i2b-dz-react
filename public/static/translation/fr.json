@@ -17,6 +17,9 @@
     "Footer.inscrire-newsletter":"S'inscrire à nos newsletters",
     "Footer.droits-reserves": "Tous les droits sont réservés.",
     "Footer.placeholder": "Votre e-mail",
+    "Footer.form-alert.missing-fields": "Veuillez remplir le champ 'Email'",
+    "Footer.form-alert.success":"Votre demande a été envoyée avec succès!",
+    "Footer.form-alert.error":"Une erreur s'est produite, veuillez réessayer !",
 
     "home.FirstSection.vision-performance": "Vision et performance",
     "home.FirstSection.integr-solu-infor-telec":"Intégrateur de Solutions Informatiques & Télécommunications",

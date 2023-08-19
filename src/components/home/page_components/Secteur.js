@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 const Secteur = ({title, context, icon, bckgrnd_img_cls}) => {
+    const { i18n } = useTranslation();
+
   return (
     <>
     <div className="col-lg-4 col-md-6 mb-30">
@@ -12,7 +15,7 @@ const Secteur = ({title, context, icon, bckgrnd_img_cls}) => {
             <div className="content-box">
                 <h5><a href="/">{title}</a></h5>
                 {/* ul-no-style */}
-                <ul className=' text-left'>
+                <ul className={i18n.dir() === 'rtl' ? 'text-right' : 'text-left'}>
                 {context.map(item => (
                             <li key={item}> {item}</li>
                         ))}

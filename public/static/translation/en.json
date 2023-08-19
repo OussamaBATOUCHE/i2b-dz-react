@@ -17,6 +17,9 @@
     "Footer.inscrire-newsletter":"Subscribe to our newsletters",
     "Footer.droits-reserves": "All rights reserved.",
     "Footer.placeholder": "Your e-mail",
+    "Footer.form-alert.missing-fields": "Please fill the 'Email' field",
+    "Footer.form-alert.success":"Your request has been sent successfully!",
+    "Footer.form-alert.error":"An error has occurred. Please try again !",
 
     "home.FirstSection.vision-performance": "Vision and Performance",
     "home.FirstSection.integr-solu-infor-telec":"Integrator of IT & Telecommunications Solutions",

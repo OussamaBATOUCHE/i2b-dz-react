@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from "react-i18next";
 
 export const QuiSommesNous = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
   return (
     <>
         <section id='quisommenous' className="about-v5">
@@ -29,7 +29,7 @@ export const QuiSommesNous = () => {
                                     <div className="icon-main"><span className="flaticon-shield"></span></div>
                                 </span>
                             </div>
-                            <p className='justify-text'>{t("home.QuiSommesNous.paragraph")}</p>
+                            <p className='justify-text' style={i18n.dir() === 'rtl' ? {marginLeft: 30} : {marginLeft: 0} } >{t("home.QuiSommesNous.paragraph")}</p>
                         </div>
                     </div>
                     <div className="col-lg-6">
