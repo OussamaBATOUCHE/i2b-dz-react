@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link'
 import { useTranslation } from "react-i18next";
 
 const FirstSection = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
   return (
     <>
@@ -34,7 +34,7 @@ const FirstSection = () => {
                     <div className="col-xl-6 col-lg-12">
                         <div className="top-right-v5">
                             {/* <img src={`${process.env.PUBLIC_URL}/static/images/img/image-banner-home5.png`} alt='bkg-img' style={{mixBlendMode: 'screen'}} /> */}            
-                            <video className="vid-in-laptop" src={`${process.env.PUBLIC_URL}/static/videos/vitrinei2b.mp4`} autoPlay={true} muted loop controls></video>
+                            <video className="vid-in-laptop" style={i18n.dir() === 'rtl' ? {top:-70} : {}} src={`${process.env.PUBLIC_URL}/static/videos/vitrinei2b.mp4`} autoPlay={true} muted loop controls></video>
                         </div>
                     </div>
                 </div>

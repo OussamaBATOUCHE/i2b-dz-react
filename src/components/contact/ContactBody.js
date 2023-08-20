@@ -5,7 +5,7 @@ import * as EmailValidator from 'node-email-validation';
 
 
 function ContactBody() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     const refName = useRef(null);
     const refEmail = useRef(null);
@@ -124,16 +124,28 @@ function ContactBody() {
                                     <i className="flaticon-phone-1"></i>
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.telephones")}</h6>
-                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 74</p>
-                                        <p> <strong>{t("contact.ContactBody.oran")}  :</strong>+213 (0) 41 82 72 26</p>
+                                        <p> 
+                                            <strong>{t("contact.ContactBody.alger")} :</strong> 
+                                            <span style={i18n.dir() === 'rtl' ? {direction: 'ltr'} : {direction: 'ltr'}}>+213 (0) 23 78 63 74</span>
+                                        </p>
+                                        <p>
+                                            <strong>{t("contact.ContactBody.oran")}  :</strong> 
+                                            <span>+213 (0) 41 82 72 26</span>
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="contact-info box-style1">
                                     <i className="fas fa-fax"></i> 
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.fax")}</h6>
-                                        <p> <strong>{t("contact.ContactBody.alger")} :</strong>+213 (0) 23 78 63 39</p>
-                                        <p> <strong>{t("contact.ContactBody.oran")}  :</strong>+213 (0) 41 82 72 25</p>
+                                        <p> 
+                                            <strong>{t("contact.ContactBody.alger")} :</strong>
+                                            <span>+213 (0) 23 78 63 39</span>
+                                        </p>
+                                        <p> 
+                                            <strong>{t("contact.ContactBody.oran")}  :</strong> 
+                                            <span>+213 (0) 41 82 72 25</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

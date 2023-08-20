@@ -1667,7 +1667,7 @@ a:hover, a:active {
   top: -moz-calc(100% + 1px);
   top: -o-calc(100% + 1px);
   top: calc(100% + 1px);
-  /* right: -30px; */
+  right: -30px;
   background: #fff;
   width: 175px;
   padding: 25px;
@@ -8265,7 +8265,7 @@ section {
 
 .vid-in-laptop{
   position: absolute;
-  left: 21%;
+  left: 9%;
   /* top: 5%; */
   object-fit: cover;
   width: 653px;
@@ -8393,7 +8393,14 @@ background: transparent !important;
 }
 
 .img-team{
+  filter: grayscale(100%);
   max-width: 80%;
+  transition: 1000ms;
+}
+
+.img-team:hover{
+  filter: grayscale(10%);
+  transition: 1000ms;
 }
 
 .lang-mobile{

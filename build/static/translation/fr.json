@@ -17,6 +17,9 @@
     "Footer.inscrire-newsletter":"S'inscrire à nos newsletters",
     "Footer.droits-reserves": "Tous les droits sont réservés.",
     "Footer.placeholder": "Votre e-mail",
+    "Footer.form-alert.missing-fields": "Veuillez remplir le champ 'Email'",
+    "Footer.form-alert.success":"Votre demande a été envoyée avec succès!",
+    "Footer.form-alert.error":"Une erreur s'est produite, veuillez réessayer !",
 
     "home.FirstSection.vision-performance": "Vision et performance",
     "home.FirstSection.integr-solu-infor-telec":"Intégrateur de Solutions Informatiques & Télécommunications",
@@ -92,7 +95,7 @@
                       "text": "Oussama Bounouh compte +14 ans d'expériences en ingénierie informatique. En 2009, il rejoint i2b SPA en tant que Chargé de la maintenance informatique. Il est consciencieux et ingénieux dans la conduite de projets techniques, et a contribué au succès de nombreuses collaborations avec des entreprises multinationales."
                   },
                   {
-                    "name":"Yasmine", "surname": "Mezghich", "position":"Chargée Qualité et Service Client Geoflotte", "photo_path": "2.png",
+                    "name":"Yasmine", "surname": "Mezghiche", "position":"Responsable de Qualité & Service Client Geoflotte", "photo_path": "2.png",
                     "text": "Arrivée en Juillet  2019, Yasmine apporte son expérience de +14 ans dans le domaine commercial et gestion de clientèle. Elle a notamment enrichi son savoir-faire dans des entreprises renommées, telles que Djezzy et Jumia Algérie."
                   },
                   {

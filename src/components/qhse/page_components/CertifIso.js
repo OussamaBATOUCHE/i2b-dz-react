@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 const CertifIso = ({title, context, icon, bckgrnd_img_cls, date}) => {
+    const { i18n } = useTranslation();
   return (
     <>
     <div  className="col-lg-3 col-md-6 mb-30">
@@ -12,7 +14,7 @@ const CertifIso = ({title, context, icon, bckgrnd_img_cls, date}) => {
             </div>
             <div className="content-box">
                 <h5><a href="/">{title}</a></h5>
-                <ul className='ul-no-style text-left'>
+                <ul className='ul-no-style text-left' style={i18n.dir() === 'rtl' ? {direction: 'ltr'} : {direction: 'ltr'}}>
                 {context.map(item => (
                             <li key={item}> <i className="fa fa-arrow-right"></i> {item}</li>
                         ))}
