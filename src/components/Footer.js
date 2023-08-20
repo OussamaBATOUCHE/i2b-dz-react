@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { useTranslation } from "react-i18next";
 import Axios from 'axios';
+import * as EmailValidator from 'node-email-validation';
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -13,25 +14,24 @@ const Footer = () => {
     const [email, setEmail] = useState('');
 
     const submitNewsletter = ()=>{
-        if(email === ''){
+        // const theres = EmailValidator.is_email_valid(email);
+        if(email === '' | EmailValidator.is_email_valid(email)===false){
             addAlert(t("Footer.form-alert.missing-fields"), 'alert-warning');
         }else{
             const data = {newsletterEmail: email};
             const host = 'http://localhost:3001/api/insertnewsletter';
             const host2 = 'https://i2b-dz.com/api/insertnewsletter';
 
-            Axios.post(host, data).then((response)=>{
+            Axios.post(host2, data).then((response)=>{
                 if(response.data === true){
                     console.log('ALL IS GOOD');
 
                     resetInputs();
                     resetVars();
                     addAlert(t("Footer.form-alert.success"), 'alert-success');
-                    // alert(t("Footer.form-alert.success"));
                 }else{
                     console.log('We have problems !!!')
                     addAlert(t("Footer.form-alert.error"), 'alert-danger');
-                    // alert(t("newsletter.newsletterBody.form-alert.error"));   
                 }
             });
         }

@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react'
 import { useTranslation } from "react-i18next";
 import Axios from 'axios';
+import * as EmailValidator from 'node-email-validation';
+
 
 function ContactBody() {
     const { t } = useTranslation();
@@ -21,7 +23,7 @@ function ContactBody() {
     const [message, setMessage] = useState('');
 
     const submitContact = ()=>{
-        if(email === '' || subject === '' || message === ''){
+        if(email === '' || subject === '' || message === '' || EmailValidator.is_email_valid(email)===false){
             addAlert(t("contact.ContactBody.form-alert.missing-fields"), 'alert-warning');
         }else{
             const data = {  contactName: name, 
@@ -39,11 +41,9 @@ function ContactBody() {
                     resetInputs();
                     resetVars();
                     addAlert(t("contact.ContactBody.form-alert.success"), 'alert-success');
-                    // alert(t("contact.ContactBody.form-alert.success"));
                 }else{
                     console.log('We have problems !!!')
                     addAlert(t("contact.ContactBody.form-alert.error"), 'alert-danger');
-                    // alert(t("contact.ContactBody.form-alert.error"));   
                 }
             });
         }
