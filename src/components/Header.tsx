@@ -82,7 +82,7 @@ function Header() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="octf-col menu-col">
+                            <div className="octf-col menu-col" style={i18n.dir() === 'rtl' ? {paddingLeft:'15%', paddingRight:'21%'}:{}}>
                                     <nav id="site-navigation" className="main-navigation">
                                         <ul className="menu nav-style-2">
                                             <li ref={nav_accueil}

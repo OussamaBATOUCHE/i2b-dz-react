@@ -125,12 +125,20 @@ function ContactBody() {
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.telephones")}</h6>
                                         <p> 
-                                            <strong>{t("contact.ContactBody.alger")} :</strong> 
-                                            <span style={i18n.dir() === 'rtl' ? {direction: 'ltr'} : {direction: 'ltr'}}>+213 (0) 23 78 63 74</span>
+                                            <strong>{t("contact.ContactBody.alger")} : </strong> 
+                                            {i18n.dir() === 'rtl' ? 
+                                                <span>74 63 78 23 (0) 213+</span>
+                                            :
+                                                <span>+213 (0) 23 78 63 74</span>
+                                            }
                                         </p>
                                         <p>
-                                            <strong>{t("contact.ContactBody.oran")}  :</strong> 
-                                            <span>+213 (0) 41 82 72 26</span>
+                                            <strong>{t("contact.ContactBody.oran")}  : </strong> 
+                                            {i18n.dir() === 'rtl' ? 
+                                                <span>26 72 82 41 (0) 213+</span>
+                                            :
+                                                <span>+213 (0) 41 82 72 26</span>
+                                            }
                                         </p>
                                     </div>
                                 </div>
@@ -139,12 +147,20 @@ function ContactBody() {
                                     <div className="info-text">
                                         <h6>{t("contact.ContactBody.fax")}</h6>
                                         <p> 
-                                            <strong>{t("contact.ContactBody.alger")} :</strong>
-                                            <span>+213 (0) 23 78 63 39</span>
+                                            <strong>{t("contact.ContactBody.alger")} : </strong>
+                                            {i18n.dir() === 'rtl' ? 
+                                                <span>39 63 78 23 (0) 213+</span>
+                                            :
+                                                <span>+213 (0) 23 78 63 39</span>
+                                            }
                                         </p>
                                         <p> 
-                                            <strong>{t("contact.ContactBody.oran")}  :</strong> 
-                                            <span>+213 (0) 41 82 72 25</span>
+                                            <strong>{t("contact.ContactBody.oran")}  : </strong> 
+                                            {i18n.dir() === 'rtl' ? 
+                                                <span>25 72 82 41 (0) 213+</span>
+                                            :
+                                                <span>+213 (0) 41 82 72 25</span>
+                                            }
                                         </p>
                                     </div>
                                 </div>
