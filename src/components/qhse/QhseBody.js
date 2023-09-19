@@ -5,12 +5,20 @@ import { useTranslation } from "react-i18next";
 
 function QhseBody() {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const lagn_dir = i18n.dir()
+    const iso_pdfs =   []
+    if (lagn_dir === 'rtl') {
+        iso_pdfs.push({id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'});
+        iso_pdfs.push({id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'});
+        iso_pdfs.push({id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse-ar.png', file_path:'/static/files/politique-qhse-ar.png'});
+    }else{
+        iso_pdfs.push({id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'});
+        iso_pdfs.push({id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'});
+        iso_pdfs.push({id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'});
+    }
 
-    let iso_pdfs = [{id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'},
-                    {id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'},
-                    {id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'},]
-
+    
   return (
     <>
        <div id="content" className="site-content">
