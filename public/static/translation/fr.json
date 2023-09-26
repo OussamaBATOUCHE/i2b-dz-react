@@ -61,45 +61,45 @@
     "home.Experts.leadership-team": "Leadership Team",
     "home.Experts.experts1" : [
                   { 
-                      "name":"Amine", "surname": "Bennacef", "position":"General Manager", "photo_path": "7.png",
+                      "name":"Amine", "surname": "Bennacef", "position":"General Manager", "product": "", "photo_path": "7.png",
                       "text":"Amine Bennacef est le co-fondateur et le Directeur Général de i2b SPA depuis 2002, il est diplômé de l'université des Sciences et de la Technologie USTHB, avec +20 ans d'expérience dans le domaine de l'ingénierie et de la technologie. Il joue un rôle essentiel dans la direction stratégique et la gestion globale de l'entreprise, ayant permis une croissance significative ainsi qu'un positionnement en leader sur le marché des TIC en Algérie."
                   },
                   {
-                    "name":"Salim", "surname": "Babaci", "position":"Sales Manager Geoflotte", "photo_path": "10.png",
+                    "name":"Salim", "surname": "Babaci", "position":"Sales Manager", "product": "Geoflotte", "photo_path": "10.png",
                     "text": "Salim a +14 ans dans l'industrie automobile, de la gestion de flotte et du geotracking. Avant de rejoindre Geoflotte en 2020, il a travaillé au sein de plusieurs groupes, notamment chez Renault Trucks Algérie, Citroën Algérie et Maghreb Leasing Algérie - MLA. Riche de cette expertise, il apporte vision et savoir-faire au groupe."
                   },
                   {
-                    "name":"Billal", "surname": "Zidi", "position":"Sales Manager Algeria Tenders", "photo_path": "8.png",
+                    "name":"Billal", "surname": "Zidi", "position":"Sales Manager", "product": "Algeria Tenders", "photo_path": "8.png",
                     "text": "Billal est un expert dans les domaines de la vente et des relations publiques. Diplômé de l'EHEC, il dispose d'une expérience de +16 ans dans la relation client, ce qui a permis de positionner Algeria Tenders en tant que leader et référence des marchés publics en Algérie, et à instaurer un esprit de groupe et de cohésion au sein de son équipe. Il est actuellement le Directeur Commercial de la Business Unit Algeria Tenders, au sein de laquelle il a commencé sa carrière en 2007 en tant que cadre commercial et a suivi une belle évolution de carrière au sein de l'entreprise."
                   },
                   {
-                    "name":"Mohamed", "surname": "Betit", "position":"Sales Manager Algeria Invest", "photo_path": "9.png",
+                    "name":"Mohamed", "surname": "Betit", "position":"Sales Manager", "product": "Algeria Invest", "photo_path": "9.png",
                     "text": "Mohamed cumule +15 ans d'expérience dans le secteur de la vente multi-supports. Il a occupé plusieurs postes, tels que Sales Manager Western Region chez Axa Assurances, Head of Large Account Department chez Ooredoo Algérie, ainsi que différentes positions chez Cima Motors et Onab Nutrition. Grâce à sa capacité à s'adapter à des environnements variés et à son parcours diversifié, Mohamed offre aux investisseurs nationaux et internationaux, des solutions personnalisées pour les accompagner dans tous leurs projets."
                   },
                   {
-                      "name":"Naim", "surname": "Midni", "position":"Directeur Financier", "photo_path": "1.png",
+                      "name":"Naim", "surname": "Midni", "position":"Directeur Financier", "product": "", "photo_path": "1.png",
                       "text": "Naim Midni a +22 ans d'expérience dans les domaines la gestion financière, de la comptabilité, de l'audit, et de l'analyses financière, dont +10 ans en tant que Directeur Financière de plusieurs groupes internationaux - Naim est également Commissaire aux Comptes depuis 2010."
                   }
       ],
     "home.Experts.experts2" : [
                   {
-                    "name":"Hanane", "surname": "Toutaoui", "position":"HR Partner", "photo_path": "6.png",
+                    "name":"Hanane", "surname": "Toutaoui", "position":"HR Partner", "product": "", "photo_path": "6.png",
                     "text": "Hanane a rejoint l'entreprise en 2013, en tant que Analyste d'appels d'offres au sein de la Business Unit Algeria Tenders, et a profité d'une évolution de carrière pour occuper aujourd'hui, le poste de Responsable Ressources Humaines chez i2b SPA, et membre du comité CPHS."
                   },  
                   {
-                    "name":"Yanis", "surname": "SiSalah", "position":"Digital Marketing Manager", "photo_path": "3.png",
+                    "name":"Yanis", "surname": "SiSalah", "position":"Digital Marketing Manager", "product": "", "photo_path": "3.png",
                     "text": "Yanis a rejoint i2b SPA en 2020, titulaire d'un Bachelor en Business Administration de l'ICN Busiiness School et d'un Master en Marketing de l'Université de la Côte d'Azur. Il a précédemment occupé le poste de PR exécutive chez Allĕgorie Group avec une expérience solide de +5ans dans les domaines du marketing et des relations publiques."
                   },
                   {
-                      "name":"Oussama", "surname": "Bounouh", "position":"IT Supports & Facilities Manager", "photo_path": "5.png",
+                      "name":"Oussama", "surname": "Bounouh", "position":"IT Supports & Facilities Manager", "product": "", "photo_path": "5.png",
                       "text": "Oussama Bounouh compte +14 ans d'expériences en ingénierie informatique. En 2009, il rejoint i2b SPA en tant que Chargé de la maintenance informatique. Il est consciencieux et ingénieux dans la conduite de projets techniques, et a contribué au succès de nombreuses collaborations avec des entreprises multinationales."
                   },
                   {
-                    "name":"Yasmine", "surname": "Mezghiche", "position":"Responsable Qualité Geoflotte", "photo_path": "2.png",
+                    "name":"Yasmine", "surname": "Mezghiche", "position":"Responsable Qualité", "product": "Geoflotte", "photo_path": "2.png",
                     "text": "Arrivée en Juillet  2019, Yasmine apporte son expérience de +14 ans dans le domaine commercial et gestion de clientèle. Elle a notamment enrichi son savoir-faire dans des entreprises renommées, telles que Djezzy et Jumia Algérie."
                   },
                   {
-                      "name":"Sihem", "surname": "Chouial", "position":"Responsable Qualité ALGERIA TENDERS", "photo_path": "4.png",
+                      "name":"Sihem", "surname": "Chouial", "position":"Responsable Qualité", "product": "Algeria Tenders", "photo_path": "4.png",
                       "text": "En 2010, Sihem Chouial intègre Algeria Tenders en tant qu'Analyste d'appels d'offres et a poursuivi son évolution au poste de Responsable de la qualité clientèle. Diplômée en économie et gestion d'entreprises, elle a +10 ans d'expérience en gestion de la qualité clientèle. Son expertise lui permet de fournir des conseils stratégiques aux client dans le domaine des appels d'offres."
                   }
     ],

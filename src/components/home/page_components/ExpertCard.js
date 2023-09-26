@@ -19,7 +19,7 @@ const style = {
   p: 4,
 };
 
-const ExpertCard = ({name, surname, position, photo_path, text}) => {
+const ExpertCard = ({name, surname, position, product, photo_path, text}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -34,7 +34,8 @@ const ExpertCard = ({name, surname, position, photo_path, text}) => {
                 </div>
                 <div className="team-info">
                     <h4>{name} {surname}</h4>
-                    <span>{position}</span>
+                    <span>{position}</span> <br/>
+                    <span>{product}</span>
                 </div>
             </div>
         </div>
@@ -60,7 +61,7 @@ const ExpertCard = ({name, surname, position, photo_path, text}) => {
             {name} {surname}
             </Typography>
             <Typography id="transition-modal-title" variant="h6" component="h2">
-            {position}
+            {position} - {product}
             </Typography>
             <Typography id="transition-modal-description" sx={{ mt: 2 }}>
             {text}
