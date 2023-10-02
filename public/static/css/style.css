@@ -8416,3 +8416,37 @@ background: transparent !important;
 *[dir="ltr"] {
   font-family: 'Droid Arabic Kufi';
 } */
+
+.text-align-center{
+  text-align: center !important;
+}
+
+.clickable:hover{
+  background-color: #43baff;
+  color: white;
+  cursor: pointer;
+}
+
+.envolope-admin:hover{
+  color: white !important;
+}
+.envolope-admin{
+  color: grey !important;
+}
+
+.content-message{
+    padding: 15px;
+    background: #80808026;
+    color: black;
+    margin-bottom: 15px;
+}
+.subject-message{
+  margin-top: 10px;
+}
+
+.centered-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; /* Ensures vertical centering within the viewport */
+}

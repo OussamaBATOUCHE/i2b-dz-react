@@ -19,10 +19,10 @@ const Footer = () => {
             addAlert(t("Footer.form-alert.missing-fields"), 'alert-warning');
         }else{
             const data = {newsletterEmail: email};
-            const host = 'http://localhost:3001/api/insertnewsletter';
-            const host2 = 'https://i2b-dz.com/api/insertnewsletter';
+            // const host = 'http://localhost:3001/api/insertnewsletter';
+            const host = 'https://i2b-dz.com/api/insertnewsletter';
 
-            Axios.post(host2, data).then((response)=>{
+            Axios.post(host, data).then((response)=>{
                 if(response.data === true){
                     console.log('ALL IS GOOD');
 

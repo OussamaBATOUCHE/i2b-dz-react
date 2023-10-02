@@ -31,10 +31,10 @@ function ContactBody() {
                 contactCompany: company,
                 contactSubject: subject,
                 contactMessage: message};
-            const host = 'http://localhost:3001/api/insert';
-            const host2 = 'https://i2b-dz.com/api/insert';
+            // const host = 'http://localhost:3001/api/insert';
+            const host = 'https://i2b-dz.com/api/insert';
 
-            Axios.post(host2, data).then((response)=>{
+            Axios.post(host, data).then((response)=>{
                 if(response.data === true){
                     console.log('ALL IS GOOD');
 
