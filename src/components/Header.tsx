@@ -77,7 +77,7 @@ function Header() {
                         <div className="octf-mainbar-row octf-row">
                             <div className="octf-col logo-col">
                                 <div id="site-logo" className="site-logo">
-                                    <a href="#/moderator">
+                                    <a href="#/">
                                         <img src={`${process.env.PUBLIC_URL}/static/images/i2bw.png`} alt="i2b" className="" />
                                     </a>
                                 </div>
