@@ -11,11 +11,13 @@ function QhseBody() {
     if (lagn_dir === 'rtl') {
         iso_pdfs.push({id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'});
         iso_pdfs.push({id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'});
-        iso_pdfs.push({id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse-ar.png', file_path:'/static/files/politique-qhse-ar.png'});
+        iso_pdfs.push({id: 3, title:'ISO 45001:2018', img_path: '/static/files/iso/iso-45k.png', file_path:'/static/files/iso/iso-45k.png'});
+        iso_pdfs.push({id: 4, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse-ar.png', file_path:'/static/files/politique-qhse-ar.png'});
     }else{
         iso_pdfs.push({id: 1, title:'ISO 9001:2015', img_path: '/static/files/iso/iso-9k.png', file_path:'/static/files/iso/iso-9k.png'});
         iso_pdfs.push({id: 2, title:'ISO 14001:2015', img_path: '/static/files/iso/iso-14k.png', file_path:'/static/files/iso/iso-14k.png'});
-        iso_pdfs.push({id: 3, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'});
+        iso_pdfs.push({id: 3, title:'ISO 45001:2018', img_path: '/static/files/iso/iso-45k.png', file_path:'/static/files/iso/iso-45k.png'});
+        iso_pdfs.push({id: 4, title: t("qhse.QhseBody.iso-pdfs.title-3"), img_path: '/static/files/politique-qhse.png', file_path:'/static/files/politique-qhse.png'});
     }
 
     
